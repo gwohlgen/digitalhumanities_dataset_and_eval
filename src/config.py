@@ -1,5 +1,16 @@
+
+"""
+    This is the central config file
+    @author: Gerhard Wohlgenannt (2017), ITMO University, St.Petersburg, Russia
+
+    Here you can change pathes, add models, add new BOOK_SERIES, new dataset (towards the end of the file).
+    But just to start with existing datasets and models, no change is needed
+"""
+
+
 import sys
 
+## use the input parameter to select the book series
 if len(sys.argv) < 2:
     raise Exception("We need two command line arguments!")
 if sys.argv[1].lower() == 'asoif':
@@ -11,7 +22,7 @@ else:
 
 
 MODEL_PATH="../models/"
-# ------------------------------------------------------------
+
 
 if BOOK_SERIES == "ASIOF":
     METHODS = [
@@ -35,24 +46,26 @@ if BOOK_SERIES == "HP":
         ('hp_w2v-CBOW', 'bin'),
     ]
 
-
 # -----------------------------------------------------
 # for "doesnt_match" evaluation script
 # -----------------------------------------------------
 
 if BOOK_SERIES == "ASIOF":
+    PRINT_DETAILS = False ## verbose debugging of eval results
+
     DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesn_match.txt"
     ANALOGIES_FILE = "../datasets/questions_soiaf_analogies.txt"
 
     ### which sections to show in the paper..
-    ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'geo-name-location', 'houses-seats']
-    DOESNT_MATCH_SECTIONS = [': family-siblings',  ': names-of-houses', ': archmaesters', ': rivers', ': free cities']
+    ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'geo-name-location', 'houses-seats', 'total']
+    DOESNT_MATCH_SECTIONS = [': family-siblings',  ': names-of-houses', ': archmaesters', ': rivers', ': free cities', 'TOTAL']
 
 
 if BOOK_SERIES == "HP":
+    PRINT_DETAILS = False ## verbose debugging of eval results
+
     DOESNT_MATCH_FILE = "../datasets/questions_hp_doesn_match.txt"
     ANALOGIES_FILE = "../datasets/questions_hp_analogies.txt"
     
     ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'pets-of-Hagrid', 'total']
-    DOESNT_MATCH_SECTIONS = [': family-siblings', ': Hogwarts-houses', ': professors', ': wizarding-equipment', ': magic-creatures'] 
-
+    DOESNT_MATCH_SECTIONS = [': family-siblings', ': Hogwarts-houses', ': professors', ': wizarding-equipment', ': magic-creatures', 'TOTAL'] 
