@@ -1,0 +1,73 @@
+" File format: use 3 or 4 items of one type
+" then comes a "::" as separator
+" then comes a list of items that do not fit into the list
+
+: family-siblings
+Robb Bran Sansa Arya :: Catelyn Ned Tywin Oberyn Margaery Balon Ramsay Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan
+Jaime Tyrion Cersei :: Tywin Joffrey Tommen Catelyn Theon Daenerys Ned Robb Bran Sansa Arya Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan
+Daenerys Viserys Rhaegar :: Viserion Rhaegal Drogon Balerion Cersei Theon Robb Bran Sansa Arya Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan
+Joffrey Tommen Myrcella :: Jaime Cersei Oberyn Kevan Theon Robb Bran Sansa Arya Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan
+Rodrik Maron Asha Theon :: Joffrey Tommen Myrcella Jaime Cersei Oberyn Kevan Theon Robb Bran Sansa Arya Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan 	
+
+
+: names-of-houses 
+Martell Stark Lannister Greyjoy :: Loras Ghost Jon Doran Ramsay Stannis Daenerys Viserys Rhaegar Shaggydog Nymeria Ghost Viserion Rhaegal Drogon Balerion
+Baratheon Stark Lannister Targaryen :: Loras Ghost Jon Doran Ramsay Roose Dany Theon Shaggydog Nymeria Ghost Viserion Rhaegal Drogon Balerion
+Karstark Stark Lannister Targaryen :: Loras Ghost Jon Doran Ramsay Roose Dany Theon Shaggydog Nymeria Ghost Viserion Rhaegal Drogon Balerion
+
+: Lannister clan
+Tywin Kevan Cersei Jaime :: Loras Ghost Jon Doran Ramsay Roose Dany Theon Craster Pyke Harrenhal Winterfell godswood Dorne Viserion Rhaegal Drogon Balerion
+Tywin Tyrion Lancel Jaime :: Loras Ghost Jon Doran Ramsay Roose Dany Theon Craster Pyke Harrenhal Winterfell godswood Dorne Viserion Rhaegal Drogon Balerion
+
+: direwolves
+Shaggydog Nymeria Ghost :: Viserion Rhaegal Drogon Balerion Doran raven food Robb Bran Sansa Arya Jon Tywin Oberyn Margaery Balon Ramsay Ned Daenerys Viserys Rhaegar Joffrey Tommen Myrcella
+
+" http://awoiaf.westeros.org/index.php/Category:Archmaesters
+: archmaesters 
+Ebrose Marwyn Walgrave :: Oldtown Samwell Sam Tarly Tywin Oberyn Margaery Balon Ramsay Ned Craster Pyke Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon Viserion Rhaegal Drogon Balerion
+
+" http://awoiaf.westeros.org/index.php/Category:Dragons
+: dragons 
+Viserion Rhaegal Drogon Balerion :: Craster Pyke Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon Robb Bran Sansa Jaime Tyrion Cersei Rhoyne Trident Skahazadhan
+
+" Nymeria is also the name of one direwolve!, also "Elia" is ambigious!
+" http://awoiaf.westeros.org/index.php/Category:Bastards
+: bastards 
+Jon Gendry Ramsay Mya :: Theon Robb Loras Cersei Jaime Viserion Rhaegal Drogon Balerion
+Elia Tyene Obara :: Theon Robb Loras Cersei Jaime Viserion Rhaegal Drogon Balerion
+
+" http://awoiaf.westeros.org/index.php/Category:Rivers
+: rivers 
+Mander Rhoyne Trident Skahazadhan :: Viserion Rhaegal Craster Pyke Harrenhal Winterfell godswood Dorne Robb Bran Sansa Arya
+
+" http://awoiaf.westeros.org/index.php/Category:Places_in_Dorne
+: places in Dorne 
+Sunspear Yronwood Lemonwood Sandstone :: Lys Craster Pyke Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon
+
+" http://awoiaf.westeros.org/index.php/Category:Free_Cities 
+: free cities 
+Braavos Lys Myr Pentos :: Tully Stark Lannister Riverrun Highgarden Oldtown Lannisport Gulltown Sunspear Lys Craster Pyke Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon
+Braavos Volantis Tyros Norvos :: Tully Stark Lannister Riverrun Highgarden Oldtown Lannisport Gulltown Sunspear Lys Craster Pyke Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon
+
+: Westeros cities 
+Highgarden Oldtown Lannisport Gulltown :: Tully Stark Lannister Braavos Lys Myr Pentos Volantis Tyros Norvos Viserion Rhaegal Craster godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon
+
+
+
+" ************************************* BIGRAM MODEL DATA BELOW HERE ********************************
+
+" : seas ---  http://awoiaf.westeros.org/index.php/Category:Seas
+" Jade_Sea Narrow_sea Shivering_Sea Summer_Sea :: Rhoyne Trident Skahazadhan Viserion Rhaegal Craster Pyke Harrenhal Winterfell godswood Dorne 
+" 
+" : bays --- http://awoiaf.westeros.org/index.php/Category:Bays
+" Blackwater_Bay Whispering_Sound Shipbreaker_Bay Bite :: Jade_Sea Narrow_sea Shivering_Sea Summer_Sea Rhoyne Trident Skahazadhan Viserion Rhaegal Craster Pyke Harrenhal Winterfell godswood Dorne
+
+": gods
+" the_Father the_Mother the_Warrior the_Smith the_Maid the_Crone the_Stranger Drowned_God R’hllor Lord_of_Light Mother_Rhoyne
+": languages
+"Common_Tongue Dothraki High_Valyrian Ibbenese_language Old_Ghiscari Old_Tongue Summer_Tongue Skroth Trade_talk True_Tongue
+"True Tongue
+
+
+
+:end

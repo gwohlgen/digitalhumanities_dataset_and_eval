@@ -1,0 +1,21 @@
+
+" the list of reference words, that is all words will we use in the analysis
+REFERENCE_WORDS = Robert Jon Robb Jaime Cersei Sansa Joffrey Tywin Tyrion Stannis Catelyn Bran Arya Ned Renly Hound Varys Lysa Tommen Pycelle Balon Loras Theon Petyr Edmure Roose Barristan Margaery Hoster Myrcella
+" current problem: we have people like Rhaegar in the data below which are not part of our analysis so far
+
+: killed-by
+Tywin :: Tyrion
+Shae :: Tyrion
+Ned :: Joffrey Ilyn
+Rhaegar :: Robert
+Robert :: Cersei
+Viserys :: Drogo
+Renly :: Melisandre Stannis
+Lysa :: Petyr
+Joffrey :: Petyr 
+Elia :: Tywin Gregor
+Robb :: Tywin Walder Roose
+Pycelle Varys
+Oberyn :: Gregor
+Aerys :: Jaime
+:end

@@ -1,0 +1,96 @@
+
+" @Ariadna: I left some examples in here, see soiaf_analogies.txt for all data
+" please use the same kind of structures.
+
+: firstname-lastname
+Harry Potter
+James Potter
+Lily Potter
+Luna Lovegood
+Xenophilius Lovegood
+Arthur Weasley
+Molly Weasley
+Argus Filch
+Bill Weasley
+Ron Weasley
+Fred Weasley
+George Weasley
+Draco Malfoy
+Lucius Malfoy
+Dudley Dursley
+Vernon Dursley
+Petunia Dursley
+Bellatrix Lestrange
+Nymphadora Tonks
+Hermione Granger
+Albus Dumbledore
+Rubeus Hagrid
+Severus Snape
+Sirius Black
+Remus Lupin
+Neville Longbottom
+Ginny Weasley
+Dolores Umbridge
+Alastor Moody
+Cornelius Fudge
+Cedric Diggory
+Fleur Delacour
+Ludo Bagman
+Gregory Goyle
+Vincent Crabbe
+Cho Chang
+Oliver Wood
+Seamus Finnigan
+Igor Karkaroff
+Parvati Patil
+Katie Bell
+Aberforth Dumbledore
+
+: child-father
+Rose Ron
+Hugo Ron
+"Victoire Bill -- frequency of Victoire only 2
+Ariana Percival
+Aberforth Percival
+Albus Percival
+Harry James
+Ron Arthur
+Fred Arthur
+Ginny Arthur
+George Arthur
+Draco Lucius
+Dudley Vernon
+
+: balls-used-in-Quidditch
+Quaffle ball
+Bludger ball
+Snitch ball
+
+: husband-wife
+Rodolphus Bellatrix
+James Lily
+Ron Hermione
+Arthur Molly
+Bill Fleur
+Remus Nymphadora
+Harry Ginny
+" Draco Astoria -- Astoria has frequency of 0
+
+: villages
+Hogsmeade village
+Godric Hollow
+" Cokeworth village -- Cokeworth frequency only 1
+
+: pets-of-Hagrid
+Fang dog
+Fluffy dog
+Norbert dragon
+Aragog spider
+Buckbeak pet
+
+: wizard_animagus-animal
+Minerva cat
+Sirius dog
+Peter rat
+
+:end

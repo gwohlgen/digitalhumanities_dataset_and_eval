@@ -1,0 +1,35 @@
+" File format: use 3 or 4 items of one type
+" then comes a "::" as separator
+" then comes a list of items that do not fit into the list
+" @Ariadna: again, the data here is for inspriation, please replace with data of your joice
+" @Ariadna: I tried to give some wrong answers which are harder to detect (closer to the correct ones), and some which are easier (words of different category, etc)
+
+: family-siblings
+Ron Arthur Molly Ginevra :: Bellatrix Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas veela phoenix Aberforth Kingsley Shacklebolt Azkaban Mandrake Thestral 
+Lucius Draco Narcissa :: Evans Marauders Gryffindor Prewett Dursley Petunia Ronald Molly Ravenclaw Animagi witch Nicolas Lord Voldemort Maxime Snape Slytherin Hogwarts Durmstrang
+
+: Hogwarts-houses 
+Gryffindor Hufflepuff Ravenclaw Slytherin :: Lumos muggle Hermione Neville Cornelius Fudge Wormtail Dobby Lockhart Crookshanks veela witch Hagrid
+
+: Gryffindor-members
+Harry Hermione Ron :: Draco Bellatrix Igor Lumos Lord Voldemort Severus Snape Fleur Vernon Dolores Cedric Barty Rita Ollivander Fenrir Greyback Nicolas Azkaban
+
+: half-blood wizards
+Hermione Harry Albus :: Neville Cornelius James Sinistra Luna Dobby Lockhart Marge Dursley Ron Weasley Sirius Expelliarmus
+
+: professors
+Dumbledore McGonagall Snape Hagrid :: Luna Alastor Moody Dudley Dursley Gregory Goyle Cho Chang Hedwig Voldemort Neville Wormtail Dobby witch wand Madam Pomfrey Expelliarmus
+
+: Hogwarts-subjects
+Astronomy Charms Transfiguration Herbology :: English Fleur Vernon Azkaban Cornelius Sports Mandrake witch wizard
+
+: wizarding-equipment
+cauldron scales phials parchment :: pen pencil witch Nevil cover rubber tape Golden Snitch Azkaban Hogwarts
+
+: magic-creatures
+unicorn dragon phoenix troll :: wolf spider witch Mandrake Dobby wand cauldron parchment phials muggle wizard
+
+: death-eaters
+Bellatrix Lucius Igor Severus :: Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas Luna cauldron Cornelius Fudge spider
+
+:end
