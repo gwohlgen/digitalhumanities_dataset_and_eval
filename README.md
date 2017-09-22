@@ -27,9 +27,20 @@ After modifying the test data run the following command to re-create the dataset
     python create_analogy_questions.py
 ```
 
+This will generate section-based permutations to create the evaluation datasets. 
 
 
+## The Models
+To evaluate the datasets you need language models, examples of which are provide in folder [models](models)
+(or you can use your own strategies).
 
+We used different well-known techniques to create word-embedding models, for example word2vec, GloVe, fastText, and LexVec. 
+The models having names staring with `asoif_` are trained on the first for books of *A Song of Ice and Fire*,
+and the models starting with `hp_` are trained on the complete *Harry Potter*. For copyright reasons the plain-text of
+the books can not be included here.
 
+For more details on the models and the parameters used for training, see [models/README.md](models/README.md).
+
+## 
 
 

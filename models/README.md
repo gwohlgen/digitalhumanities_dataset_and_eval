@@ -11,9 +11,9 @@ The **method and parameters used for training**:
 * \*`_w2v-ww12-300`: word2vec model with default settings, except: window size of 12, 300-dim.~vectors
 * \*`_w2v-ww12-300-ns`: like the previous model, but with negative sampling on.
 * \*`_w2v-CBOW:` same settings like \emph{w2v-ww12-300}, but using CBOW instead of skip-gram method.
-* \*`_GloVe`: Using the defaults (window size 15). Only change: 200-dim vectors instead of 50-dim.
-* \*`_fastText`: We used the default settings, except: 25 epochs, window size of 12
-* \*`_LexVec`: We used the default settings, except: 25 epochs, window size of 12
+* \*`_glove`: Using the defaults (window size 15). Only change: 200-dim vectors instead of 50-dim.
+* \*`_fasttext`: We used the default settings, except: 25 epochs, window size of 12
+* \*`_lexvec`: We used the default settings, except: 25 epochs, window size of 12
 
 
 
