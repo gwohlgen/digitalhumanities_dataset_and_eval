@@ -13,10 +13,21 @@ Here you find the following:
 The datasets are found in folder [datasets](datasets).
 Like in the original word2vec-toolkit, the files to be evaluated are name `questions`\*.
 There are four dataset:
-* questions_soiaf_analogies.txt
-* questions_soiaf_doesn_match.txt
-* questions_hp_analogies.txt
-* questions_hp_doesn_match.txt
+* `datasets/questions_soiaf_analogies.txt`: Analogies relation test data for *A Song of Ice and Fire*
+* `datasets/questions_soiaf_doesn_match.txt`: Doesnt_match task test data for *A Song of Ice and Fire*
+* `datasets/questions_hp_analogies.txt`: Analogies relation test data for *Harry Potter*
+* `datasets/questions_hp_doesn_match.txt`: Doesnt_match task test data for *Harry Potter*
+
+If you want to extend or modify the test data, edit the respective source files in the folder [datasets](datasets):
+`hp_analogies.txt`, `hp_does_not_match.txt`, `soiaf_analogies.txt`,`soiaf_does_not_match.txt`.
+
+After modifying the test data run the following command to re-create the datasets.
+```
+    cd datasets 
+    python create_analogy_questions.py
+```
+
+
 
 
 
