@@ -1,49 +1,19 @@
-# A Dataset for Relations in Digital Humanities and its Evaluation with Word Embeddings
+# Models for: A Dataset for Relations in Digital Humanities and its Evaluation with Word Embeddings
 
-### Summary
-Here you find the following:
-* **2 datasets each** for evaluating language models about the books **A Song of Ice and Fire** (GRR Martin) and **Harry Potter** (JK Rowling)
-* The dataset contain a large of number of task of type **analogy** and **doesnt-match**.
-* Your model can be tested especially easy if it is of type KeyedVector, ie. a [Gensim](https://radimrehurek.com/gensim) Word-Vectors model (eg. create with word2vec).
-* Furthermore, here you find scripts to create / extend the datasets -- by creating permutations of input data.
-* Finally, you can re-use the scripts to evaluate the data.
-
- 
-## The Datasets
-The datasets are found in folder [datasets](datasets).
-Like in the original word2vec-toolkit, the files to be evaluated are name `questions`\*.
-There are four dataset:
-* `datasets/questions_soiaf_analogies.txt`: Analogies relation test data for *A Song of Ice and Fire*
-* `datasets/questions_soiaf_doesn_match.txt`: Doesnt_match task test data for *A Song of Ice and Fire*
-* `datasets/questions_hp_analogies.txt`: Analogies relation test data for *Harry Potter*
-* `datasets/questions_hp_doesn_match.txt`: Doesnt_match task test data for *Harry Potter*
-
-If you want to extend or modify the test data, edit the respective source files in the folder [datasets](datasets):
-`hp_analogies.txt`, `hp_does_not_match.txt`, `soiaf_analogies.txt`,`soiaf_does_not_match.txt`.
-
-After modifying the test data run the following command to re-create the datasets.
-```
-    cd datasets 
-    python create_analogy_questions.py
-```
-
-This will generate section-based permutations to create the evaluation datasets. 
-
-
-## The Models
-To evaluate the datasets you need language models, examples of which are provide in folder [models](models)
-(or you can use your own strategies).
-
-We used different well-known techniques to create word-embedding models, for example word2vec, GloVe, fastText, and LexVec. 
+As mentioned,
+we used different well-known techniques to create word-embedding models, for example word2vec, GloVe, fastText, and LexVec.
 The models having names staring with `asoif_` are trained on the first for books of *A Song of Ice and Fire*,
 and the models starting with `hp_` are trained on the complete *Harry Potter*. For copyright reasons the plain-text of
 the books can not be included here.
 
-
-For more details on the models and the parameters used for training, see [models/README.md](models/README.md).
-
-
-
+The **method and parameters used for training**:
+* \*`_w2v-default`: This is a word2vec model trained with the default settings: 200 vector dimensions, skip-gram, etc\footnote{-cbow 0 -size 200 -window 5 -negative 0 -hs 1 -sample 1e-3 -threads 12}.
+* \*`_w2v-ww12-300`: word2vec model with default settings, except: window size of 12, 300-dim.~vectors
+* \*`_w2v-ww12-300-ns`: like the previous model, but with negative sampling on.
+* \*`_w2v-CBOW:` same settings like \emph{w2v-ww12-300}, but using CBOW instead of skip-gram method.
+* \*`_GloVe`: Using the defaults (window size 15). Only change: 200-dim vectors instead of 50-dim.
+* \*`_fastText`: We used the default settings, except: 25 epochs, window size of 12
+* \*`_LexVec`: We used the default settings, except: 25 epochs, window size of 12
 
 
 
