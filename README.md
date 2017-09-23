@@ -41,7 +41,30 @@ the books can not be included here.
 
 For more details on the models and the parameters used for training, see [models/README.md](models/README.md).
 
-## 
+## Doing the evalation
+
+Choose the book series you want to evaluate (`asoif` or `hp`), and the task type you want to
+do, analogy or doesnt_match. Call the scripts as shown below.
+
+
+#### Analogies task
+```
+    cd src
+    python analogies_evaluation.py asoif        # to eval A Song of Ice and Fire book series
+    python analogies_evaluation.py hp           # to eval Harry Potter book series
+```
+
+#### Doesnt_match task
+```
+    cd src
+    python doesnt_match_evaluation.py hp        # to eval Harry Potter book series
+    python doesnt_match_evaluation.py asoif     # to eval A Song of Ice and Fire book series
+
+```
+
+The output of the scripts will be various count (how many tasks per section, how many correctly and incorrectly solved,
+and the percentage (accuracy) of correct suggestions).
+
 
 ## Finally: For adding new dataset or models
 We tried to make the system easily extendable to evaluate new and models.
