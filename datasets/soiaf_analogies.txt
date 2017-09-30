@@ -3,12 +3,16 @@ Jaime Lannister
 Cersei Lannister
 Tyrion Lannister
 Tywin Lannister
+Kevan Lannister
+Lancel Lannister
 Robb Stark
 Ned Stark
 Catelyn Stark
+Lyanna Stark
 Arya Stark
 Sansa Stark
 Bran Stark
+Rickon Stark
 Jon Snow 
 Lysa Arryn
 Roose Bolton
@@ -17,35 +21,53 @@ Samwell Tarly
 Robert Baratheon
 Joffrey Baratheon
 Tommen Baratheon
+Shireen Baratheon
 Myrcella Baratheon
 Renly Baratheon
 Stannis Baratheon
 Balon Greyjoy
 Theon Greyjoy
 Asha Greyjoy
+Euron Greyjoy
+Victarion Greyjoy
 Daenerys Targaryen
 Viserys Targaryen
 Rhaegar Targaryen
+Arys Targaryen
+Aemon Targaryen
 Loras Tyrell
+Margaery Tyrell
+Olenna Tyrell
 Barristan Selmy
 Petyr Baelish
 Edmure Tully
-Margaery Tyrell
 Hoster Tully
+Walder Frey
+Davos Seaworth
+Sandor Clegane
+Oberyn Martell
+Tormund Giantsbane
+Jorah Mormont
+Jeor Mormont
+Doran Martell
 
 : child-father
 Robb Ned
 Arya Ned
+Rickon Ned
 Sansa Ned
 Bran Ned
 Jaime Tywin
 Tyrion Tywin
 Cersei Tywin
 Theon Balon
+Asha Balon
 Joffrey Robert
 Daenerys Aerys
 Viserys Aerys
 Shireen Stannis
+Jorah Jeor
+
 
 : bastard-child-father
 Jon Ned
@@ -78,7 +100,10 @@ Rhoyne river
 Trident river 
 Skahazadhan river
 Trident river
-
+Pyke island
+Frostfangs mountains
+Mander river
+Skagos island
 
 : houses-seats 
 Stark Winterfell
@@ -87,6 +112,16 @@ Tully Riverrun
 Arryn Eyrie
 Tyrell Highgarden
 Martell Sunspear
+
+: name-animal-type
+Viserion dragon
+Rhaegal dragon
+Drogon dragon
+Balerion dragon
+Shaggydog direwolf
+Nymeria direwolf
+Ghost direwolf
+
 
 : Sigil_animal-house
 stag Baratheon

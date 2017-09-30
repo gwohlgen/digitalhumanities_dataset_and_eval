@@ -1,6 +1,4 @@
 : firstname-lastname
-Harry Potter James Potter
-Harry Potter Lily Potter
 Harry Potter Luna Lovegood
 Harry Potter Xenophilius Lovegood
 Harry Potter Arthur Weasley
@@ -40,8 +38,6 @@ Harry Potter Igor Karkaroff
 Harry Potter Parvati Patil
 Harry Potter Katie Bell
 Harry Potter Aberforth Dumbledore
-James Potter Harry Potter
-James Potter Lily Potter
 James Potter Luna Lovegood
 James Potter Xenophilius Lovegood
 James Potter Arthur Weasley
@@ -81,8 +77,6 @@ James Potter Igor Karkaroff
 James Potter Parvati Patil
 James Potter Katie Bell
 James Potter Aberforth Dumbledore
-Lily Potter Harry Potter
-Lily Potter James Potter
 Lily Potter Luna Lovegood
 Lily Potter Xenophilius Lovegood
 Lily Potter Arthur Weasley
@@ -125,7 +119,6 @@ Lily Potter Aberforth Dumbledore
 Luna Lovegood Harry Potter
 Luna Lovegood James Potter
 Luna Lovegood Lily Potter
-Luna Lovegood Xenophilius Lovegood
 Luna Lovegood Arthur Weasley
 Luna Lovegood Molly Weasley
 Luna Lovegood Argus Filch
@@ -166,7 +159,6 @@ Luna Lovegood Aberforth Dumbledore
 Xenophilius Lovegood Harry Potter
 Xenophilius Lovegood James Potter
 Xenophilius Lovegood Lily Potter
-Xenophilius Lovegood Luna Lovegood
 Xenophilius Lovegood Arthur Weasley
 Xenophilius Lovegood Molly Weasley
 Xenophilius Lovegood Argus Filch
@@ -209,12 +201,7 @@ Arthur Weasley James Potter
 Arthur Weasley Lily Potter
 Arthur Weasley Luna Lovegood
 Arthur Weasley Xenophilius Lovegood
-Arthur Weasley Molly Weasley
 Arthur Weasley Argus Filch
-Arthur Weasley Bill Weasley
-Arthur Weasley Ron Weasley
-Arthur Weasley Fred Weasley
-Arthur Weasley George Weasley
 Arthur Weasley Draco Malfoy
 Arthur Weasley Lucius Malfoy
 Arthur Weasley Dudley Dursley
@@ -229,7 +216,6 @@ Arthur Weasley Severus Snape
 Arthur Weasley Sirius Black
 Arthur Weasley Remus Lupin
 Arthur Weasley Neville Longbottom
-Arthur Weasley Ginny Weasley
 Arthur Weasley Dolores Umbridge
 Arthur Weasley Alastor Moody
 Arthur Weasley Cornelius Fudge
@@ -250,12 +236,7 @@ Molly Weasley James Potter
 Molly Weasley Lily Potter
 Molly Weasley Luna Lovegood
 Molly Weasley Xenophilius Lovegood
-Molly Weasley Arthur Weasley
 Molly Weasley Argus Filch
-Molly Weasley Bill Weasley
-Molly Weasley Ron Weasley
-Molly Weasley Fred Weasley
-Molly Weasley George Weasley
 Molly Weasley Draco Malfoy
 Molly Weasley Lucius Malfoy
 Molly Weasley Dudley Dursley
@@ -270,7 +251,6 @@ Molly Weasley Severus Snape
 Molly Weasley Sirius Black
 Molly Weasley Remus Lupin
 Molly Weasley Neville Longbottom
-Molly Weasley Ginny Weasley
 Molly Weasley Dolores Umbridge
 Molly Weasley Alastor Moody
 Molly Weasley Cornelius Fudge
@@ -332,12 +312,7 @@ Bill Weasley James Potter
 Bill Weasley Lily Potter
 Bill Weasley Luna Lovegood
 Bill Weasley Xenophilius Lovegood
-Bill Weasley Arthur Weasley
-Bill Weasley Molly Weasley
 Bill Weasley Argus Filch
-Bill Weasley Ron Weasley
-Bill Weasley Fred Weasley
-Bill Weasley George Weasley
 Bill Weasley Draco Malfoy
 Bill Weasley Lucius Malfoy
 Bill Weasley Dudley Dursley
@@ -352,7 +327,6 @@ Bill Weasley Severus Snape
 Bill Weasley Sirius Black
 Bill Weasley Remus Lupin
 Bill Weasley Neville Longbottom
-Bill Weasley Ginny Weasley
 Bill Weasley Dolores Umbridge
 Bill Weasley Alastor Moody
 Bill Weasley Cornelius Fudge
@@ -373,12 +347,7 @@ Ron Weasley James Potter
 Ron Weasley Lily Potter
 Ron Weasley Luna Lovegood
 Ron Weasley Xenophilius Lovegood
-Ron Weasley Arthur Weasley
-Ron Weasley Molly Weasley
 Ron Weasley Argus Filch
-Ron Weasley Bill Weasley
-Ron Weasley Fred Weasley
-Ron Weasley George Weasley
 Ron Weasley Draco Malfoy
 Ron Weasley Lucius Malfoy
 Ron Weasley Dudley Dursley
@@ -393,7 +362,6 @@ Ron Weasley Severus Snape
 Ron Weasley Sirius Black
 Ron Weasley Remus Lupin
 Ron Weasley Neville Longbottom
-Ron Weasley Ginny Weasley
 Ron Weasley Dolores Umbridge
 Ron Weasley Alastor Moody
 Ron Weasley Cornelius Fudge
@@ -414,12 +382,7 @@ Fred Weasley James Potter
 Fred Weasley Lily Potter
 Fred Weasley Luna Lovegood
 Fred Weasley Xenophilius Lovegood
-Fred Weasley Arthur Weasley
-Fred Weasley Molly Weasley
 Fred Weasley Argus Filch
-Fred Weasley Bill Weasley
-Fred Weasley Ron Weasley
-Fred Weasley George Weasley
 Fred Weasley Draco Malfoy
 Fred Weasley Lucius Malfoy
 Fred Weasley Dudley Dursley
@@ -434,7 +397,6 @@ Fred Weasley Severus Snape
 Fred Weasley Sirius Black
 Fred Weasley Remus Lupin
 Fred Weasley Neville Longbottom
-Fred Weasley Ginny Weasley
 Fred Weasley Dolores Umbridge
 Fred Weasley Alastor Moody
 Fred Weasley Cornelius Fudge
@@ -455,12 +417,7 @@ George Weasley James Potter
 George Weasley Lily Potter
 George Weasley Luna Lovegood
 George Weasley Xenophilius Lovegood
-George Weasley Arthur Weasley
-George Weasley Molly Weasley
 George Weasley Argus Filch
-George Weasley Bill Weasley
-George Weasley Ron Weasley
-George Weasley Fred Weasley
 George Weasley Draco Malfoy
 George Weasley Lucius Malfoy
 George Weasley Dudley Dursley
@@ -475,7 +432,6 @@ George Weasley Severus Snape
 George Weasley Sirius Black
 George Weasley Remus Lupin
 George Weasley Neville Longbottom
-George Weasley Ginny Weasley
 George Weasley Dolores Umbridge
 George Weasley Alastor Moody
 George Weasley Cornelius Fudge
@@ -503,7 +459,6 @@ Draco Malfoy Bill Weasley
 Draco Malfoy Ron Weasley
 Draco Malfoy Fred Weasley
 Draco Malfoy George Weasley
-Draco Malfoy Lucius Malfoy
 Draco Malfoy Dudley Dursley
 Draco Malfoy Vernon Dursley
 Draco Malfoy Petunia Dursley
@@ -544,7 +499,6 @@ Lucius Malfoy Bill Weasley
 Lucius Malfoy Ron Weasley
 Lucius Malfoy Fred Weasley
 Lucius Malfoy George Weasley
-Lucius Malfoy Draco Malfoy
 Lucius Malfoy Dudley Dursley
 Lucius Malfoy Vernon Dursley
 Lucius Malfoy Petunia Dursley
@@ -587,8 +541,6 @@ Dudley Dursley Fred Weasley
 Dudley Dursley George Weasley
 Dudley Dursley Draco Malfoy
 Dudley Dursley Lucius Malfoy
-Dudley Dursley Vernon Dursley
-Dudley Dursley Petunia Dursley
 Dudley Dursley Bellatrix Lestrange
 Dudley Dursley Nymphadora Tonks
 Dudley Dursley Hermione Granger
@@ -628,8 +580,6 @@ Vernon Dursley Fred Weasley
 Vernon Dursley George Weasley
 Vernon Dursley Draco Malfoy
 Vernon Dursley Lucius Malfoy
-Vernon Dursley Dudley Dursley
-Vernon Dursley Petunia Dursley
 Vernon Dursley Bellatrix Lestrange
 Vernon Dursley Nymphadora Tonks
 Vernon Dursley Hermione Granger
@@ -669,8 +619,6 @@ Petunia Dursley Fred Weasley
 Petunia Dursley George Weasley
 Petunia Dursley Draco Malfoy
 Petunia Dursley Lucius Malfoy
-Petunia Dursley Dudley Dursley
-Petunia Dursley Vernon Dursley
 Petunia Dursley Bellatrix Lestrange
 Petunia Dursley Nymphadora Tonks
 Petunia Dursley Hermione Granger
@@ -859,7 +807,6 @@ Albus Dumbledore Seamus Finnigan
 Albus Dumbledore Igor Karkaroff
 Albus Dumbledore Parvati Patil
 Albus Dumbledore Katie Bell
-Albus Dumbledore Aberforth Dumbledore
 Rubeus Hagrid Harry Potter
 Rubeus Hagrid James Potter
 Rubeus Hagrid Lily Potter
@@ -1070,13 +1017,7 @@ Ginny Weasley James Potter
 Ginny Weasley Lily Potter
 Ginny Weasley Luna Lovegood
 Ginny Weasley Xenophilius Lovegood
-Ginny Weasley Arthur Weasley
-Ginny Weasley Molly Weasley
 Ginny Weasley Argus Filch
-Ginny Weasley Bill Weasley
-Ginny Weasley Ron Weasley
-Ginny Weasley Fred Weasley
-Ginny Weasley George Weasley
 Ginny Weasley Draco Malfoy
 Ginny Weasley Lucius Malfoy
 Ginny Weasley Dudley Dursley
@@ -1700,7 +1641,6 @@ Aberforth Dumbledore Petunia Dursley
 Aberforth Dumbledore Bellatrix Lestrange
 Aberforth Dumbledore Nymphadora Tonks
 Aberforth Dumbledore Hermione Granger
-Aberforth Dumbledore Albus Dumbledore
 Aberforth Dumbledore Rubeus Hagrid
 Aberforth Dumbledore Severus Snape
 Aberforth Dumbledore Sirius Black
@@ -1722,7 +1662,6 @@ Aberforth Dumbledore Igor Karkaroff
 Aberforth Dumbledore Parvati Patil
 Aberforth Dumbledore Katie Bell
 : child-father
-Rose Ron Hugo Ron
 Rose Ron Ariana Percival
 Rose Ron Aberforth Percival
 Rose Ron Albus Percival
@@ -1733,7 +1672,6 @@ Rose Ron Ginny Arthur
 Rose Ron George Arthur
 Rose Ron Draco Lucius
 Rose Ron Dudley Vernon
-Hugo Ron Rose Ron
 Hugo Ron Ariana Percival
 Hugo Ron Aberforth Percival
 Hugo Ron Albus Percival
@@ -1746,8 +1684,6 @@ Hugo Ron Draco Lucius
 Hugo Ron Dudley Vernon
 Ariana Percival Rose Ron
 Ariana Percival Hugo Ron
-Ariana Percival Aberforth Percival
-Ariana Percival Albus Percival
 Ariana Percival Harry James
 Ariana Percival Ron Arthur
 Ariana Percival Fred Arthur
@@ -1757,8 +1693,6 @@ Ariana Percival Draco Lucius
 Ariana Percival Dudley Vernon
 Aberforth Percival Rose Ron
 Aberforth Percival Hugo Ron
-Aberforth Percival Ariana Percival
-Aberforth Percival Albus Percival
 Aberforth Percival Harry James
 Aberforth Percival Ron Arthur
 Aberforth Percival Fred Arthur
@@ -1768,8 +1702,6 @@ Aberforth Percival Draco Lucius
 Aberforth Percival Dudley Vernon
 Albus Percival Rose Ron
 Albus Percival Hugo Ron
-Albus Percival Ariana Percival
-Albus Percival Aberforth Percival
 Albus Percival Harry James
 Albus Percival Ron Arthur
 Albus Percival Fred Arthur
@@ -1794,9 +1726,6 @@ Ron Arthur Ariana Percival
 Ron Arthur Aberforth Percival
 Ron Arthur Albus Percival
 Ron Arthur Harry James
-Ron Arthur Fred Arthur
-Ron Arthur Ginny Arthur
-Ron Arthur George Arthur
 Ron Arthur Draco Lucius
 Ron Arthur Dudley Vernon
 Fred Arthur Rose Ron
@@ -1805,9 +1734,6 @@ Fred Arthur Ariana Percival
 Fred Arthur Aberforth Percival
 Fred Arthur Albus Percival
 Fred Arthur Harry James
-Fred Arthur Ron Arthur
-Fred Arthur Ginny Arthur
-Fred Arthur George Arthur
 Fred Arthur Draco Lucius
 Fred Arthur Dudley Vernon
 Ginny Arthur Rose Ron
@@ -1816,9 +1742,6 @@ Ginny Arthur Ariana Percival
 Ginny Arthur Aberforth Percival
 Ginny Arthur Albus Percival
 Ginny Arthur Harry James
-Ginny Arthur Ron Arthur
-Ginny Arthur Fred Arthur
-Ginny Arthur George Arthur
 Ginny Arthur Draco Lucius
 Ginny Arthur Dudley Vernon
 George Arthur Rose Ron
@@ -1827,9 +1750,6 @@ George Arthur Ariana Percival
 George Arthur Aberforth Percival
 George Arthur Albus Percival
 George Arthur Harry James
-George Arthur Ron Arthur
-George Arthur Fred Arthur
-George Arthur Ginny Arthur
 George Arthur Draco Lucius
 George Arthur Dudley Vernon
 Draco Lucius Rose Ron
@@ -1855,12 +1775,6 @@ Dudley Vernon Ginny Arthur
 Dudley Vernon George Arthur
 Dudley Vernon Draco Lucius
 : balls-used-in-Quidditch
-Quaffle ball Bludger ball
-Quaffle ball Snitch ball
-Bludger ball Quaffle ball
-Bludger ball Snitch ball
-Snitch ball Quaffle ball
-Snitch ball Bludger ball
 : husband-wife
 Rodolphus Bellatrix James Lily
 Rodolphus Bellatrix Ron Hermione
@@ -1908,11 +1822,9 @@ Harry Ginny Remus Nymphadora
 Hogsmeade village Godric Hollow
 Godric Hollow Hogsmeade village
 : pets-of-Hagrid
-Fang dog Fluffy dog
 Fang dog Norbert dragon
 Fang dog Aragog spider
 Fang dog Buckbeak pet
-Fluffy dog Fang dog
 Fluffy dog Norbert dragon
 Fluffy dog Aragog spider
 Fluffy dog Buckbeak pet

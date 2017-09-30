@@ -5,7 +5,6 @@ INFILE = sys.argv[1]
 BOOK = sys.argv[2]
 
 
-
 all_words = [] 
 for line in open(INFILE):
 

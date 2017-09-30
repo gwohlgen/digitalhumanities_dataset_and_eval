@@ -19,7 +19,7 @@
 import random
 
 
-def create_and_write_last_block(blockentries, ofh, mode):
+def create_and_write_last_block(blockentries, ofh, mode, filter_same_target=True):
     """
         write the individual block to the output file
         combine (permuation) each entry with each other
@@ -34,6 +34,9 @@ def create_and_write_last_block(blockentries, ofh, mode):
 
             for entry2 in blockentries:
                 if entry1 == entry2: 
+                    continue 
+
+                if filter_same_target and (entry1[1] == entry2[1]):
                     continue 
         
                 outline = " ".join(entry1) + " " +" ".join(entry2) + "\n"
