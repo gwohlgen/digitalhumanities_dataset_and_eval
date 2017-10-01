@@ -64,7 +64,7 @@ if BOOK_SERIES == "ASIOF":
 if BOOK_SERIES == "HP":
     PRINT_DETAILS = False ## verbose debugging of eval results
 
-    DOESNT_MATCH_FILE = "../datasets/questions_hp_doesn_match.txt"
+    DOESNT_MATCH_FILE = "../datasets/questions_hp_doesnt_match.txt"
     ANALOGIES_FILE = "../datasets/questions_hp_analogies.txt"
     
     ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'pets-of-Hagrid', 'total']
