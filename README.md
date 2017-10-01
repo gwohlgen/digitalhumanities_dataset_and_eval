@@ -3,16 +3,16 @@
 ### Summary
 Here you find the following:
 * **2 datasets each** for evaluating language models about the books **A Song of Ice and Fire** (GRR Martin) and **Harry Potter** (JK Rowling)
-* The dataset contain a large of number of task of type **analogy** and **doesnt-match**.
+* The dataset contains a large of number of task of type **analogy** and **doesnt-match**.
 * Your model can be tested especially easy if it is of type KeyedVector, ie. a [Gensim](https://radimrehurek.com/gensim) Word-Vectors model (eg. create with word2vec).
 * Furthermore, here you find scripts to create / extend the datasets -- by creating permutations of input data.
 * Finally, you can re-use the scripts to evaluate the data.
 
  
 ## The Datasets
-The datasets are found in folder [datasets](datasets).
-Like in the original word2vec-toolkit, the files to be evaluated are name `questions`\*.
-There are four dataset:
+The datasets can be found in the folder [datasets](datasets).
+Like in the original word2vec-toolkit, the files to be evaluated are named `questions`\*.
+There are four datasets:
 * `datasets/questions_soiaf_analogies.txt`: Analogies relation test data for *A Song of Ice and Fire*
 * `datasets/questions_soiaf_doesn_match.txt`: Doesnt_match task test data for *A Song of Ice and Fire*
 * `datasets/questions_hp_analogies.txt`: Analogies relation test data for *Harry Potter*
@@ -31,7 +31,7 @@ This will generate section-based permutations to create the evaluation datasets.
 
 
 ## The Models
-To evaluate the datasets you need language models, examples of which are provide in folder [models](models)
+To evaluate the datasets you need language models, examples of which are provided in the folder [models](models)
 (or you can use your own strategies).
 
 We used different well-known techniques to create word-embedding models, for example word2vec, GloVe, fastText, and LexVec. 
@@ -67,7 +67,7 @@ and the percentage (accuracy) of correct suggestions).
 
 
 ## Finally: For adding new dataset or models
-We tried to make the system easily extendable to evaluate new and models.
+We tried to make the system easily extendable to evaluate new models.
 
 * Adding models: just put them into the [models](models) folder, and add them into the `METHODS` variable in `config.py`.
 * Adding new datasets and models: add the raw dataset into [datasets](datasets), generate the `questions`. Add a new section to `config.py` with the settings for 
