@@ -3,44 +3,44 @@
 " then comes a list of items that do not fit into the list
 
 : family-siblings
-Ron Arthur Molly Ginny :: Bellatrix Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas veela phoenix Aberforth Kingsley Shacklebolt Azkaban Mandrake Thestral 
-Lucius Draco Narcissa :: Evans Marauders Gryffindor Prewett Dursley Petunia Ronald Molly Ravenclaw Animagi witch Nicolas Lord Voldemort Maxime Snape Slytherin Hogwarts Durmstrang
-Lily Harry James :: Ron Hermione cleverness Slytherin Flitwick Luna Neville Draco Bellatrix Lucius Ginny scales transfiguration charms Bill Fleur Hogwarts
+Ron Arthur Molly Ginny :: Bellatrix Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas veela phoenix Aberforth Kingsley Shacklebolt Azkaban Mandrake Thestral wolf spider pen pencil
+Lucius Draco Narcissa :: Evans Marauders Gryffindor Prewett Dursley Petunia Ronald Molly Ravenclaw Animagi witch Nicolas Lord Voldemort Maxime Snape Slytherin Hogwarts Durmstrang wolf spider pen pencil
+Lily Harry James :: Ron Hermione cleverness Slytherin Flitwick Luna Neville Draco Bellatrix Lucius Ginny scales transfiguration charms Bill Fleur Hogwarts wolf spider pen pencil
 
 : Hogwarts-houses 
-Gryffindor Hufflepuff Ravenclaw Slytherin :: Lumos muggle Hermione Neville Cornelius Fudge Wormtail Dobby Lockhart Crookshanks veela witch Hagrid
+Gryffindor Hufflepuff Ravenclaw Slytherin :: Lumos muggle Hermione Neville Cornelius Fudge Wormtail Dobby Lockhart Crookshanks veela witch Hagrid wolf spider pen pencil
 
 : Gryffindor-members
-Harry Hermione Ron :: Draco Bellatrix Igor Lumos Lord Voldemort Severus Snape Fleur Vernon Dolores Cedric Barty Rita Ollivander Fenrir Greyback Nicolas Azkaban
+Harry Hermione Ron :: Draco Bellatrix Igor Lumos Lord Voldemort Severus Snape Fleur Vernon Dolores Cedric Barty Rita Ollivander Fenrir Greyback Nicolas Azkaban wolf spider pen pencil
 
 : half-blood wizards
-Hermione Harry Albus :: Neville Cornelius James Sinistra Luna Dobby Lockhart Marge Dursley Ron Weasley Sirius Expelliarmus
+Hermione Harry Albus :: Neville Cornelius James Sinistra Luna Dobby Lockhart Marge Dursley Ron Weasley Sirius Expelliarmus wolf spider pen pencil
 
 : professors
 Dumbledore McGonagall Snape Hagrid :: Luna Alastor Moody Dudley Dursley Gregory Goyle Cho Chang Hedwig Voldemort Neville Wormtail Dobby witch wand Madam Pomfrey Expelliarmus
 
 : Hogwarts-subjects
-astronomy charms transfiguration herbology :: English Fleur Vernon Azkaban Cornelius Sports Mandrake witch wizard
+astronomy charms transfiguration herbology :: English Fleur Vernon Azkaban Cornelius Sports Mandrake witch wizard Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas
 
 : wizarding-equipment
-cauldron scales parchment :: pen pencil witch Nevil Golden Snitch Azkaban Hogwarts Mandrake witch wizard Gregory Goyle
+cauldron scales parchment :: pen pencil witch Nevil Golden Snitch Azkaban Hogwarts Mandrake witch wizard Gregory Goyle Bellatrix Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas
 
 : magic-creatures
-unicorn dragon phoenix troll :: wolf spider witch Mandrake Dobby wand cauldron parchment muggle wizard Neville Wormtail
+unicorn dragon phoenix troll :: wolf spider witch Mandrake Dobby wand cauldron parchment muggle wizard Neville Wormtail Bellatrix Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas
 
 : death-eaters
-Bellatrix Lucius Igor Severus :: Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas Luna cauldron Cornelius Fudge spider
+Bellatrix Lucius Igor Severus :: Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas Luna cauldron Cornelius Fudge spider wolf pen pencil 
 
 : Gryffindor-traits
-bravery courage daring :: loyalty patience cunning ambition Harry cauldron Hogwarts Herbology James Sinistra Luna Sirius Slytherin
+bravery courage daring :: loyalty patience cunning ambition Harry cauldron Hogwarts Herbology James Sinistra Luna Sirius Slytherin spider wolf pen pencil
 
-: Ravenclaw-traits
-intelligence wit wisdom :: patience cunning ambition bravery courage daring Voldemort phoenix Luna spider Charms Transfiguration
+: Ravenclaw-traitsspider 
+intelligence wit wisdom :: patience cunning ambition bravery courage daring Voldemort phoenix Luna spider Charms Transfiguration wolf pen pencil
 
 : Triwizard-champions
-Harry Cedric Fleur Viktor :: Moody Dudley Dursley Gregory Goyle Cho James Sinistra Luna Sirius Slytherin Nymphadora ambition Dobby Black veela dragon
+Harry Cedric Fleur Viktor :: Moody Dudley Dursley Gregory Goyle Cho James Sinistra Luna Sirius Slytherin Nymphadora ambition Dobby Black veela dragon spider wolf pen pencil 
 
 : ball-types-used-in-Quidditch
-Quaffle Bludger Snitch :: muggle Hermione Neville Cornelius Fudge Wormtail Dobby Lockhart Crookshanks veela Sinistra Luna Sirius Slytherin scales
+Quaffle Bludger Snitch :: muggle Hermione Neville Cornelius Fudge Wormtail Dobby Lockhart Crookshanks veela Sinistra Luna Sirius Slytherin scales spider wolf pen pencil Bellatrix Albus Lily James
 
 :end

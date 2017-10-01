@@ -67,5 +67,5 @@ if BOOK_SERIES == "HP":
     DOESNT_MATCH_FILE = "../datasets/questions_hp_doesnt_match.txt"
     ANALOGIES_FILE = "../datasets/questions_hp_analogies.txt"
     
-    ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'pets-of-Hagrid', 'total']
+    ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'pets-of-Hagrid', 'wizard-faculty', 'total']
     DOESNT_MATCH_SECTIONS = [': family-siblings', ': Hogwarts-houses', ': professors', ': wizarding-equipment', ': magic-creatures', 'TOTAL'] 
