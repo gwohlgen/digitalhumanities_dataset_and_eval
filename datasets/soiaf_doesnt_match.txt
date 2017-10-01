@@ -9,7 +9,6 @@ Daenerys Viserys Rhaegar :: Viserion Rhaegal Drogon Balerion Cersei Theon Robb B
 Joffrey Tommen Myrcella :: Jaime Cersei Oberyn Kevan Theon Robb Bran Sansa Arya Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan
 Rodrik Maron Asha Theon :: Joffrey Tommen Myrcella Jaime Cersei Oberyn Kevan Theon Robb Bran Sansa Arya Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan 	
 
-
 : names-of-houses 
 Martell Stark Lannister Greyjoy :: Loras Ghost Jon Doran Ramsay Stannis Daenerys Viserys Rhaegar Shaggydog Nymeria Ghost Viserion Rhaegal Drogon Balerion
 Baratheon Stark Lannister Targaryen :: Loras Ghost Jon Doran Ramsay Roose Dany Theon Shaggydog Nymeria Ghost Viserion Rhaegal Drogon Balerion
@@ -53,7 +52,6 @@ Braavos Volantis Tyros Norvos :: Tully Stark Lannister Riverrun Highgarden Oldto
 Highgarden Oldtown Lannisport Gulltown :: Tully Stark Lannister Braavos Lys Myr Pentos Volantis Tyros Norvos Viserion Rhaegal Craster godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon
 
 
-
 " ************************************* BIGRAM MODEL DATA BELOW HERE ********************************
 
 " : seas ---  http://awoiaf.westeros.org/index.php/Category:Seas
@@ -67,7 +65,5 @@ Highgarden Oldtown Lannisport Gulltown :: Tully Stark Lannister Braavos Lys Myr 
 ": languages
 "Common_Tongue Dothraki High_Valyrian Ibbenese_language Old_Ghiscari Old_Tongue Summer_Tongue Skroth Trade_talk True_Tongue
 "True Tongue
-
-
 
 :end

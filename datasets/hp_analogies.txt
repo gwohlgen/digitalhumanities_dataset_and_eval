@@ -1,7 +1,3 @@
-
-" @Ariadna: I left some examples in here, see soiaf_analogies.txt for all data
-" please use the same kind of structures.
-
 : firstname-lastname
 Harry Potter
 James Potter
@@ -47,11 +43,9 @@ Katie Bell
 Aberforth Dumbledore
 Minerva McGonagall
 Sybill Trelawney
+Filius Flitwick
 
 : child-father
-Rose Ron
-Hugo Ron
-"Victoire Bill -- frequency of Victoire only 2
 Ariana Percival
 Aberforth Percival
 Albus Percival
@@ -63,11 +57,6 @@ George Arthur
 Draco Lucius
 Dudley Vernon
 
-: balls-used-in-Quidditch
-Quaffle ball
-Bludger ball
-Snitch ball
-
 : husband-wife
 Rodolphus Bellatrix
 James Lily
@@ -76,12 +65,10 @@ Arthur Molly
 Bill Fleur
 Remus Nymphadora
 Harry Ginny
-" Draco Astoria -- Astoria has frequency of 0
 
 : villages
 Hogsmeade village
 Godric Hollow
-" Cokeworth village -- Cokeworth frequency only 1
 
 : pets-of-Hagrid
 Fang dog
@@ -132,16 +119,15 @@ Slytherin serpent
 Hufflepuff badger
 
 : professor-subject
-McGonagall transfiguration
-Flitwick charms
-Snape potions
-Trelawney divination
+Minerva transfiguration
+Filius charms
+Severus potions
+Sybill divination
 
 : founder-faculty
 Salazar Slytherin
 Rowena Ravenclaw
 Godric Gryffindor
-Helga Hufflepuff
 
 : faculty_first_color-second_color
 scarlet gold
@@ -160,5 +146,11 @@ Neville Ginny
 Hermione England
 Fleur France
 Viktor Bulgaria
+
+: wizard-patronal_form
+Albus phoenix
+Hermione otter
+Nymphadora wolf
+Ginny horse
 
 :end

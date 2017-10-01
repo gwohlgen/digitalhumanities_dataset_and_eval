@@ -40,6 +40,7 @@ Harry Potter Katie Bell
 Harry Potter Aberforth Dumbledore
 Harry Potter Minerva McGonagall
 Harry Potter Sybill Trelawney
+Harry Potter Filius Flitwick
 James Potter Luna Lovegood
 James Potter Xenophilius Lovegood
 James Potter Arthur Weasley
@@ -81,6 +82,7 @@ James Potter Katie Bell
 James Potter Aberforth Dumbledore
 James Potter Minerva McGonagall
 James Potter Sybill Trelawney
+James Potter Filius Flitwick
 Lily Potter Luna Lovegood
 Lily Potter Xenophilius Lovegood
 Lily Potter Arthur Weasley
@@ -122,6 +124,7 @@ Lily Potter Katie Bell
 Lily Potter Aberforth Dumbledore
 Lily Potter Minerva McGonagall
 Lily Potter Sybill Trelawney
+Lily Potter Filius Flitwick
 Luna Lovegood Harry Potter
 Luna Lovegood James Potter
 Luna Lovegood Lily Potter
@@ -164,6 +167,7 @@ Luna Lovegood Katie Bell
 Luna Lovegood Aberforth Dumbledore
 Luna Lovegood Minerva McGonagall
 Luna Lovegood Sybill Trelawney
+Luna Lovegood Filius Flitwick
 Xenophilius Lovegood Harry Potter
 Xenophilius Lovegood James Potter
 Xenophilius Lovegood Lily Potter
@@ -206,6 +210,7 @@ Xenophilius Lovegood Katie Bell
 Xenophilius Lovegood Aberforth Dumbledore
 Xenophilius Lovegood Minerva McGonagall
 Xenophilius Lovegood Sybill Trelawney
+Xenophilius Lovegood Filius Flitwick
 Arthur Weasley Harry Potter
 Arthur Weasley James Potter
 Arthur Weasley Lily Potter
@@ -243,6 +248,7 @@ Arthur Weasley Katie Bell
 Arthur Weasley Aberforth Dumbledore
 Arthur Weasley Minerva McGonagall
 Arthur Weasley Sybill Trelawney
+Arthur Weasley Filius Flitwick
 Molly Weasley Harry Potter
 Molly Weasley James Potter
 Molly Weasley Lily Potter
@@ -280,6 +286,7 @@ Molly Weasley Katie Bell
 Molly Weasley Aberforth Dumbledore
 Molly Weasley Minerva McGonagall
 Molly Weasley Sybill Trelawney
+Molly Weasley Filius Flitwick
 Argus Filch Harry Potter
 Argus Filch James Potter
 Argus Filch Lily Potter
@@ -323,6 +330,7 @@ Argus Filch Katie Bell
 Argus Filch Aberforth Dumbledore
 Argus Filch Minerva McGonagall
 Argus Filch Sybill Trelawney
+Argus Filch Filius Flitwick
 Bill Weasley Harry Potter
 Bill Weasley James Potter
 Bill Weasley Lily Potter
@@ -360,6 +368,7 @@ Bill Weasley Katie Bell
 Bill Weasley Aberforth Dumbledore
 Bill Weasley Minerva McGonagall
 Bill Weasley Sybill Trelawney
+Bill Weasley Filius Flitwick
 Ron Weasley Harry Potter
 Ron Weasley James Potter
 Ron Weasley Lily Potter
@@ -397,6 +406,7 @@ Ron Weasley Katie Bell
 Ron Weasley Aberforth Dumbledore
 Ron Weasley Minerva McGonagall
 Ron Weasley Sybill Trelawney
+Ron Weasley Filius Flitwick
 Fred Weasley Harry Potter
 Fred Weasley James Potter
 Fred Weasley Lily Potter
@@ -434,6 +444,7 @@ Fred Weasley Katie Bell
 Fred Weasley Aberforth Dumbledore
 Fred Weasley Minerva McGonagall
 Fred Weasley Sybill Trelawney
+Fred Weasley Filius Flitwick
 George Weasley Harry Potter
 George Weasley James Potter
 George Weasley Lily Potter
@@ -471,6 +482,7 @@ George Weasley Katie Bell
 George Weasley Aberforth Dumbledore
 George Weasley Minerva McGonagall
 George Weasley Sybill Trelawney
+George Weasley Filius Flitwick
 Draco Malfoy Harry Potter
 Draco Malfoy James Potter
 Draco Malfoy Lily Potter
@@ -513,6 +525,7 @@ Draco Malfoy Katie Bell
 Draco Malfoy Aberforth Dumbledore
 Draco Malfoy Minerva McGonagall
 Draco Malfoy Sybill Trelawney
+Draco Malfoy Filius Flitwick
 Lucius Malfoy Harry Potter
 Lucius Malfoy James Potter
 Lucius Malfoy Lily Potter
@@ -555,6 +568,7 @@ Lucius Malfoy Katie Bell
 Lucius Malfoy Aberforth Dumbledore
 Lucius Malfoy Minerva McGonagall
 Lucius Malfoy Sybill Trelawney
+Lucius Malfoy Filius Flitwick
 Dudley Dursley Harry Potter
 Dudley Dursley James Potter
 Dudley Dursley Lily Potter
@@ -596,6 +610,7 @@ Dudley Dursley Katie Bell
 Dudley Dursley Aberforth Dumbledore
 Dudley Dursley Minerva McGonagall
 Dudley Dursley Sybill Trelawney
+Dudley Dursley Filius Flitwick
 Vernon Dursley Harry Potter
 Vernon Dursley James Potter
 Vernon Dursley Lily Potter
@@ -637,6 +652,7 @@ Vernon Dursley Katie Bell
 Vernon Dursley Aberforth Dumbledore
 Vernon Dursley Minerva McGonagall
 Vernon Dursley Sybill Trelawney
+Vernon Dursley Filius Flitwick
 Petunia Dursley Harry Potter
 Petunia Dursley James Potter
 Petunia Dursley Lily Potter
@@ -678,6 +694,7 @@ Petunia Dursley Katie Bell
 Petunia Dursley Aberforth Dumbledore
 Petunia Dursley Minerva McGonagall
 Petunia Dursley Sybill Trelawney
+Petunia Dursley Filius Flitwick
 Bellatrix Lestrange Harry Potter
 Bellatrix Lestrange James Potter
 Bellatrix Lestrange Lily Potter
@@ -721,6 +738,7 @@ Bellatrix Lestrange Katie Bell
 Bellatrix Lestrange Aberforth Dumbledore
 Bellatrix Lestrange Minerva McGonagall
 Bellatrix Lestrange Sybill Trelawney
+Bellatrix Lestrange Filius Flitwick
 Nymphadora Tonks Harry Potter
 Nymphadora Tonks James Potter
 Nymphadora Tonks Lily Potter
@@ -764,6 +782,7 @@ Nymphadora Tonks Katie Bell
 Nymphadora Tonks Aberforth Dumbledore
 Nymphadora Tonks Minerva McGonagall
 Nymphadora Tonks Sybill Trelawney
+Nymphadora Tonks Filius Flitwick
 Hermione Granger Harry Potter
 Hermione Granger James Potter
 Hermione Granger Lily Potter
@@ -807,6 +826,7 @@ Hermione Granger Katie Bell
 Hermione Granger Aberforth Dumbledore
 Hermione Granger Minerva McGonagall
 Hermione Granger Sybill Trelawney
+Hermione Granger Filius Flitwick
 Albus Dumbledore Harry Potter
 Albus Dumbledore James Potter
 Albus Dumbledore Lily Potter
@@ -849,6 +869,7 @@ Albus Dumbledore Parvati Patil
 Albus Dumbledore Katie Bell
 Albus Dumbledore Minerva McGonagall
 Albus Dumbledore Sybill Trelawney
+Albus Dumbledore Filius Flitwick
 Rubeus Hagrid Harry Potter
 Rubeus Hagrid James Potter
 Rubeus Hagrid Lily Potter
@@ -892,6 +913,7 @@ Rubeus Hagrid Katie Bell
 Rubeus Hagrid Aberforth Dumbledore
 Rubeus Hagrid Minerva McGonagall
 Rubeus Hagrid Sybill Trelawney
+Rubeus Hagrid Filius Flitwick
 Severus Snape Harry Potter
 Severus Snape James Potter
 Severus Snape Lily Potter
@@ -935,6 +957,7 @@ Severus Snape Katie Bell
 Severus Snape Aberforth Dumbledore
 Severus Snape Minerva McGonagall
 Severus Snape Sybill Trelawney
+Severus Snape Filius Flitwick
 Sirius Black Harry Potter
 Sirius Black James Potter
 Sirius Black Lily Potter
@@ -978,6 +1001,7 @@ Sirius Black Katie Bell
 Sirius Black Aberforth Dumbledore
 Sirius Black Minerva McGonagall
 Sirius Black Sybill Trelawney
+Sirius Black Filius Flitwick
 Remus Lupin Harry Potter
 Remus Lupin James Potter
 Remus Lupin Lily Potter
@@ -1021,6 +1045,7 @@ Remus Lupin Katie Bell
 Remus Lupin Aberforth Dumbledore
 Remus Lupin Minerva McGonagall
 Remus Lupin Sybill Trelawney
+Remus Lupin Filius Flitwick
 Neville Longbottom Harry Potter
 Neville Longbottom James Potter
 Neville Longbottom Lily Potter
@@ -1064,6 +1089,7 @@ Neville Longbottom Katie Bell
 Neville Longbottom Aberforth Dumbledore
 Neville Longbottom Minerva McGonagall
 Neville Longbottom Sybill Trelawney
+Neville Longbottom Filius Flitwick
 Ginny Weasley Harry Potter
 Ginny Weasley James Potter
 Ginny Weasley Lily Potter
@@ -1101,6 +1127,7 @@ Ginny Weasley Katie Bell
 Ginny Weasley Aberforth Dumbledore
 Ginny Weasley Minerva McGonagall
 Ginny Weasley Sybill Trelawney
+Ginny Weasley Filius Flitwick
 Dolores Umbridge Harry Potter
 Dolores Umbridge James Potter
 Dolores Umbridge Lily Potter
@@ -1144,6 +1171,7 @@ Dolores Umbridge Katie Bell
 Dolores Umbridge Aberforth Dumbledore
 Dolores Umbridge Minerva McGonagall
 Dolores Umbridge Sybill Trelawney
+Dolores Umbridge Filius Flitwick
 Alastor Moody Harry Potter
 Alastor Moody James Potter
 Alastor Moody Lily Potter
@@ -1187,6 +1215,7 @@ Alastor Moody Katie Bell
 Alastor Moody Aberforth Dumbledore
 Alastor Moody Minerva McGonagall
 Alastor Moody Sybill Trelawney
+Alastor Moody Filius Flitwick
 Cornelius Fudge Harry Potter
 Cornelius Fudge James Potter
 Cornelius Fudge Lily Potter
@@ -1230,6 +1259,7 @@ Cornelius Fudge Katie Bell
 Cornelius Fudge Aberforth Dumbledore
 Cornelius Fudge Minerva McGonagall
 Cornelius Fudge Sybill Trelawney
+Cornelius Fudge Filius Flitwick
 Cedric Diggory Harry Potter
 Cedric Diggory James Potter
 Cedric Diggory Lily Potter
@@ -1273,6 +1303,7 @@ Cedric Diggory Katie Bell
 Cedric Diggory Aberforth Dumbledore
 Cedric Diggory Minerva McGonagall
 Cedric Diggory Sybill Trelawney
+Cedric Diggory Filius Flitwick
 Fleur Delacour Harry Potter
 Fleur Delacour James Potter
 Fleur Delacour Lily Potter
@@ -1316,6 +1347,7 @@ Fleur Delacour Katie Bell
 Fleur Delacour Aberforth Dumbledore
 Fleur Delacour Minerva McGonagall
 Fleur Delacour Sybill Trelawney
+Fleur Delacour Filius Flitwick
 Ludo Bagman Harry Potter
 Ludo Bagman James Potter
 Ludo Bagman Lily Potter
@@ -1359,6 +1391,7 @@ Ludo Bagman Katie Bell
 Ludo Bagman Aberforth Dumbledore
 Ludo Bagman Minerva McGonagall
 Ludo Bagman Sybill Trelawney
+Ludo Bagman Filius Flitwick
 Gregory Goyle Harry Potter
 Gregory Goyle James Potter
 Gregory Goyle Lily Potter
@@ -1402,6 +1435,7 @@ Gregory Goyle Katie Bell
 Gregory Goyle Aberforth Dumbledore
 Gregory Goyle Minerva McGonagall
 Gregory Goyle Sybill Trelawney
+Gregory Goyle Filius Flitwick
 Vincent Crabbe Harry Potter
 Vincent Crabbe James Potter
 Vincent Crabbe Lily Potter
@@ -1445,6 +1479,7 @@ Vincent Crabbe Katie Bell
 Vincent Crabbe Aberforth Dumbledore
 Vincent Crabbe Minerva McGonagall
 Vincent Crabbe Sybill Trelawney
+Vincent Crabbe Filius Flitwick
 Cho Chang Harry Potter
 Cho Chang James Potter
 Cho Chang Lily Potter
@@ -1488,6 +1523,7 @@ Cho Chang Katie Bell
 Cho Chang Aberforth Dumbledore
 Cho Chang Minerva McGonagall
 Cho Chang Sybill Trelawney
+Cho Chang Filius Flitwick
 Oliver Wood Harry Potter
 Oliver Wood James Potter
 Oliver Wood Lily Potter
@@ -1531,6 +1567,7 @@ Oliver Wood Katie Bell
 Oliver Wood Aberforth Dumbledore
 Oliver Wood Minerva McGonagall
 Oliver Wood Sybill Trelawney
+Oliver Wood Filius Flitwick
 Seamus Finnigan Harry Potter
 Seamus Finnigan James Potter
 Seamus Finnigan Lily Potter
@@ -1574,6 +1611,7 @@ Seamus Finnigan Katie Bell
 Seamus Finnigan Aberforth Dumbledore
 Seamus Finnigan Minerva McGonagall
 Seamus Finnigan Sybill Trelawney
+Seamus Finnigan Filius Flitwick
 Igor Karkaroff Harry Potter
 Igor Karkaroff James Potter
 Igor Karkaroff Lily Potter
@@ -1617,6 +1655,7 @@ Igor Karkaroff Katie Bell
 Igor Karkaroff Aberforth Dumbledore
 Igor Karkaroff Minerva McGonagall
 Igor Karkaroff Sybill Trelawney
+Igor Karkaroff Filius Flitwick
 Parvati Patil Harry Potter
 Parvati Patil James Potter
 Parvati Patil Lily Potter
@@ -1660,6 +1699,7 @@ Parvati Patil Katie Bell
 Parvati Patil Aberforth Dumbledore
 Parvati Patil Minerva McGonagall
 Parvati Patil Sybill Trelawney
+Parvati Patil Filius Flitwick
 Katie Bell Harry Potter
 Katie Bell James Potter
 Katie Bell Lily Potter
@@ -1703,6 +1743,7 @@ Katie Bell Parvati Patil
 Katie Bell Aberforth Dumbledore
 Katie Bell Minerva McGonagall
 Katie Bell Sybill Trelawney
+Katie Bell Filius Flitwick
 Aberforth Dumbledore Harry Potter
 Aberforth Dumbledore James Potter
 Aberforth Dumbledore Lily Potter
@@ -1745,6 +1786,7 @@ Aberforth Dumbledore Parvati Patil
 Aberforth Dumbledore Katie Bell
 Aberforth Dumbledore Minerva McGonagall
 Aberforth Dumbledore Sybill Trelawney
+Aberforth Dumbledore Filius Flitwick
 Minerva McGonagall Harry Potter
 Minerva McGonagall James Potter
 Minerva McGonagall Lily Potter
@@ -1788,6 +1830,7 @@ Minerva McGonagall Parvati Patil
 Minerva McGonagall Katie Bell
 Minerva McGonagall Aberforth Dumbledore
 Minerva McGonagall Sybill Trelawney
+Minerva McGonagall Filius Flitwick
 Sybill Trelawney Harry Potter
 Sybill Trelawney James Potter
 Sybill Trelawney Lily Potter
@@ -1831,29 +1874,52 @@ Sybill Trelawney Parvati Patil
 Sybill Trelawney Katie Bell
 Sybill Trelawney Aberforth Dumbledore
 Sybill Trelawney Minerva McGonagall
+Sybill Trelawney Filius Flitwick
+Filius Flitwick Harry Potter
+Filius Flitwick James Potter
+Filius Flitwick Lily Potter
+Filius Flitwick Luna Lovegood
+Filius Flitwick Xenophilius Lovegood
+Filius Flitwick Arthur Weasley
+Filius Flitwick Molly Weasley
+Filius Flitwick Argus Filch
+Filius Flitwick Bill Weasley
+Filius Flitwick Ron Weasley
+Filius Flitwick Fred Weasley
+Filius Flitwick George Weasley
+Filius Flitwick Draco Malfoy
+Filius Flitwick Lucius Malfoy
+Filius Flitwick Dudley Dursley
+Filius Flitwick Vernon Dursley
+Filius Flitwick Petunia Dursley
+Filius Flitwick Bellatrix Lestrange
+Filius Flitwick Nymphadora Tonks
+Filius Flitwick Hermione Granger
+Filius Flitwick Albus Dumbledore
+Filius Flitwick Rubeus Hagrid
+Filius Flitwick Severus Snape
+Filius Flitwick Sirius Black
+Filius Flitwick Remus Lupin
+Filius Flitwick Neville Longbottom
+Filius Flitwick Ginny Weasley
+Filius Flitwick Dolores Umbridge
+Filius Flitwick Alastor Moody
+Filius Flitwick Cornelius Fudge
+Filius Flitwick Cedric Diggory
+Filius Flitwick Fleur Delacour
+Filius Flitwick Ludo Bagman
+Filius Flitwick Gregory Goyle
+Filius Flitwick Vincent Crabbe
+Filius Flitwick Cho Chang
+Filius Flitwick Oliver Wood
+Filius Flitwick Seamus Finnigan
+Filius Flitwick Igor Karkaroff
+Filius Flitwick Parvati Patil
+Filius Flitwick Katie Bell
+Filius Flitwick Aberforth Dumbledore
+Filius Flitwick Minerva McGonagall
+Filius Flitwick Sybill Trelawney
 : child-father
-Rose Ron Ariana Percival
-Rose Ron Aberforth Percival
-Rose Ron Albus Percival
-Rose Ron Harry James
-Rose Ron Ron Arthur
-Rose Ron Fred Arthur
-Rose Ron Ginny Arthur
-Rose Ron George Arthur
-Rose Ron Draco Lucius
-Rose Ron Dudley Vernon
-Hugo Ron Ariana Percival
-Hugo Ron Aberforth Percival
-Hugo Ron Albus Percival
-Hugo Ron Harry James
-Hugo Ron Ron Arthur
-Hugo Ron Fred Arthur
-Hugo Ron Ginny Arthur
-Hugo Ron George Arthur
-Hugo Ron Draco Lucius
-Hugo Ron Dudley Vernon
-Ariana Percival Rose Ron
-Ariana Percival Hugo Ron
 Ariana Percival Harry James
 Ariana Percival Ron Arthur
 Ariana Percival Fred Arthur
@@ -1861,8 +1927,6 @@ Ariana Percival Ginny Arthur
 Ariana Percival George Arthur
 Ariana Percival Draco Lucius
 Ariana Percival Dudley Vernon
-Aberforth Percival Rose Ron
-Aberforth Percival Hugo Ron
 Aberforth Percival Harry James
 Aberforth Percival Ron Arthur
 Aberforth Percival Fred Arthur
@@ -1870,8 +1934,6 @@ Aberforth Percival Ginny Arthur
 Aberforth Percival George Arthur
 Aberforth Percival Draco Lucius
 Aberforth Percival Dudley Vernon
-Albus Percival Rose Ron
-Albus Percival Hugo Ron
 Albus Percival Harry James
 Albus Percival Ron Arthur
 Albus Percival Fred Arthur
@@ -1879,8 +1941,6 @@ Albus Percival Ginny Arthur
 Albus Percival George Arthur
 Albus Percival Draco Lucius
 Albus Percival Dudley Vernon
-Harry James Rose Ron
-Harry James Hugo Ron
 Harry James Ariana Percival
 Harry James Aberforth Percival
 Harry James Albus Percival
@@ -1890,40 +1950,30 @@ Harry James Ginny Arthur
 Harry James George Arthur
 Harry James Draco Lucius
 Harry James Dudley Vernon
-Ron Arthur Rose Ron
-Ron Arthur Hugo Ron
 Ron Arthur Ariana Percival
 Ron Arthur Aberforth Percival
 Ron Arthur Albus Percival
 Ron Arthur Harry James
 Ron Arthur Draco Lucius
 Ron Arthur Dudley Vernon
-Fred Arthur Rose Ron
-Fred Arthur Hugo Ron
 Fred Arthur Ariana Percival
 Fred Arthur Aberforth Percival
 Fred Arthur Albus Percival
 Fred Arthur Harry James
 Fred Arthur Draco Lucius
 Fred Arthur Dudley Vernon
-Ginny Arthur Rose Ron
-Ginny Arthur Hugo Ron
 Ginny Arthur Ariana Percival
 Ginny Arthur Aberforth Percival
 Ginny Arthur Albus Percival
 Ginny Arthur Harry James
 Ginny Arthur Draco Lucius
 Ginny Arthur Dudley Vernon
-George Arthur Rose Ron
-George Arthur Hugo Ron
 George Arthur Ariana Percival
 George Arthur Aberforth Percival
 George Arthur Albus Percival
 George Arthur Harry James
 George Arthur Draco Lucius
 George Arthur Dudley Vernon
-Draco Lucius Rose Ron
-Draco Lucius Hugo Ron
 Draco Lucius Ariana Percival
 Draco Lucius Aberforth Percival
 Draco Lucius Albus Percival
@@ -1933,8 +1983,6 @@ Draco Lucius Fred Arthur
 Draco Lucius Ginny Arthur
 Draco Lucius George Arthur
 Draco Lucius Dudley Vernon
-Dudley Vernon Rose Ron
-Dudley Vernon Hugo Ron
 Dudley Vernon Ariana Percival
 Dudley Vernon Aberforth Percival
 Dudley Vernon Albus Percival
@@ -1944,7 +1992,6 @@ Dudley Vernon Fred Arthur
 Dudley Vernon Ginny Arthur
 Dudley Vernon George Arthur
 Dudley Vernon Draco Lucius
-: balls-used-in-Quidditch
 : husband-wife
 Rodolphus Bellatrix James Lily
 Rodolphus Bellatrix Ron Hermione
@@ -2248,31 +2295,25 @@ Hufflepuff badger Gryffindor lion
 Hufflepuff badger Ravenclaw eagle
 Hufflepuff badger Slytherin serpent
 : professor-subject
-McGonagall transfiguration Flitwick charms
-McGonagall transfiguration Snape potions
-McGonagall transfiguration Trelawney divination
-Flitwick charms McGonagall transfiguration
-Flitwick charms Snape potions
-Flitwick charms Trelawney divination
-Snape potions McGonagall transfiguration
-Snape potions Flitwick charms
-Snape potions Trelawney divination
-Trelawney divination McGonagall transfiguration
-Trelawney divination Flitwick charms
-Trelawney divination Snape potions
+Minerva transfiguration Filius charms
+Minerva transfiguration Severus potions
+Minerva transfiguration Sybill divination
+Filius charms Minerva transfiguration
+Filius charms Severus potions
+Filius charms Sybill divination
+Severus potions Minerva transfiguration
+Severus potions Filius charms
+Severus potions Sybill divination
+Sybill divination Minerva transfiguration
+Sybill divination Filius charms
+Sybill divination Severus potions
 : founder-faculty
 Salazar Slytherin Rowena Ravenclaw
 Salazar Slytherin Godric Gryffindor
-Salazar Slytherin Helga Hufflepuff
 Rowena Ravenclaw Salazar Slytherin
 Rowena Ravenclaw Godric Gryffindor
-Rowena Ravenclaw Helga Hufflepuff
 Godric Gryffindor Salazar Slytherin
 Godric Gryffindor Rowena Ravenclaw
-Godric Gryffindor Helga Hufflepuff
-Helga Hufflepuff Salazar Slytherin
-Helga Hufflepuff Rowena Ravenclaw
-Helga Hufflepuff Godric Gryffindor
 : faculty_first_color-second_color
 scarlet gold green silver
 scarlet gold yellow black
@@ -2314,3 +2355,16 @@ Fleur France Hermione England
 Fleur France Viktor Bulgaria
 Viktor Bulgaria Hermione England
 Viktor Bulgaria Fleur France
+: wizard-patronal_form
+Albus phoenix Hermione otter
+Albus phoenix Nymphadora wolf
+Albus phoenix Ginny horse
+Hermione otter Albus phoenix
+Hermione otter Nymphadora wolf
+Hermione otter Ginny horse
+Nymphadora wolf Albus phoenix
+Nymphadora wolf Hermione otter
+Nymphadora wolf Ginny horse
+Ginny horse Albus phoenix
+Ginny horse Hermione otter
+Ginny horse Nymphadora wolf

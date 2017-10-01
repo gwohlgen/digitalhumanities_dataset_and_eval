@@ -1,7 +1,6 @@
 " File format: use 3 or 4 items of one type
 " then comes a "::" as separator
 " then comes a list of items that do not fit into the list
-" @Ariadna: I tried to give some wrong answers which are harder to detect (closer to the correct ones), and some which are easier (words of different category, etc)
 
 : family-siblings
 Ron Arthur Molly Ginny :: Bellatrix Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas veela phoenix Aberforth Kingsley Shacklebolt Azkaban Mandrake Thestral 
@@ -21,30 +20,27 @@ Hermione Harry Albus :: Neville Cornelius James Sinistra Luna Dobby Lockhart Mar
 Dumbledore McGonagall Snape Hagrid :: Luna Alastor Moody Dudley Dursley Gregory Goyle Cho Chang Hedwig Voldemort Neville Wormtail Dobby witch wand Madam Pomfrey Expelliarmus
 
 : Hogwarts-subjects
-Astronomy Charms Transfiguration Herbology :: English Fleur Vernon Azkaban Cornelius Sports Mandrake witch wizard
+astronomy charms transfiguration herbology :: English Fleur Vernon Azkaban Cornelius Sports Mandrake witch wizard
 
 : wizarding-equipment
-cauldron scales phials parchment :: pen pencil witch Nevil cover rubber tape Golden Snitch Azkaban Hogwarts
+cauldron scales parchment :: pen pencil witch Nevil Golden Snitch Azkaban Hogwarts Mandrake witch wizard Gregory Goyle
 
 : magic-creatures
-unicorn dragon phoenix troll :: wolf spider witch Mandrake Dobby wand cauldron parchment phials muggle wizard
+unicorn dragon phoenix troll :: wolf spider witch Mandrake Dobby wand cauldron parchment muggle wizard Neville Wormtail
 
 : death-eaters
 Bellatrix Lucius Igor Severus :: Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas Luna cauldron Cornelius Fudge spider
 
 : Gryffindor-traits
-bravery courage chivalry daring :: loyalty kindness patience tolerance individuality originality acceptance cunning ambition determination Harry cauldron Hogwarts Herbology
-
-: Slytherin-traits
-cunning ambition determination cleverness :: loyalty kindness patience tolerance loyalty kindness patience individuality originality acceptance Hermione wand wandlore Transfiguration
-
-: Hufflepuff-traits
-dedication kindness patience tolerance :: cunning ambition determination cleverness nerve bravery courage chivalry daring intelligence wit wisdom Ron Bellatrix scales Hagrid
+bravery courage daring :: loyalty patience cunning ambition Harry cauldron Hogwarts Herbology James Sinistra Luna Sirius Slytherin
 
 : Ravenclaw-traits
-intelligence wit wisdom creativity :: kindness patience tolerance cunning ambition determination cleverness bravery courage chivalry daring Voldemort phials phoenix Luna spider
+intelligence wit wisdom :: patience cunning ambition bravery courage daring Voldemort phoenix Luna spider Charms Transfiguration
 
 : Triwizard-champions
-Harry Cedric Fleur Viktor :: Moody Dudley Dursley Gregory Goyle Cho James Sinistra Luna Sirius Slytherin  Nymphadora ambition determination Dobby Black veela dragon
+Harry Cedric Fleur Viktor :: Moody Dudley Dursley Gregory Goyle Cho James Sinistra Luna Sirius Slytherin Nymphadora ambition Dobby Black veela dragon
+
+: ball-types-used-in-Quidditch
+Quaffle Bludger Snitch :: muggle Hermione Neville Cornelius Fudge Wormtail Dobby Lockhart Crookshanks veela Sinistra Luna Sirius Slytherin scales
 
 :end

@@ -53,7 +53,7 @@ if BOOK_SERIES == "HP":
 if BOOK_SERIES == "ASIOF":
     PRINT_DETAILS = False ## verbose debugging of eval results
 
-    DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesn_match.txt"
+    DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesnt_match.txt"
     ANALOGIES_FILE = "../datasets/questions_soiaf_analogies.txt"
 
     ### which sections to show in the paper..
