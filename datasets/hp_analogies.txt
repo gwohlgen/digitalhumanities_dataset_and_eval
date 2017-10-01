@@ -45,6 +45,8 @@ Igor Karkaroff
 Parvati Patil
 Katie Bell
 Aberforth Dumbledore
+Minerva McGonagall
+Sybill Trelawney
 
 : child-father
 Rose Ron
@@ -92,5 +94,71 @@ Buckbeak pet
 Minerva cat
 Sirius dog
 Peter rat
+
+: wizard-wand_wood
+Albus elder
+Bellatrix walnut
+Ginny yew
+
+: wizard-faculty
+Harry Gryffindor
+Ginny Gryffindor
+Hermione Gryffindor
+Ron Gryffindor
+Draco Slytherin
+Luna Ravenclaw
+Neville Gryffindor
+Lily Gryffindor
+Parvati Gryffindor
+Cedric Hufflepuff
+Nymphadora Hufflepuff
+Cho Ravenclaw
+Bellatrix Slytherin
+Vincent Slytherin
+Gregory Slytherin
+Rodolphus Slytherin
+Lucius Slytherin
+
+: faculty-element
+Gryffindor fire
+Ravenclaw air
+Slytherin water
+Hufflepuff earth
+
+: faculty-animal
+Gryffindor lion
+Ravenclaw eagle
+Slytherin serpent
+Hufflepuff badger
+
+: professor-subject
+McGonagall transfiguration
+Flitwick charms
+Snape potions
+Trelawney divination
+
+: founder-faculty
+Salazar Slytherin
+Rowena Ravenclaw
+Godric Gryffindor
+Helga Hufflepuff
+
+: faculty_first_color-second_color
+scarlet gold
+green silver
+yellow black
+blue bronze
+
+: yule_ball_gentleman-lady
+Harry Parvati
+Cedric Cho
+Ron Padma
+Hermione Viktor
+Neville Ginny
+
+: wizard-country
+Hermione England
+Fleur France
+Viktor Bulgaria
 
 :end

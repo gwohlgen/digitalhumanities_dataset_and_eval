@@ -1,12 +1,12 @@
 " File format: use 3 or 4 items of one type
 " then comes a "::" as separator
 " then comes a list of items that do not fit into the list
-" @Ariadna: again, the data here is for inspriation, please replace with data of your joice
 " @Ariadna: I tried to give some wrong answers which are harder to detect (closer to the correct ones), and some which are easier (words of different category, etc)
 
 : family-siblings
-Ron Arthur Molly Ginevra :: Bellatrix Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas veela phoenix Aberforth Kingsley Shacklebolt Azkaban Mandrake Thestral 
+Ron Arthur Molly Ginny :: Bellatrix Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas veela phoenix Aberforth Kingsley Shacklebolt Azkaban Mandrake Thestral 
 Lucius Draco Narcissa :: Evans Marauders Gryffindor Prewett Dursley Petunia Ronald Molly Ravenclaw Animagi witch Nicolas Lord Voldemort Maxime Snape Slytherin Hogwarts Durmstrang
+Lily Harry James :: Ron Hermione cleverness Slytherin Flitwick Luna Neville Draco Bellatrix Lucius Ginny scales transfiguration charms Bill Fleur Hogwarts
 
 : Hogwarts-houses 
 Gryffindor Hufflepuff Ravenclaw Slytherin :: Lumos muggle Hermione Neville Cornelius Fudge Wormtail Dobby Lockhart Crookshanks veela witch Hagrid
@@ -31,5 +31,20 @@ unicorn dragon phoenix troll :: wolf spider witch Mandrake Dobby wand cauldron p
 
 : death-eaters
 Bellatrix Lucius Igor Severus :: Albus Lily James Sinistra Luna Sirius Slytherin Hogwarts Durmstrang Nicholas Luna cauldron Cornelius Fudge spider
+
+: Gryffindor-traits
+bravery courage chivalry daring :: loyalty kindness patience tolerance individuality originality acceptance cunning ambition determination Harry cauldron Hogwarts Herbology
+
+: Slytherin-traits
+cunning ambition determination cleverness :: loyalty kindness patience tolerance loyalty kindness patience individuality originality acceptance Hermione wand wandlore Transfiguration
+
+: Hufflepuff-traits
+dedication kindness patience tolerance :: cunning ambition determination cleverness nerve bravery courage chivalry daring intelligence wit wisdom Ron Bellatrix scales Hagrid
+
+: Ravenclaw-traits
+intelligence wit wisdom creativity :: kindness patience tolerance cunning ambition determination cleverness bravery courage chivalry daring Voldemort phials phoenix Luna spider
+
+: Triwizard-champions
+Harry Cedric Fleur Viktor :: Moody Dudley Dursley Gregory Goyle Cho James Sinistra Luna Sirius Slytherin  Nymphadora ambition determination Dobby Black veela dragon
 
 :end
