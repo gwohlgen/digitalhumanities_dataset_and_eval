@@ -24,7 +24,7 @@ If you want to extend or modify the test data, edit the respective source files 
 After modifying the test data run the following command to re-create the datasets.
 ```
     cd datasets 
-    python create_analogy_questions.py
+    python create_questions.py
 ```
 
 This will generate section-based permutations to create the evaluation datasets. 
