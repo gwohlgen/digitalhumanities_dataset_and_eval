@@ -7,7 +7,7 @@ Dependencies:
 Here you find the following:
 * **2 datasets each** for evaluating language models about the books **A Song of Ice and Fire** (GRR Martin) and **Harry Potter** (JK Rowling)
 * The dataset contains a large of number of task of type **analogy** and **doesnt-match**.
-* Your model can be tested especially easy if it is of type KeyedVector, ie. a [Gensim](https://radimrehurek.com/gensim) Word-Vectors model (eg. create with word2vec).
+* Your model can be tested easily, especially if it is of type KeyedVector, ie. a [Gensim](https://radimrehurek.com/gensim) Word-Vectors model (eg. create with word2vec).
 * Furthermore, here you find scripts to create / extend the datasets -- by creating permutations of input data.
 * Finally, you can re-use the scripts to evaluate the data.
 
