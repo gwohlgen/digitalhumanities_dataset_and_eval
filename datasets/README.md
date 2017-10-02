@@ -6,7 +6,7 @@ currently:
 * **soiaf:** A Song of Ice and Fire
 
 ## Task Types:
-1. **Analogy Task** 
+1. **Analogy Task:** 
     For example: Robb is to Stark what Cersei is to X (correct: Lannister).
     Classic example: man is to King what woman is to X (correct: Queen)
 
