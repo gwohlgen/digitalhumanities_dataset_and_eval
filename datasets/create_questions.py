@@ -50,7 +50,7 @@ def create_and_write_last_block(blockentries, ofh, mode, filter_same_target=True
             matches   = entry[:sep_i]
             outsiders = entry[sep_i+1:]
 
-            print matches, outsiders 
+            print(matches, outsiders)
             assert len(matches) in (3,4)
             assert len(outsiders) > 0
 

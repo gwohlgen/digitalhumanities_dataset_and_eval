@@ -19,7 +19,7 @@ for line in open(INFILE):
 
 all_words = list(set(all_words)) # make unique
 
-print all_words
+print(all_words)
 
 ### ok, now we have the words, get the counts from the book
 book_text = open(BOOK).read()
@@ -33,5 +33,5 @@ for word in all_words:
 words_sorted = sorted(word_counts,key=itemgetter(1))
 
 for w in words_sorted:
-    print w
+    print(w)
 

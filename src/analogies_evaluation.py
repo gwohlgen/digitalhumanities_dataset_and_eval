@@ -30,7 +30,7 @@ def evaluate_analogies(method, emb_type):
 
         ## collect data about this task
         sec = res['section']
-        print "\n\tSection:", sec 
+        print("\n\tSection:", sec)
         results[sec]={}
         results[sec]['perc'] = len(res['correct']) / ( len(res['correct'])+len(res['incorrect']))
         results[sec]['correct']  = len(res['correct'])

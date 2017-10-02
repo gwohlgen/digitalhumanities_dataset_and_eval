@@ -1,5 +1,8 @@
 # A Dataset for Relations in Digital Humanities and its Evaluation with Word Embeddings
 
+Dependencies:
+* `gensim-2-1-0` (or higher)
+
 ### Summary
 Here you find the following:
 * **2 datasets each** for evaluating language models about the books **A Song of Ice and Fire** (GRR Martin) and **Harry Potter** (JK Rowling)
