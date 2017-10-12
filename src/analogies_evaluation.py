@@ -14,9 +14,8 @@ from collections import OrderedDict
                   c) print the number of correct / incorrect results 
 """
 
-# read the doesnt_match evaluation data from the path defined in config.py
+# read the analogies evaluation data from the path defined in config.py
 analogies_data = open(ANALOGIES_FILE).readlines()
-
 
 # evaluate each of the embedding methods defined in config.py
 def evaluate_analogies(method, emb_type):

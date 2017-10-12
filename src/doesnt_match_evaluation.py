@@ -31,6 +31,7 @@ def evaluate_doesnt_match(method, emb_type):
     model, _ = load_models(method, emb_type)
     task_results = []
 
+
     for line in doesnt_match_data:
 
         # those are the section (or :end) markers

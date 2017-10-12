@@ -1,0 +1,19 @@
+: name-nickname
+Jaime_Lannister Kingslayer  
+Jeor_Mormont Old_Bear
+Arys Mad_King
+Tyrion Imp
+Sandor_Clegane Hound
+Robb Young_Wolf
+Jon Lord_Snow
+Theon Reek
+Petyr_Baelish Littlefinger
+Gregor_Clegane Mountain 
+Davos_Seaworth Onion_Knight
+Dany Daenerys_Stormborn
+Samwell_Tarly Sam
+Varys Spider
+
+""" TODO: extend
+
+:end

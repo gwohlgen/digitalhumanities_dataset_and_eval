@@ -10,6 +10,8 @@
 
 import sys
 
+NGRAMS=False
+
 ## use the input parameter to select the book series
 if len(sys.argv) < 2:
     raise Exception("We need two command line arguments!")
@@ -33,7 +35,16 @@ if BOOK_SERIES == "ASIOF":
         ('asoif_glove', 'vec'), 
         ('asoif_lexvec', 'vec'), 
         ('asoif_fastText', 'vec'), # default and: -epoch 25 -ws 12
+        ('asoif_w2v-ww12-300-ns-ngram','bin'), ## Skip-gram, window-size 12, 300dim, hier.softmax, iter 15, -negative 15
     ]
+
+    if NGRAMS:
+        METHODS = [
+            ('asoif_w2v-ww12-300-ngram','bin'), ## Skip-gram, window-size 12, 300dim, hier.softmax, iter 15, no neg-sampling
+            ('asoif_w2v-ww12-300-ns-ngram','bin'), ## Skip-gram, window-size 12, 300dim, hier.softmax, iter 15, -negative 15
+            ('asoif_fastText_ngram', 'vec'), # default and: -epoch 25 -ws 12
+            ('asoif_lexvec_ngram', 'vec'), # default and: -epoch 25 -ws 12
+        ]
 
 if BOOK_SERIES == "HP":
     METHODS = [
@@ -53,8 +64,11 @@ if BOOK_SERIES == "HP":
 if BOOK_SERIES == "ASIOF":
     PRINT_DETAILS = False ## verbose debugging of eval results
 
-    DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesnt_match.txt"
-    ANALOGIES_FILE = "../datasets/questions_soiaf_analogies.txt"
+    if NGRAMS:  DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesnt_match_ngram.txt"
+    else:       DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesnt_match.txt"
+
+    if NGRAMS:  ANALOGIES_FILE = "../datasets/questions_soiaf_analogies_ngram.txt"
+    else:       ANALOGIES_FILE = "../datasets/questions_soiaf_analogies.txt"
 
     ### which sections to show in the paper..
     ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'geo-name-location', 'houses-seats', 'total']

@@ -16,7 +16,7 @@
     @author Gerhard Wohlgenannt, ITMO University, St. Petersburg, Russia
 """
 
-import random
+import random, math
 
 
 def create_and_write_last_block(blockentries, ofh, mode, filter_same_target=True):
@@ -50,9 +50,10 @@ def create_and_write_last_block(blockentries, ofh, mode, filter_same_target=True
             matches   = entry[:sep_i]
             outsiders = entry[sep_i+1:]
 
-            print(matches, outsiders)
+            print(matches, '::::', outsiders)
             assert len(matches) in (3,4)
             assert len(outsiders) > 0
+            assert len(outsiders) == 20
 
             if len(matches) == 3:
                 create_doesnt_match_line(matches, outsiders, ofh)
@@ -72,12 +73,16 @@ def create_doesnt_match_line(matches3, outsiders, ofh):
             write the combinations of terms and outsiders to the file
     """
 
-    for outsider in outsiders:
+    for position, outsider in enumerate(outsiders):
+        print position
         tmp = matches3[:] # slicing gives out a copy (!) of the list
         tmp.append(outsider)
 
+        ### new: categorize tasks from 1-4 according to difficulty (position in the list)
+        difficulty = int( math.floor(position/5.0)+1 )
+
         random.shuffle(tmp) # random order of items per line
-        ofh.write( " ".join(tmp) + " :: " + outsider + "\n")
+        ofh.write( " ".join(tmp) + " ::"+str(difficulty)+": " + outsider + "\n")
 
 
 
@@ -127,7 +132,9 @@ def create_dataset(sourcefile=None, outfile=None, mode=None):
 if __name__ == "__main__":
 
     create_dataset(sourcefile="soiaf_analogies.txt",      outfile="questions_soiaf_analogies.txt",   mode="analogies")
+    create_dataset(sourcefile="soiaf_analogies_ngram.txt",      outfile="questions_soiaf_analogies_ngram.txt",   mode="analogies")
     create_dataset(sourcefile="soiaf_doesnt_match.txt", outfile="questions_soiaf_doesnt_match.txt", mode="doesnt_match")
+    create_dataset(sourcefile="soiaf_doesnt_match_ngram.txt", outfile="questions_soiaf_doesnt_match_ngram.txt", mode="doesnt_match")
 
     create_dataset(sourcefile="hp_analogies.txt",      outfile="questions_hp_analogies.txt",   mode="analogies")
     create_dataset(sourcefile="hp_doesnt_match.txt", outfile="questions_hp_doesnt_match.txt", mode="doesnt_match")

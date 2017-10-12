@@ -1,55 +1,74 @@
 " File format: use 3 or 4 items of one type
 " then comes a "::" as separator
 " then comes a list of items that do not fit into the list
+"   NEW: we have exactly 20 items that do not fit into the list
+"   NEW: we split the items into 4 categories: a) terms that are very close misses (eg same family), b) close misses but not as close as a) (eg sample type: as Persons), 
+"        c) quite far away, but for example still named entites, d) very far, totally different word context, word category etc
 
 : family-siblings
-Robb Bran Sansa Arya :: Catelyn Ned Tywin Oberyn Margaery Balon Ramsay Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan
-Jaime Tyrion Cersei :: Tywin Joffrey Tommen Catelyn Theon Daenerys Ned Robb Bran Sansa Arya Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan
-Daenerys Viserys Rhaegar :: Viserion Rhaegal Drogon Balerion Cersei Theon Robb Bran Sansa Arya Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan
-Joffrey Tommen Myrcella :: Jaime Cersei Oberyn Kevan Theon Robb Bran Sansa Arya Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan
-Rodrik Maron Asha Theon :: Joffrey Tommen Myrcella Jaime Cersei Oberyn Kevan Theon Robb Bran Sansa Arya Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Rhoyne Trident Skahazadhan 	
+Jaime Tyrion Cersei :: Tywin Joffrey Tommen Myrcella Kevan Ned Oberyn Balon Ramsay Doran Harrenhal Targaryen Craster Dorne Trident raven food dragon sword sun
+Robb Bran Sansa Arya :: Catelyn Ned Robert Hodor Myrcella Kevan Oberyn Balon Ramsay Doran Harrenhal Targaryen Craster Dorne Trident raven food dragon sword sun
+Daenerys Viserys Rhaegar :: Arys Aemon Drogon Viserion Drogo Ned Oberyn Balon Ramsay Doran Harrenhal Stark Craster Winterfell Trident direwolve food lion sword sun
+Joffrey Tommen Myrcella :: Jaime Cersei Kevan Tywin Tyrion Robb Bran Sansa Ned Oberyn Harrenhal Stark Craster Winterfell Trident direwolve food dragon sword sun 
+Rodrik Maron Asha Theon :: Balon Euron Damphair Robb Bran Jaime Cersei Kevan Tywin Tyrion Harrenhal Stark Craster Winterfell Trident direwolve food dragon sword sun 
 
 : names-of-houses 
-Martell Stark Lannister Greyjoy :: Loras Ghost Jon Doran Ramsay Stannis Daenerys Viserys Rhaegar Shaggydog Nymeria Ghost Viserion Rhaegal Drogon Balerion
-Baratheon Stark Lannister Targaryen :: Loras Ghost Jon Doran Ramsay Roose Dany Theon Shaggydog Nymeria Ghost Viserion Rhaegal Drogon Balerion
-Karstark Stark Lannister Targaryen :: Loras Ghost Jon Doran Ramsay Roose Dany Theon Shaggydog Nymeria Ghost Viserion Rhaegal Drogon Balerion
+Martell Stark Lannister Greyjoy :: Jaime Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Skahazadhan food sword sun wood raven
+Baratheon Stark Lannister Targaryen :: Jaime Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Skahazadhan food sword sun wood raven
+Karstark Stark Lannister Bolton :: Jaime Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Skahazadhan food sword sun wood raven
+Tyrell Frey Lannister Targaryen :: Jaime Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Skahazadhan food sword sun wood raven
+Greyjoy Stark Karstark Bolton :: Roose Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Skahazadhan food sword sun wood raven
+Targaryen Martell Tyrell Florent :: Margaery Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Skahazadhan food sword sun wood raven
+Mormont Umber Stark Karstark :: Jorah Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Skahazadhan food sword sun wood raven
 
 : Lannister clan
-Tywin Kevan Cersei Jaime :: Loras Ghost Jon Doran Ramsay Roose Dany Theon Craster Pyke Harrenhal Winterfell godswood Dorne Viserion Rhaegal Drogon Balerion
-Tywin Tyrion Lancel Jaime :: Loras Ghost Jon Doran Ramsay Roose Dany Theon Craster Pyke Harrenhal Winterfell godswood Dorne Viserion Rhaegal Drogon Balerion
+Tywin Kevan Cersei Jaime :: Loras Ned Jon Arya Theon Baratheon Stark Bolton Greyjoy Targaryen Shaggydog Skahazadhan Rhaegal Harrenhal Winterfell food sword sun wood raven 
+Tywin Tyrion Lancel Jaime :: Loras Ned Jon Arya Theon Baratheon Stark Bolton Greyjoy Targaryen Shaggydog Skahazadhan Rhaegal Harrenhal Winterfell food sword sun wood raven 
+
+: Stark clan
+Ned Robb Arya Sansa :: Loras Tyrion Theon Myrcella Roose Baratheon Lannister Bolton Greyjoy Targaryen Viserion Skahazadhan Rhaegal Harrenhal Oldtown food sword sun wood raven 
+Ned Robb Bran Rickon :: Loras Tyrion Theon Myrcella Roose Baratheon Lannister Bolton Greyjoy Targaryen Viserion Skahazadhan Rhaegal Harrenhal Oldtown food sword sun wood raven 
+Arya Sansa Bran Rickon :: Loras Tyrion Theon Myrcella Roose Baratheon Lannister Bolton Greyjoy Targaryen Viserion Skahazadhan Rhaegal Harrenhal Oldtown food sword sun wood raven 
 
 : direwolves
-Shaggydog Nymeria Ghost :: Viserion Rhaegal Drogon Balerion Doran raven food Robb Bran Sansa Arya Jon Tywin Oberyn Margaery Balon Ramsay Ned Daenerys Viserys Rhaegar Joffrey Tommen Myrcella
+Shaggydog Nymeria Ghost :: Arya Jon Ned Sansa Bran Viserion Rhaegal Drogon Balerion Stark Lannister Bolton Greyjoy Targaryen Harrenhal food sword sun wood read 
 
 " http://awoiaf.westeros.org/index.php/Category:Archmaesters
 : archmaesters 
-Ebrose Marwyn Walgrave :: Oldtown Samwell Sam Tarly Tywin Oberyn Margaery Balon Ramsay Ned Craster Pyke Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon Viserion Rhaegal Drogon Balerion
+Ebrose Marwyn Walgrave :: Oldtown Samwell Sam Tarly Luwin Tywin Oberyn Margaery Balon Ramsay Craster Pyke Harrenhal Winterfell Dorne food sword sun wood fight 
 
 " http://awoiaf.westeros.org/index.php/Category:Dragons
 : dragons 
-Viserion Rhaegal Drogon Balerion :: Craster Pyke Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon Robb Bran Sansa Jaime Tyrion Cersei Rhoyne Trident Skahazadhan
+Viserion Rhaegal Drogon Balerion :: Daenerys Viserys Arys Rhaegar Targaryen Shaggydog Nymeria Ghost Tyrion Jon Oldtown Trident Skahazadhan Bolton Greyjoy food sword sun wood fight
 
 " Nymeria is also the name of one direwolve!, also "Elia" is ambigious!
 " http://awoiaf.westeros.org/index.php/Category:Bastards
 : bastards 
-Jon Gendry Ramsay Mya :: Theon Robb Loras Cersei Jaime Viserion Rhaegal Drogon Balerion
-Elia Tyene Obara :: Theon Robb Loras Cersei Jaime Viserion Rhaegal Drogon Balerion
+Jon Gendry Ramsay Mya :: Jaime Ned Tywin Arya Littlefinger Baratheon Lannister Bolton Greyjoy Targaryen Viserion Skahazadhan Rhaegal Harrenhal Oldtown food sword sun wood raven 
+Elia Tyene Obara :: Jaime Ned Tywin Arya Littlefinger Baratheon Lannister Bolton Greyjoy Targaryen Viserion Skahazadhan Rhaegal Harrenhal Oldtown food sword sun wood raven 
 
 " http://awoiaf.westeros.org/index.php/Category:Rivers
 : rivers 
-Mander Rhoyne Trident Skahazadhan :: Viserion Rhaegal Craster Pyke Harrenhal Winterfell godswood Dorne Robb Bran Sansa Arya
+Mander Rhoyne Trident Skahazadhan :: Westeros Essos Oldtown Harrenhal Gulltown Winterfell Craster Lys Myr Braavos Baratheon Lannister Bolton Greyjoy Targaryen direwolve sword fight read raven
+
+
 
 " http://awoiaf.westeros.org/index.php/Category:Places_in_Dorne
 : places in Dorne 
-Sunspear Yronwood Lemonwood Sandstone :: Lys Craster Pyke Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon
+Sunspear Yronwood Lemonwood Sandstone :: Winterfell Lannisport Oldtown Harrenhal Gulltown Lys Myr Braavos Essos Trident Baratheon Lannister Bolton Greyjoy Targaryen direwolve sword fight read raven
+ 
 
 " http://awoiaf.westeros.org/index.php/Category:Free_Cities 
 : free cities 
-Braavos Lys Myr Pentos :: Tully Stark Lannister Riverrun Highgarden Oldtown Lannisport Gulltown Sunspear Lys Craster Pyke Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon
-Braavos Volantis Tyros Norvos :: Tully Stark Lannister Riverrun Highgarden Oldtown Lannisport Gulltown Sunspear Lys Craster Pyke Harrenhal Winterfell godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon
+Braavos Lys Myr Pentos :: Essos Westeros Skahazadhan Rhoyne Oldtown Winterfell Lannisport Harrenhal Gulltown Trident Baratheon Lannister Bolton Greyjoy Targaryen direwolve sword fight read raven
+Braavos Volantis Tyros Norvos :: Essos Westeros Skahazadhan Rhoyne Oldtown Winterfell Lannisport Harrenhal Gulltown Trident Baratheon Lannister Bolton Greyjoy Targaryen direwolve sword fight read raven
+Myr Lys Tyros Norvos :: Essos Westeros Skahazadhan Rhoyne Oldtown Winterfell Lannisport Harrenhal Gulltown Trident Baratheon Lannister Bolton Greyjoy Targaryen direwolve sword fight read raven
 
 : Westeros cities 
-Highgarden Oldtown Lannisport Gulltown :: Tully Stark Lannister Braavos Lys Myr Pentos Volantis Tyros Norvos Viserion Rhaegal Craster godswood Dorne Shaggydog Nymeria Ghost Doran raven food Arya Jon
+Highgarden Oldtown Lannisport Gulltown :: Braavos Lys Myr Pentos Volantis Skahazadhan Rhoyne Essos Bolton Baratheon Viserion Rhaegal Drogon Balerion Ghost direwolve sword fight read raven 
+
+
+
 
 
 " ************************************* BIGRAM MODEL DATA BELOW HERE ********************************

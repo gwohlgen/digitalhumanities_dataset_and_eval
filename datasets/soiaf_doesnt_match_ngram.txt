@@ -1,0 +1,44 @@
+" File format: use 3 or 4 items of one type
+" then comes a "::" as separator
+" then comes a list of items that do not fit into the list
+"  NEW: we have exactly 20 items that do not fit into the list
+"  NEW: we split the items into 4 categories: a) terms that are very close misses (eg same family) b) close misses but not as close as a) (eg sample type: as Persons) 
+"    c) quite far away but for example still named entites d) very far totally different word context word category etc
+
+
+" ************************************* BIGRAM MODEL DATA BELOW HERE ********************************
+
+: seas --- http://awoiaf.westeros.org/index.php/Category:Seas
+Jade_Sea narrow_sea jade_Sea salt_sea :: Mander Rhoyne Trident Westeros Essos Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
+
+
+: bays --- http://awoiaf.westeros.org/index.php/Category:Bays Blackwater_Bay Shipbreaker_Bay Bite Slaver_Bay :: Mander Rhoyne Trident Westeros Essos Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
+
+
+: gods
+Drowned_God R'hllor Many_Faced_God Storm_God :: Maester_Luwin Maester_Aemon Grand_Maester_Pycelle Oldtown High_Valyrian House_Lannister House_Stark House_Targaryen House_Tully House_Baratheon Loras Tyrion Theon Myrcella Roose food sword sun wood fight
+
+
+: cities-fortresses
+King_Landing Casterly_Rock White_Harbor Oldtown :: Westeros Essos Blackwater_Bay Shipbreaker_Bay Bite House_Stark House_Targaryen House_Tully House_Baratheon House_Tully Viserion Rhaegal Drogon Balerion Roose food walk sun wood dream 
+
+
+: languages
+Common_Tongue High_Valyrian Old_Tongue Summer_Tongue :: Westeros Essos Drowned_God R'hllor Many_Faced_God Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
+
+
+: Maesters
+Maester_Luwin Maester_Aemon Grand_Maester_Pycelle Maester_Cressen :: Drowned_God R'hllor Many_Faced_God Storm_God Oldtown House_Lannister House_Stark House_Targaryen House_Tully House_Baratheon Viserion Rhaegal Drogon Balerion Roose food walk sun wood dream
+Maester_Luwin Maester_Aemon Maester_Colemon Maester_Pylos :: Drowned_God R'hllor Many_Faced_God Storm_God Oldtown House_Lannister House_Stark House_Targaryen House_Tully House_Baratheon Viserion Rhaegal Drogon Balerion Roose food walk sun wood dream
+Grand_Maester_Pycelle Maester_Cressen Maester_Colemon Maester_Pylos :: Drowned_God R'hllor Many_Faced_God Storm_God Oldtown House_Lannister House_Stark House_Targaryen House_Tully House_Baratheon Viserion Rhaegal Drogon Balerion Roose food walk sun wood dream
+
+
+: Houses
+House_Lannister House_Stark House_Targaryen House_Tully :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
+House_Lannister House_Stark House_Baratheon House_Arryn :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
+House_Lannister House_Stark House_Frey House_Florent :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
+House_Targaryen House_Tully House_Baratheon House_Arryn :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
+House_Targaryen House_Tully House_Frey House_Florent :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
+House_Baratheon House_Arryn House_Frey House_Florent :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
+
+:end
