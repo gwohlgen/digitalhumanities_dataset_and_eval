@@ -2035,9 +2035,6 @@ Harry Ginny Ron Hermione
 Harry Ginny Arthur Molly
 Harry Ginny Bill Fleur
 Harry Ginny Remus Nymphadora
-: villages
-Hogsmeade village Godric Hollow
-Godric Hollow Hogsmeade village
 : pets-of-Hagrid
 Fang dog Norbert dragon
 Fang dog Aragog spider
@@ -2327,7 +2324,7 @@ yellow black blue bronze
 blue bronze scarlet gold
 blue bronze green silver
 blue bronze yellow black
-: yule_ball_gentleman-lady
+: Yule_ball-gentleman-lady
 Harry Parvati Cedric Cho
 Harry Parvati Ron Padma
 Harry Parvati Hermione Viktor

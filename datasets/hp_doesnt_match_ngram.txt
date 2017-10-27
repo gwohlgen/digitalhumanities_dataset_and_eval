@@ -1,0 +1,22 @@
+: geographical-objects
+Godric's_Hollow Shrieking_Shack Grimmauld_Place Forbidden_Forest :: Gryffindor_Tower Ravenclaw_Tower Astronomy_Tower North_Tower Dumbledore's_office Ron Hermione Harry Draco Luna library hospital corridor bathroom classroom hippogriff thestral bowtruckle veela unicorn
+
+: closest-friends
+Ronald_Weasley Hermione_Granger Harry_Potter :: Ginny_Weasley Fred_Weasley George_Weasley Luna_Lovegood Neville_Longbottom Cedric_Diggory Fleur_Delacour Bill_Weasley Cho_Chang Viktor_Krum Professor_McGonagall Professor_Trelawney Professor_Flitwick Professor_Sprout Professor_Tofty hippogriff thestral bowtruckle veela werewolf
+
+: unforgivable-curses
+Imperius Cruciatus Avada_Kedavra :: Sectumsempra Alohomora Lumos Expelliarmus Wingardium_Leviosa Gryffindor Quaffle Hufflepuff Hogwarts Snitch Neville_Longbottom Cedric_Diggory Fleur_Delacour Bill_Weasley Cho_Chang scales transfiguration charms parchment veela
+
+: members-of-Order_of_the_Phoenix
+Albus_Dubledore Alastor_Moody Kingsley_Shacklebolt Dedalus_Diggle :: Bellatrix_Lestrange Lucius_Malfoy Ernie_Macmillan Colin_Creevey Phineas_Nigellus Gryffindor Quaffle Hufflepuff Hogwarts Snitch Sectumsempra Alohomora Lumos Expelliarmus Wingardium_Leviosa hippogriff thestral bowtruckle veela werewolf
+
+: ministers-for-magic
+Cornelius_Fudge Rufus_Scrimgeour Kingsley_Shacklebolt :: Professor_McGonagall Professor_Trelawney Professor_Flitwick Professor_Sprout Professor_Tofty Ronald_Weasley Ernie_Macmillan Harry_Potter Colin_Creevey Cho_Chang Gryffindor Quaffle Hufflepuff Hogwarts Snitch library hospital corridor bathroom classroom 
+
+: ministry_of_magic-employees
+Cornelius_Fudge Dolores_Umbridge Mr_Crouch Amelia_Bones :: Ginny_Weasley Fred_Weasley George_Weasley Luna_Lovegood Neville_Longbottom Cedric_Diggory Gryffindor_Tower Ravenclaw_Tower Astronomy_Tower North_Tower Dumbledore's_office Imperius Cruciatus Avada_Kedavra Sectumsempra hippogriff thestral bowtruckle veela werewolf
+
+: Slytherin-members
+Marcus_Flint Draco_Malfoy Pansy_Parkinson :: Albus_Dubledore Ginny_Weasley Kingsley_Shacklebolt Dedalus_Diggle Neville_Longbottom Gryffindor_Tower Ravenclaw_Tower Astronomy_Tower North_Tower Dumbledore's_office Imperius Cruciatus Avada_Kedavra Sectumsempra hippogriff thestral bowtruckle veela werewolf
+
+: end

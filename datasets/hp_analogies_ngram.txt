@@ -1,0 +1,54 @@
+" : professor-subject
+" "Professor_McGonagall transfiguration
+" "Professor_Trelawney divination
+" Professor_Flitwick charms
+" "Professor_Sprout herbology
+
+: Gryffindor-Quidditch-team
+Katie_Bell chaser
+Angelina_Johnson chaser
+Alicia_Spinnet chaser
+"George_Weasley beater
+Oliver_Wood keeper
+"Harry_Potter seeker
+
+: Yule_ball-gentleman-lady
+Harry Parvati_Patil
+Seamus_Finnigan Lavender_Brown
+Draco_Malfoy Pansy_Parkinson
+Cedric_Diggory Cho_Chang
+Viktor_Krum Hermione_Granger
+
+: House-head_of_the_House
+Gryffindor Professor_McGonagall
+Hufflepuff Professor_Sprout
+Ravenclaw Professor_Flitwick
+
+: wife-husband
+Hannah_Abbott Neville_Longbottom
+Hermione_Granger Ronald_Weasley
+
+: character-where_they_work
+Madam_Rosmerta pub
+Madam_Pomfrey hospital
+Madam_Malkin shop
+Madam_Pince library
+
+: character-creature
+Mrs_Norris cat
+"Mrs_Figg squib
+Mrs_Dursley muggle
+Mrs_Longbottom witch
+Mrs_Black witch
+Mr_Weasley wizard
+"Mr_Filch squib
+Mr_Malfoy wizard
+Mr_Roberts muggle
+
+: character-love_interest
+Cormac_McLaggen Hermione_Granger
+Lavender_Brown Ronald_Weasley
+Harry Cho_Chang
+Viktor_Krum Hermione_Granger
+
+: end

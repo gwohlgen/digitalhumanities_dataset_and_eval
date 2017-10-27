@@ -66,10 +66,6 @@ Bill Fleur
 Remus Nymphadora
 Harry Ginny
 
-: villages
-Hogsmeade village
-Godric Hollow
-
 : pets-of-Hagrid
 Fang dog
 Fluffy dog
@@ -135,7 +131,7 @@ green silver
 yellow black
 blue bronze
 
-: yule_ball_gentleman-lady
+: Yule_ball-gentleman-lady
 Harry Parvati
 Cedric Cho
 Ron Padma

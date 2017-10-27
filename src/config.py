@@ -10,7 +10,7 @@
 
 import sys
 
-NGRAMS=False
+NGRAMS=True
 
 ## use the input parameter to select the book series
 if len(sys.argv) < 2:
@@ -28,6 +28,7 @@ MODEL_PATH="../models/"
 
 if BOOK_SERIES == "ASIOF":
     METHODS = [
+        ('ppmi_svd', 'bin'), #ppmi+svd with 300 dim
         ('asoif_w2v-default','bin'), ## word 2 vec default settings
         ('asoif_w2v-ww12-300','bin'), ## default and: window-size 12, 300dim, hier.softmax, iter 15 
         ('asoif_w2v-ww12-300-ns','bin'), ## default and: window-size 12, 300dim, hier.softmax, iter 15 
@@ -57,6 +58,20 @@ if BOOK_SERIES == "HP":
         ('hp_w2v-CBOW', 'bin'),
     ]
 
+    if NGRAMS:
+        METHODS = [
+        ('hp_lexvec_ngram', 'vec'),
+        ('hp_fasttext_ngram', 'vec'),  # for paper!, 25 epoch
+        # ('hp_glove_ngrams', 'vec'), 
+        # ('hp_w2v-default_ngrams', 'bin'),
+        # ('hp_w2v-ww12-300_ngrams', 'bin'),
+        # ('hp_w2v-ww12-300-ns_ngrams', 'bin'),
+        # ('hp_w2v-CBOW_ngrams', 'bin'),
+    ]
+
+
+
+
 # -----------------------------------------------------
 # for "doesnt_match" evaluation script
 # -----------------------------------------------------
@@ -78,8 +93,11 @@ if BOOK_SERIES == "ASIOF":
 if BOOK_SERIES == "HP":
     PRINT_DETAILS = False ## verbose debugging of eval results
 
-    DOESNT_MATCH_FILE = "../datasets/questions_hp_doesnt_match.txt"
-    ANALOGIES_FILE = "../datasets/questions_hp_analogies.txt"
+    if NGRAMS: DOESNT_MATCH_FILE = "../datasets/questions_hp_doesnt_match_ngram.txt"
+    else: DOESNT_MATCH_FILE = "../datasets/questions_hp_doesnt_match.txt"
+
+    if NGRAMS: ANALOGIES_FILE = "../datasets/questions_hp_analogies_ngram.txt"
+    else: ANALOGIES_FILE = "../datasets/questions_hp_analogies.txt"
     
     ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'pets-of-Hagrid', 'wizard-faculty', 'total']
     DOESNT_MATCH_SECTIONS = [': family-siblings', ': Hogwarts-houses', ': professors', ': wizarding-equipment', ': magic-creatures', 'TOTAL'] 

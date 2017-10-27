@@ -12,7 +12,8 @@
 Jade_Sea narrow_sea jade_Sea salt_sea :: Mander Rhoyne Trident Westeros Essos Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
 
 
-: bays --- http://awoiaf.westeros.org/index.php/Category:Bays Blackwater_Bay Shipbreaker_Bay Bite Slaver_Bay :: Mander Rhoyne Trident Westeros Essos Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
+: bays --- http://awoiaf.westeros.org/index.php/Category:Bays 
+Blackwater_Bay Shipbreaker_Bay Bite Slaver_Bay :: Mander Rhoyne Trident Westeros Essos Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
 
 
 : gods

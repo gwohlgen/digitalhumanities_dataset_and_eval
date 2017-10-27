@@ -131,11 +131,13 @@ def create_dataset(sourcefile=None, outfile=None, mode=None):
 
 if __name__ == "__main__":
 
-    create_dataset(sourcefile="soiaf_analogies.txt",      outfile="questions_soiaf_analogies.txt",   mode="analogies")
-    create_dataset(sourcefile="soiaf_analogies_ngram.txt",      outfile="questions_soiaf_analogies_ngram.txt",   mode="analogies")
-    create_dataset(sourcefile="soiaf_doesnt_match.txt", outfile="questions_soiaf_doesnt_match.txt", mode="doesnt_match")
+    create_dataset(sourcefile="soiaf_analogies.txt",          outfile="questions_soiaf_analogies.txt",   mode="analogies")
+    create_dataset(sourcefile="soiaf_doesnt_match.txt",       outfile="questions_soiaf_doesnt_match.txt", mode="doesnt_match")
+    create_dataset(sourcefile="soiaf_analogies_ngram.txt",    outfile="questions_soiaf_analogies_ngram.txt",   mode="analogies")
     create_dataset(sourcefile="soiaf_doesnt_match_ngram.txt", outfile="questions_soiaf_doesnt_match_ngram.txt", mode="doesnt_match")
 
-    create_dataset(sourcefile="hp_analogies.txt",      outfile="questions_hp_analogies.txt",   mode="analogies")
-    create_dataset(sourcefile="hp_doesnt_match.txt", outfile="questions_hp_doesnt_match.txt", mode="doesnt_match")
+    create_dataset(sourcefile="hp_analogies.txt",          outfile="questions_hp_analogies.txt",   mode="analogies")
+    create_dataset(sourcefile="hp_doesnt_match.txt",       outfile="questions_hp_doesnt_match.txt", mode="doesnt_match")
+    create_dataset(sourcefile="hp_analogies_ngram.txt",    outfile="questions_hp_analogies_ngram.txt",   mode="analogies")
+    create_dataset(sourcefile="hp_doesnt_match_ngram.txt", outfile="questions_hp_doesnt_match_ngram.txt", mode="doesnt_match")
 
