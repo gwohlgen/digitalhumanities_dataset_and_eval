@@ -8,6 +8,8 @@ from collections import OrderedDict
 from pprint import pprint
 from config import * 
 from w2v_dataset_helpers import load_models, print_details, print_latex_version
+#from SVD_doesntmatch import *
+#from ppmi_doesnt_match import *
 
 SEP_I = 4 ## position of the seperator symbol in the input data
 
@@ -27,11 +29,18 @@ doesnt_match_data = open(DOESNT_MATCH_FILE).readlines()
 def evaluate_doesnt_match(method, emb_type):
     """ create task_results which contains the judgements of all input questions (task units) """
 
-    # load model and init our data capture variables
-    model, _ = load_models(method, emb_type)
     task_results = []
+   
+    if method == 'ppmi_svd':
 
-
+        ## currently not included into the public version   
+        ## just use standard ppmi, or ask github owner for sending the file        
+        ppmi = create_matrix()
+    
+    else:
+        # load model and init our data capture variables
+        model, _ = load_models(method, emb_type)
+     
     for line in doesnt_match_data:
 
         # those are the section (or :end) markers
@@ -48,7 +57,12 @@ def evaluate_doesnt_match(method, emb_type):
         task_terms, difficulty, correct_outlier = line_list[:SEP_I], line_list[SEP_I][2], line_list[SEP_I+1:][0]
 
         ## call gensim model to find the outlier candidate
-        found_outlier = model.doesnt_match( task_terms ) 
+        if method == 'ppmi_svd':
+            #found_outlier = solve_task( ppmi, words, task_terms) 
+            found_outlier = solve_task( ppmi, task_terms) 
+        else:
+            found_outlier = model.doesnt_match( task_terms ) 
+
 
         ## judge correctness of candidate 
         correct=0.0 # False

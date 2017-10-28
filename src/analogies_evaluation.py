@@ -22,6 +22,7 @@ def evaluate_analogies(method, emb_type):
 
     # load model and init our data capture variables
     model, _ = load_models(method, emb_type)
+    print ANALOGIES_FILE
     acc_res = model.accuracy(ANALOGIES_FILE)
     results = OrderedDict()
 
