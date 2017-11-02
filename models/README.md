@@ -5,6 +5,7 @@ we used different well-known techniques to create word-embedding models, for exa
 The models having names staring with `asoif_` are trained on the first for books of *A Song of Ice and Fire*,
 and the models starting with `hp_` are trained on the complete *Harry Potter*. For copyright reasons the plain-text of
 the books can not be included here.
+**NEW:** the models with `_ngram` in their name are trained on n-gram data (created with Word2vec preprocessing tools).
 
 The **method and parameters used for training**:
 * \*`_w2v-default`: This is a word2vec model trained with the default settings: 200 vector dimensions, skip-gram, etc `-cbow 0 -size 200 -window 5 -negative 0 -hs 1 -sample 1e-3 -threads 12`.
