@@ -181,3 +181,14 @@ Varys Spider Gregor_Clegane Mountain
 Varys Spider Davos_Seaworth Onion_Knight
 Varys Spider Dany Daenerys_Stormborn
 Varys Spider Samwell_Tarly Sam
+: child-father
+Samwell Lord_Randyll_Tarly Cersei Lord_Tywin
+Samwell Lord_Randyll_Tarly Jaime Lord_Tywin
+Samwell Lord_Randyll_Tarly Catelyn Lord_Hoster_Tully
+Cersei Lord_Tywin Samwell Lord_Randyll_Tarly
+Cersei Lord_Tywin Catelyn Lord_Hoster_Tully
+Jaime Lord_Tywin Samwell Lord_Randyll_Tarly
+Jaime Lord_Tywin Catelyn Lord_Hoster_Tully
+Catelyn Lord_Hoster_Tully Samwell Lord_Randyll_Tarly
+Catelyn Lord_Hoster_Tully Cersei Lord_Tywin
+Catelyn Lord_Hoster_Tully Jaime Lord_Tywin

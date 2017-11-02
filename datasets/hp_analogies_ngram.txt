@@ -4,14 +4,6 @@
 " Professor_Flitwick charms
 " "Professor_Sprout herbology
 
-: Gryffindor-Quidditch-team
-Katie_Bell chaser
-Angelina_Johnson chaser
-Alicia_Spinnet chaser
-"George_Weasley beater
-Oliver_Wood keeper
-"Harry_Potter seeker
-
 : Yule_ball-gentleman-lady
 Harry Parvati_Patil
 Seamus_Finnigan Lavender_Brown
@@ -51,4 +43,12 @@ Lavender_Brown Ronald_Weasley
 Harry Cho_Chang
 Viktor_Krum Hermione_Granger
 
-: end
+: Gryffindor-Quidditch-team
+Katie_Bell chaser
+Angelina_Johnson chaser
+Alicia_Spinnet chaser
+"George_Weasley beater
+Oliver_Wood keeper
+"Harry_Potter seeker
+
+:end

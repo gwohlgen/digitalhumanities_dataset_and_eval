@@ -10,7 +10,7 @@
 
 import sys
 
-NGRAMS=True
+NGRAMS=False
 
 ## use the input parameter to select the book series
 if len(sys.argv) < 2:
@@ -22,25 +22,24 @@ elif sys.argv[1].lower() == 'hp':
 else:
     raise Exception("the book series must be either *ASOIF* or *HP*")
 
-
 MODEL_PATH="../models/"
-
 
 if BOOK_SERIES == "ASIOF":
     METHODS = [
-        ('ppmi_svd', 'bin'), #ppmi+svd with 300 dim
+        #('ppmi_svd', 'bin'), #ppmi+svd with 300 dim
+        #('ppmi', 'bin'), #ppmi
         ('asoif_w2v-default','bin'), ## word 2 vec default settings
         ('asoif_w2v-ww12-300','bin'), ## default and: window-size 12, 300dim, hier.softmax, iter 15 
         ('asoif_w2v-ww12-300-ns','bin'), ## default and: window-size 12, 300dim, hier.softmax, iter 15 
         ('asoif_w2v-CBOW', 'bin'),
         ('asoif_glove', 'vec'), 
-        ('asoif_lexvec', 'vec'), 
         ('asoif_fastText', 'vec'), # default and: -epoch 25 -ws 12
-        ('asoif_w2v-ww12-300-ns-ngram','bin'), ## Skip-gram, window-size 12, 300dim, hier.softmax, iter 15, -negative 15
+        ('asoif_lexvec', 'vec'), 
     ]
 
     if NGRAMS:
         METHODS = [
+            #('ppmi', 'bin'), #ppmi
             ('asoif_w2v-ww12-300-ngram','bin'), ## Skip-gram, window-size 12, 300dim, hier.softmax, iter 15, no neg-sampling
             ('asoif_w2v-ww12-300-ns-ngram','bin'), ## Skip-gram, window-size 12, 300dim, hier.softmax, iter 15, -negative 15
             ('asoif_fastText_ngram', 'vec'), # default and: -epoch 25 -ws 12
@@ -49,26 +48,27 @@ if BOOK_SERIES == "ASIOF":
 
 if BOOK_SERIES == "HP":
     METHODS = [
-        ('hp_lexvec', 'vec'),
-        ('hp_fasttext', 'vec'),  # for paper!, 25 epoch
-        ('hp_glove', 'vec'), 
+        #('ppmi', 'bin'), #ppmi
         ('hp_w2v-default', 'bin'),
         ('hp_w2v-ww12-300', 'bin'),
         ('hp_w2v-ww12-300-ns', 'bin'),
         ('hp_w2v-CBOW', 'bin'),
+        ('hp_glove', 'vec'),
+        ('hp_fasttext', 'vec'),  # for paper!, 25 epoch
+        ('hp_lexvec', 'vec')
     ]
 
     if NGRAMS:
         METHODS = [
+        #('ppmi', 'bin'), #ppmi
         ('hp_lexvec_ngram', 'vec'),
         ('hp_fastText_ngram', 'vec'),  # for paper!, 25 epoch
+        ('hp_w2v-default-ngram', 'bin'),
+        ('hp_w2v-ww12-300-ngram', 'bin'),
+        ('hp_w2v-ww12-300-ns-ngram', 'bin'),
         # ('hp_glove_ngrams', 'vec'), 
-        # ('hp_w2v-default_ngrams', 'bin'),
-        # ('hp_w2v-ww12-300_ngrams', 'bin'),
-        # ('hp_w2v-ww12-300-ns_ngrams', 'bin'),
         # ('hp_w2v-CBOW_ngrams', 'bin'),
     ]
-
 
 
 
@@ -82,15 +82,15 @@ if BOOK_SERIES == "ASIOF":
     if NGRAMS:
         ANALOGIES_FILE = "../datasets/questions_soiaf_analogies_ngram.txt"
         DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesnt_match_ngram.txt"
-        ANALOGIES_SECTIONS = ['name-nickname', 'total']
-        DOESNT_MATCH_SECTIONS = [': seas',  ': bays', ': gods', ': Maesters', ': Houses', 'TOTAL']
+        ANALOGIES_SECTIONS = ['name-nickname', 'child-father', 'total']
+        DOESNT_MATCH_SECTIONS = [': bays', ': gods', ': Maesters', ': Houses', 'TOTAL']
 
 
     else:
         ANALOGIES_FILE = "../datasets/questions_soiaf_analogies.txt"
         DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesnt_match.txt"
-        ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'geo-name-location', 'houses-seats', 'total']
-        DOESNT_MATCH_SECTIONS = [': family-siblings',  ': names-of-houses', ': archmaesters', ': rivers', ': free cities', 'TOTAL']
+        ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'geo-name-location', 'houses-seats', 'total']
+        DOESNT_MATCH_SECTIONS = [': family-siblings',  ': names-of-houses', ': rivers', ': free cities', 'TOTAL']
 
 
 
@@ -103,12 +103,14 @@ if BOOK_SERIES == "HP":
     if NGRAMS: 
             ANALOGIES_FILE = "../datasets/questions_hp_analogies_ngram.txt"
             DOESNT_MATCH_FILE = "../datasets/questions_hp_doesnt_match_ngram.txt"
-            ANALOGIES_SECTIONS = ['Gryffindor-Quidditch-team', 'Yule_ball-gentleman-lady', 'character-where_they_work', 'character-creature', 'total']
-            DOESNT_MATCH_SECTIONS = [': geographical-objects', ': closest-friends', ': unforgivable-curses', ': members-of-Order_of_the_Phoenix', ': ministers-for-magic', 'TOTAL'] 
+            #ANALOGIES_SECTIONS = ['Gryffindor-Quidditch-team', 'Yule_ball-gentleman-lady', 'character-where_they_work', 'character-creature', 'total']
+            ANALOGIES_SECTIONS = ['character-creature', 'character-where_they_work', 'total']
+            #DOESNT_MATCH_SECTIONS = [': geographical-objects', ': closest-friends', ': unforgivable-curses', ': members-of-Order_of_the_Phoenix', ': ministers-for-magic', 'TOTAL'] 
+            DOESNT_MATCH_SECTIONS = [': geographical-objects', ': ministry_of_magic-employees', 'TOTAL'] 
     else: 
             ANALOGIES_FILE = "../datasets/questions_hp_analogies.txt"
             DOESNT_MATCH_FILE = "../datasets/questions_hp_doesnt_match.txt"
-            ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'pets-of-Hagrid', 'wizard-faculty', 'total']
-            DOESNT_MATCH_SECTIONS = [': family-siblings', ': Hogwarts-houses', ': professors', ': wizarding-equipment', ': magic-creatures', 'TOTAL'] 
+            ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'wizard-faculty', 'total']
+            DOESNT_MATCH_SECTIONS = [': family-members', ': Hogwarts-houses', ': magic-creatures', 'TOTAL'] 
 
 

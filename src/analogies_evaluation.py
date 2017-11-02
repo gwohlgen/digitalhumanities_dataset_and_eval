@@ -22,7 +22,6 @@ def evaluate_analogies(method, emb_type):
 
     # load model and init our data capture variables
     model, _ = load_models(method, emb_type)
-    print ANALOGIES_FILE
     acc_res = model.accuracy(ANALOGIES_FILE)
     results = OrderedDict()
 
@@ -39,15 +38,12 @@ def evaluate_analogies(method, emb_type):
 
     return results
 
-   
 
 if __name__ == "__main__":
 
     # evaluate each of the embedding methods defined in config.py
     for (method,emb_type) in METHODS:
         results = evaluate_analogies(method, emb_type)
-
         pprint(dict(results))
+        print ("Number of sections:", len(results)-1)
         print_latex_version(results, method, ANALOGIES_SECTIONS)
-
-

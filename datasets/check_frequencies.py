@@ -4,6 +4,7 @@ from operator import itemgetter
 INFILE = sys.argv[1]
 BOOK = sys.argv[2]
 
+MIN_NUM = 5
 
 all_words = [] 
 for line in open(INFILE):
@@ -33,5 +34,6 @@ for word in all_words:
 words_sorted = sorted(word_counts,key=itemgetter(1))
 
 for w in words_sorted:
-    print(w)
+    if w[1] <= MIN_NUM:
+        print(w)
 

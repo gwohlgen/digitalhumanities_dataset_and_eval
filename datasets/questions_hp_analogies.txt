@@ -2291,19 +2291,6 @@ Slytherin serpent Hufflepuff badger
 Hufflepuff badger Gryffindor lion
 Hufflepuff badger Ravenclaw eagle
 Hufflepuff badger Slytherin serpent
-: professor-subject
-Minerva transfiguration Filius charms
-Minerva transfiguration Severus potions
-Minerva transfiguration Sybill divination
-Filius charms Minerva transfiguration
-Filius charms Severus potions
-Filius charms Sybill divination
-Severus potions Minerva transfiguration
-Severus potions Filius charms
-Severus potions Sybill divination
-Sybill divination Minerva transfiguration
-Sybill divination Filius charms
-Sybill divination Severus potions
 : founder-faculty
 Salazar Slytherin Rowena Ravenclaw
 Salazar Slytherin Godric Gryffindor

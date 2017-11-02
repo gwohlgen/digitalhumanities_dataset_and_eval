@@ -114,12 +114,6 @@ Ravenclaw eagle
 Slytherin serpent
 Hufflepuff badger
 
-: professor-subject
-Minerva transfiguration
-Filius charms
-Severus potions
-Sybill divination
-
 : founder-faculty
 Salazar Slytherin
 Rowena Ravenclaw
@@ -148,5 +142,12 @@ Albus phoenix
 Hermione otter
 Nymphadora wolf
 Ginny horse
+
+" uncommented this section, as frequencies too low
+" : professor-subject
+" Minerva transfiguration
+" Filius charms
+" Severus potions
+" Sybill divination
 
 :end

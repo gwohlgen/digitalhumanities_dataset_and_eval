@@ -8,12 +8,14 @@
 
 " ************************************* BIGRAM MODEL DATA BELOW HERE ********************************
 
-: seas --- http://awoiaf.westeros.org/index.php/Category:Seas
-Jade_Sea narrow_sea jade_Sea salt_sea :: Mander Rhoyne Trident Westeros Essos Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
+" http://awoiaf.westeros.org/index.php/Category:Seas
+: seas
+Jade_Sea narrow_sea jade_Sea salt_sea :: Mander Rhoyne Trident Westeros Braavos Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
 
 
-: bays --- http://awoiaf.westeros.org/index.php/Category:Bays 
-Blackwater_Bay Shipbreaker_Bay Bite Slaver_Bay :: Mander Rhoyne Trident Westeros Essos Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
+" http://awoiaf.westeros.org/index.php/Category:Bays 
+: bays 
+Blackwater_Bay Shipbreaker_Bay Bite Slaver_Bay :: Mander Rhoyne Trident Westeros Braavos Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
 
 
 : gods
@@ -21,11 +23,11 @@ Drowned_God R'hllor Many_Faced_God Storm_God :: Maester_Luwin Maester_Aemon Gran
 
 
 : cities-fortresses
-King_Landing Casterly_Rock White_Harbor Oldtown :: Westeros Essos Blackwater_Bay Shipbreaker_Bay Bite House_Stark House_Targaryen House_Tully House_Baratheon House_Tully Viserion Rhaegal Drogon Balerion Roose food walk sun wood dream 
+King_Landing Casterly_Rock White_Harbor Oldtown :: Westeros Trident Blackwater_Bay Shipbreaker_Bay Bite House_Stark House_Targaryen House_Tully House_Baratheon House_Tully Viserion Rhaegal Drogon Balerion Roose food walk sun wood dream 
 
 
 : languages
-Common_Tongue High_Valyrian Old_Tongue Summer_Tongue :: Westeros Essos Drowned_God R'hllor Many_Faced_God Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
+Common_Tongue High_Valyrian Old_Tongue Summer_Tongue :: Westeros Storm_God Drowned_God R'hllor Many_Faced_God Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
 
 
 : Maesters

@@ -1,10 +1,3 @@
-: Gryffindor-Quidditch-team
-Katie_Bell chaser Oliver_Wood keeper
-Angelina_Johnson chaser Oliver_Wood keeper
-Alicia_Spinnet chaser Oliver_Wood keeper
-Oliver_Wood keeper Katie_Bell chaser
-Oliver_Wood keeper Angelina_Johnson chaser
-Oliver_Wood keeper Alicia_Spinnet chaser
 : Yule_ball-gentleman-lady
 Harry Parvati_Patil Seamus_Finnigan Lavender_Brown
 Harry Parvati_Patil Draco_Malfoy Pansy_Parkinson
@@ -97,4 +90,10 @@ Harry Cho_Chang Lavender_Brown Ronald_Weasley
 Harry Cho_Chang Viktor_Krum Hermione_Granger
 Viktor_Krum Hermione_Granger Lavender_Brown Ronald_Weasley
 Viktor_Krum Hermione_Granger Harry Cho_Chang
-: end
+: Gryffindor-Quidditch-team
+Katie_Bell chaser Oliver_Wood keeper
+Angelina_Johnson chaser Oliver_Wood keeper
+Alicia_Spinnet chaser Oliver_Wood keeper
+Oliver_Wood keeper Katie_Bell chaser
+Oliver_Wood keeper Angelina_Johnson chaser
+Oliver_Wood keeper Alicia_Spinnet chaser

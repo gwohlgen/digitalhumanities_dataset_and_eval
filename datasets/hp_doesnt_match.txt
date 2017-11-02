@@ -4,43 +4,44 @@
 
 : family-members
 Ron Arthur Molly Ginny :: Luna Rubeus Albus Sirius Neville Severus Draco Minerva Bellatrix Nymphadora Slytherin Hogwarts Durmstrang Azkaban Gryffindor veela phoenix horse spider troll
-Lucius Draco Narcissa :: Horace Vincent Gregory Pansy Bellatrix Harry Ron Hermione Neville Luna Gryffindor Ravenclaw Hogsmeade Durmstrang Azkaban witch wand cunning cauldron cloak
-Lily Harry James :: Ron Hermione Albus Rubeus Luna Lucius Draco Vincent Narcissa Horace Gryffindor Quaffle Hufflepuff Hogwarts Snitch scales transfiguration charms parchment veela
+Lucius Draco Narcissa :: Horace Harry Gregory Pansy Bellatrix Harry Ron Hermione Neville Luna Gryffindor Ravenclaw Hogsmeade Durmstrang Azkaban witch wand cunning cauldron cloak
+Lily Harry James :: Ron Hermione Albus Rubeus Luna Lucius Draco Dumbledore Narcissa Horace Gryffindor Quaffle Hufflepuff Hogwarts Snitch scales fire charms parchment veela
 
 : Hogwarts-houses 
-Gryffindor Hufflepuff Ravenclaw Slytherin :: Hogwarts Hogsmeade Azkaban Durmstrang Quaffle Hermione Neville Dolores Cedric Ron Fluffy Norbert Aragog Buckbeak Fang wizard witch broomstick astronomy parchment
+Gryffindor Hufflepuff Ravenclaw Slytherin :: Hogwarts Hogsmeade Azkaban Durmstrang Quaffle Hermione Neville Dolores Cedric Ron Fluffy Norbert Aragog Buckbeak Fang wizard witch broomstick fire parchment
 
 : Gryffindor-members
-Harry Hermione Ron Neville :: Cedric Luna Nymphadora Cho Sybill Severus Bellatrix Draco Pansy Vincent Barty Rita Ollivander Nicolas Myrtle wand scales cloak broomstick witch
+Harry Hermione Ron Neville :: Cedric Luna Nymphadora Cho Sirius Severus Bellatrix Draco Pansy Hufflepuff Barty Rita Ollivander Aragog Myrtle wand scales cloak broomstick witch
 
 : half-blood wizards
-Hermione Harry Albus :: Neville Luna Ron Sirius Fred Horace Vincent Draco Pansy Gregory Dobby Fluffy Hedwig Buckbeak Norbert cloak water air stairs ink
+Hermione Harry Albus :: Neville Luna Ron Sirius Fred Horace Hufflepuff Draco Pansy Gregory Dobby Fluffy Quaffle Buckbeak Expelliarmus cloak water air stairs ink
 
 : professors
 Dumbledore McGonagall Snape Hagrid :: Pomfrey Filch Fudge Crouch Lovegood Ron Hermione Harry Draco Neville Hedwig Buckbeak Fang Fluffy Dobby fire wand ink wizard wand
-
-: Hogwarts-subjects
-astronomy charms transfiguration herbology :: Gryffindor Hufflepuff Ravenclaw Slytherin Durmstrang cauldron scales broomstick parchment wand witch wizard ink cloak cauldron Dumbledore McGonagall Snape Hagrid Crouch
 
 : wizarding-equipment
 cauldron scales parchment wand :: cloak paper chair bottle ink dragon veela spider dog phoenix water fire air earth wind Bellatrix Albus Lily James Cedric
 
 : magic-creatures
-unicorn dragon phoenix troll :: cat dog spider bird rat cauldron scales parchment ink wand Gryffindor Hufflepuff Ravenclaw Slytherin Hogwarts Luna Sirius Nicholas Harry Narcissa
+unicorn dragon phoenix troll :: cat dog spider bird rat cauldron scales parchment ink wand Gryffindor Hufflepuff Ravenclaw Slytherin Hogwarts Luna Sirius Ron Harry Narcissa
 
 : death-eaters
-Bellatrix Lucius Igor Severus :: Gregory Vincent Rita Sirius Horace Albus Lily James Luna Rubeus Fluffy Hedwig Buckbeak Aragog Fang spider ink witch fire water
+Bellatrix Lucius Igor Severus :: Gregory Harry Rita Sirius Horace Albus Lily James Luna Rubeus Fluffy Hedwig Buckbeak Aragog Fang spider ink witch fire water
 
 : Gryffindor-traits
 bravery courage daring :: loyalty patience cunning anxiety ambition Harry Hermione Ron Parvati Fleur parchment wand witch quill ink Dobby Fluffy Hedwig Buckbeak Aragog
 
 : Ravenclaw-traits
-intelligence wit wisdom :: patience cunning ambition anxiety bravery Flitwick Trelawney Chang Lovegood Warren cloak wand quill ink cauldron Bellatrix Albus Lily James Ron
+intelligence wit wisdom :: patience cunning ambition anxiety bravery Flitwick Trelawney Chang Lovegood Harry cloak wand quill ink cauldron Bellatrix Albus Lily James Ron
 
 : Triwizard-champions
-Harry Cedric Fleur Viktor :: Hermione Neville Harry Ron Draco Albus Luna Sirius Nymphadora Luna unicorn dragon phoenix troll veela wizard witch broomstick astronomy parchment
+Harry Cedric Fleur Viktor :: Hermione Neville Harry Ron Draco Albus Luna Sirius Nymphadora Luna unicorn dragon phoenix troll veela wizard witch broomstick fire parchment
 
 : ball-types-used-in-Quidditch
 Quaffle Bludger Snitch :: Gryffindor Hufflepuff Ravenclaw Slytherin Hogsmeade Dobby Fluffy Hedwig Buckbeak Aragog Hermione Neville Cornelius Sirius Fleur veela dragon phoenix troll unicorn
+
+" removed, frequencies in books too low
+": Hogwarts-subjects
+"astronomy charms transfiguration herbology :: Gryffindor Hufflepuff Ravenclaw Slytherin Durmstrang cauldron scales broomstick parchment wand witch wizard ink cloak cauldron Dumbledore McGonagall Snape Hagrid Crouch
 
 :end

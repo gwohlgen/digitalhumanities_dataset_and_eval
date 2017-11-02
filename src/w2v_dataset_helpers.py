@@ -1,4 +1,4 @@
-
+from __future__ import print_function
 from config import *
 import gensim.models
 
@@ -8,7 +8,7 @@ def load_models(mode=None, emb_type=None):
     elif emb_type == "bin": binary = True
     else: raise Exception()
 
-    print("\n\n**** Model:", mode, " binary:", binary)
+    print('\n\n**** Model:', mode, " binary:", binary)
 
     if mode == "doc2vec":  
         word_model = gensim.models.doc2vec.Doc2Vec.load(MODEL_PATH + mode + ".model")
@@ -20,6 +20,8 @@ def load_models(mode=None, emb_type=None):
 
     # not used currently!
     bigram_model = None
+
+    print("**** Model:", mode, " LOADED\n\n")
    
     return word_model, bigram_model 
 
@@ -34,16 +36,14 @@ def print_latex_version(results, method, FILTER_SECTIONS):
         --> for easy updates of publication data
     """
     vals, counts = [],[]
-    for sec, data in results.items():
+    for sec in FILTER_SECTIONS:
+        data = results[sec]
 
-        if not sec in FILTER_SECTIONS:
-            continue
-
-        vals.append(str(round(data['perc'], 3)))
+        vals.append(str(round(data['perc']*100, 2)))
         counts.append(str(data['counts']))
 
-    print('Number of tasks:       &', " & ".join(counts) , " \\\\ \hline \hline")
-    print(method, "               & ", " & ".join(vals) , " \\\\ \hline")
+    print('Number of tasks:       &', " & ".join(counts) , " \\\\ \hline ")
+    print(method, "               & ", " & ".join(vals) , " \\\\ ")
 
 
 if __name__ == "__main__":

@@ -31,7 +31,7 @@ def evaluate_doesnt_match(method, emb_type):
 
     task_results = []
    
-    if method == 'ppmi_svd':
+    if method == 'ppmi':
 
         ## currently not included into the public version   
         ## just use standard ppmi, or ask github owner for sending the file        
@@ -57,9 +57,10 @@ def evaluate_doesnt_match(method, emb_type):
         task_terms, difficulty, correct_outlier = line_list[:SEP_I], line_list[SEP_I][2], line_list[SEP_I+1:][0]
 
         ## call gensim model to find the outlier candidate
-        if method == 'ppmi_svd':
-            #found_outlier = solve_task( ppmi, words, task_terms) 
-            found_outlier = solve_task( ppmi, task_terms) 
+        if method == 'ppmi':
+            found_outlier = solve_task( ppmi, task_terms) #, on_error='skip') 
+            if not found_outlier: continue
+            #found_outlier = solve_task_2( ppmi, task_terms) 
         else:
             found_outlier = model.doesnt_match( task_terms ) 
 
@@ -82,7 +83,7 @@ def analyze_with_pandas(method, task_results):
         ### 1.) collect the generate percentage of correct answers per section and in total
         results = OrderedDict()
         gb_tt = df.groupby('task_type')
-        #print (gb2.mean(), gb_tt.count())
+        #print (gb.mean(), gb_tt.count())
         for name, group in gb_tt:
             results[name] = {'counts': group['task_terms'].count(), 'perc': group.mean()[0]}
 
@@ -115,7 +116,8 @@ def analyze_with_pandas(method, task_results):
         print("\ndf.describe -- closer statistical look at global data")
         print(df.describe())
 
-        #sys.exit()
+        print('Number of categories',  len(gb_tt))
+
         return results
 
     
@@ -128,6 +130,7 @@ if __name__ == "__main__":
         results = analyze_with_pandas(method, task_results)
 
         pprint(dict(results))
+        print(results)
         print_latex_version(results, method, DOESNT_MATCH_SECTIONS)
 
         df =  pd.DataFrame(task_results)
