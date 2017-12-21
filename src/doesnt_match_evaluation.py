@@ -71,17 +71,29 @@ def evaluate_doesnt_match(method, emb_type, term_freq=None):
         if found_outlier == correct_outlier:
             correct=1.0 # True
 
-        ## compute avg term frequency of the task_terms
-        avg_tf = sum(term_freq[t] for t in task_terms) / len(task_terms)
-        #print(list(term_freq[t] for t in task_terms))
-        #print (avg_tf)
+        if DO_FREQ_EVAL:
+            ## compute avg term frequency of the task_terms
+            try:
+                list(term_freq[t] for t in task_terms)
+            except KeyError, e:
+                print("""
+        Looks like you modified the evaluation questions.
+        You either need to update freq_ files in datasets directory,
+        or set DO_FREQ_EVAL=False.
+                    """)
+                sys.exit()
 
-        task_results.append( (task_type, task_terms, found_outlier, correct_outlier, term_freq[found_outlier], term_freq[correct_outlier], avg_tf, difficulty, correct) )
+            avg_tf = sum(term_freq[t] for t in task_terms) / len(task_terms)
+            #print(list(term_freq[t] for t in task_terms))
+            #print (avg_tf)
 
-        # if not correct:
+            task_results.append( (task_type, task_terms, found_outlier, correct_outlier, term_freq[found_outlier], term_freq[correct_outlier], avg_tf, difficulty, correct) )
+        else:
+            task_results.append( (task_type, task_terms, found_outlier, correct_outlier, difficulty, correct) )
+
+        # if DO_FREQ_EVAL and not correct:
         #     print('XXX: {:50} {:10} {:10} {:5} {:5} {:8} {:5} {:5}'.format(task_terms, found_outlier, correct_outlier, term_freq[found_outlier], term_freq[correct_outlier], avg_tf, difficulty, correct))
 
-        #pprint(task_results)
 
     return task_results
 
@@ -89,7 +101,10 @@ def evaluate_doesnt_match(method, emb_type, term_freq=None):
 def analyze_with_pandas(method, task_results):
 
         df = pd.DataFrame(task_results)
-        df.columns = ['task_type', 'task_terms', 'found_outlier', 'correct_outlier', 'found_tf', 'correct_tf', 'avg_tf', 'difficulty', 'correct']
+        if DO_FREQ_EVAL:
+            df.columns = ['task_type', 'task_terms', 'found_outlier', 'correct_outlier', 'found_tf', 'correct_tf', 'avg_tf', 'difficulty', 'correct']
+        else:
+            df.columns = ['task_type', 'task_terms', 'found_outlier', 'correct_outlier', 'difficulty', 'correct']
 
         ### 1.) collect the generate percentage of correct answers per section and in total
         results = OrderedDict()
@@ -130,32 +145,32 @@ def analyze_with_pandas(method, task_results):
 
         print('Number of categories',  len(gb_tt))
 
+        if DO_FREQ_EVAL:
+            # ------------------------------------------- NEW ---------------------------------------------------------------------------#
+            ## bin frequency into brackets
+            bins = [0, 10, 25, 50, 100, 500, 1000, 1000000]
+            group_names = ['1', '2', '3', '4', '5', '6', '7']
+            df['found_tf_category'] = pd.cut(df['found_tf'], bins, labels=group_names)
+            df['avg_tf_category'] = pd.cut(df['avg_tf'], bins, labels=group_names)
+            #print(df.head())
 
-        # ------------------------------------------- NEW ---------------------------------------------------------------------------#
-        ## bin frequency into brackets
-        bins = [0, 10, 25, 50, 100, 500, 1000, 1000000]
-        group_names = ['1', '2', '3', '4', '5', '6', '7']
-        df['found_tf_category'] = pd.cut(df['found_tf'], bins, labels=group_names)
-        df['avg_tf_category'] = pd.cut(df['avg_tf'], bins, labels=group_names)
-        #print(df.head())
+            ## correlations 
+            print("correlation between difficulty and correct result", df['difficulty'].astype(int).corr(df['correct']))
+            print("correlation between correct-term frequency and correctness", df['correct_tf'].corr(df['correct']))
+            print("correlation between   found-term frequency and correctness", df['found_tf'].corr(df['correct']))
+            print("correlation between average term frequency and correctness", df['avg_tf'].corr(df['correct']))
+            print("correlation between frequency bin and correctness", df['found_tf_category'].astype(int).corr(df['correct']))
+            print("correlation between avg_frequency bin and correctness", df['avg_tf_category'].astype(int).corr(df['correct']))
 
-        ## correlations 
-        print("correlation between difficulty and correct result", df['difficulty'].astype(int).corr(df['correct']))
-        print("correlation between correct-term frequency and correctness", df['correct_tf'].corr(df['correct']))
-        print("correlation between   found-term frequency and correctness", df['found_tf'].corr(df['correct']))
-        print("correlation between average term frequency and correctness", df['avg_tf'].corr(df['correct']))
-        print("correlation between frequency bin and correctness", df['found_tf_category'].astype(int).corr(df['correct']))
-        print("correlation between avg_frequency bin and correctness", df['avg_tf_category'].astype(int).corr(df['correct']))
+            print("\n***************************************************Total values of accuracy per **tf_category** for: " + method)
 
-        print("\n***************************************************Total values of accuracy per **tf_category** for: " + method)
+            gb_tf_c = df.groupby('found_tf_category')
+            print (gb_tf_c.mean())
+            print (gb_tf_c.size())
 
-        gb_tf_c = df.groupby('found_tf_category')
-        print (gb_tf_c.mean())
-        print (gb_tf_c.size())
-
-        gb_avg_tf_c = df.groupby('avg_tf_category')
-        print (gb_avg_tf_c.mean())
-        print (gb_avg_tf_c.size())
+            gb_avg_tf_c = df.groupby('avg_tf_category')
+            print (gb_avg_tf_c.mean())
+            print (gb_avg_tf_c.size())
 
         return results
 

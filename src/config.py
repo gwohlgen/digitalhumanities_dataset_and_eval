@@ -13,6 +13,8 @@ import sys
 NGRAMS=False
 #NGRAMS=True
 
+DO_FREQ_EVAL=True
+
 ## use the input parameter to select the book series
 if len(sys.argv) < 2:
     raise Exception("We need two command line arguments!")
