@@ -1,11 +1,15 @@
 : geographical-objects
-Godric's_Hollow Shrieking_Shack Grimmauld_Place Forbidden_Forest :: Gryffindor_Tower Ravenclaw_Tower Astronomy_Tower North_Tower Dumbledore's_office Ron Hermione Harry Draco Luna library hospital corridor bathroom classroom hippogriff thestral bowtruckle veela unicorn
+"Godric's_Hollow Shrieking_Shack Grimmauld_Place Forbidden_Forest :: Gryffindor_Tower Ravenclaw_Tower Astronomy_Tower North_Tower Dumbledore's_office Ron Hermione Harry Draco Luna library hospital corridor bathroom classroom hippogriff thestral bowtruckle veela unicorn
+Godric's_Hollow Shrieking_Shack Grimmauld_Place Forbidden_Forest Gryffindor_Tower Ravenclaw_Tower Astronomy_Tower North_Tower Dumbledore's_office :: corridor Dumbledore river library hospital Professor_Flitwick Professor_Sprout Professor_Tofty bathroom Gryffindor Ron Hermione Harry Draco Luna unicorn wand ink wizard wand
+
 
 : closest-friends
 Ronald_Weasley Hermione_Granger Harry :: Ginny Fred George_Weasley Luna_Lovegood Neville_Longbottom Cedric_Diggory Fleur_Delacour Bill Cho_Chang Viktor_Krum Professor_McGonagall Professor_Trelawney Professor_Flitwick Professor_Sprout Professor_Tofty hippogriff thestral bowtruckle veela werewolf
 
 : unforgivable-curses
 Imperius Cruciatus Avada_Kedavra :: Sectumsempra Alohomora Lumos Expelliarmus Wingardium Gryffindor Quaffle Hufflepuff Hogwarts Snitch Neville_Longbottom Cedric_Diggory Fleur_Delacour Bill Cho_Chang scales fire charms parchment veela
+
+:: Ariadna please add: list of all curses!
 
 : members-of-Order_of_the_Phoenix
 Albus_Dumbledore Alastor_Moody Kingsley_Shacklebolt Dedalus_Diggle :: Bellatrix_Lestrange Lucius_Malfoy Ernie_Macmillan Colin_Creevey Phineas_Nigellus Gryffindor Quaffle Hufflepuff Hogwarts Snitch Sectumsempra Alohomora Lumos Expelliarmus Wingardium hippogriff thestral bowtruckle veela werewolf

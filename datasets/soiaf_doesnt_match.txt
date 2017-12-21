@@ -10,25 +10,22 @@ Jaime Tyrion Cersei :: Tywin Joffrey Tommen Myrcella Kevan Ned Oberyn Balon Rams
 Robb Bran Sansa Arya :: Catelyn Ned Robert Hodor Myrcella Kevan Oberyn Balon Ramsay Doran Harrenhal Targaryen Craster Dorne Trident raven food dragon sword sun
 Daenerys Viserys Rhaegar :: Arys Aemon Drogon Viserion Drogo Ned Oberyn Balon Ramsay Doran Harrenhal Stark Craster Winterfell Trident direwolve food lion sword sun
 Joffrey Tommen Myrcella :: Jaime Cersei Kevan Tywin Tyrion Robb Bran Sansa Ned Oberyn Harrenhal Stark Craster Winterfell Trident direwolve food dragon sword sun 
-Rodrik Maron Asha Theon :: Balon Euron Damphair Robb Bran Jaime Cersei Kevan Tywin Tyrion Harrenhal Stark Craster Winterfell Trident direwolve food dragon sword sun 
+Maron Asha Theon :: Balon Euron Damphair Robb Bran Jaime Cersei Kevan Tywin Tyrion Harrenhal Stark Craster Winterfell Trident direwolve food dragon sword sun 
 
 : names-of-houses 
-Martell Stark Lannister Greyjoy :: Jaime Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Mander food sword sun wood raven
-Baratheon Stark Lannister Targaryen :: Jaime Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Mander food sword sun wood raven
-Karstark Stark Lannister Bolton :: Jaime Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Mander food sword sun wood raven
-Tyrell Frey Lannister Targaryen :: Jaime Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Mander food sword sun wood raven
-Greyjoy Stark Karstark Bolton :: Roose Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Mander food sword sun wood raven
-Targaryen Martell Tyrell Florent :: Margaery Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Mander food sword sun wood raven
-Mormont Umber Stark Karstark :: Jorah Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Harrenhal Trident godswood Shaggydog Mander food sword sun wood raven
+Umber Florent Mormont Greyjoy Tyrell Frey Karstark Bolton Martell Stark Lannister Greyjoy Baratheon Targaryen :: Jaime Ned Jon Tywin Arya Varys Littlefinger Mya Podrick Bronn Lys Trident Braavos Shaggydog Mander drink water sun wood raven
 
 : Lannister clan
-Tywin Kevan Cersei Jaime :: Loras Ned Jon Arya Theon Baratheon Stark Bolton Greyjoy Targaryen Shaggydog Mander Rhaegal Harrenhal Winterfell food sword sun wood raven 
-Tywin Tyrion Lancel Jaime :: Loras Ned Jon Arya Theon Baratheon Stark Bolton Greyjoy Targaryen Shaggydog Mander Rhaegal Harrenhal Winterfell food sword sun wood raven 
+Joanna Tywin Kevan Tyrion Cersei Jaime Lancel :: Loras Ned Jon Arya Theon Baratheon Stark Bolton Greyjoy Targaryen Shaggydog Mander Rhaegal Harrenhal Winterfell food sword sun wood raven 
+
+: Targaryen clan 
+Aegon Rhaegar Arys Viserys Daenerys :: Loras Ned Jon Arya Theon Baratheon Stark Bolton Greyjoy Lannister Shaggydog Mander Rhaegal Harrenhal Winterfell food sword sun wood raven 
+
+: Greyjoy clan 
+Aeron Quellon Balon Euron Victarion Asha Theon :: Loras Ned Jon Arya Theon Baratheon Stark Bolton Targaryen Lannister Shaggydog Mander Rhaegal Harrenhal Winterfell food sword sun wood raven 
 
 : Stark clan
-Ned Robb Arya Sansa :: Loras Tyrion Theon Myrcella Roose Baratheon Lannister Bolton Greyjoy Targaryen Viserion Mander Rhaegal Harrenhal Oldtown food sword sun wood raven 
-Ned Robb Bran Rickon :: Loras Tyrion Theon Myrcella Roose Baratheon Lannister Bolton Greyjoy Targaryen Viserion Mander Rhaegal Harrenhal Oldtown food sword sun wood raven 
-Arya Sansa Bran Rickon :: Loras Tyrion Theon Myrcella Roose Baratheon Lannister Bolton Greyjoy Targaryen Viserion Mander Rhaegal Harrenhal Oldtown food sword sun wood raven 
+Lyanna Ned Catelyn Robb Arya Sansa Rickon Bran :: Loras Tyrion Theon Myrcella Roose Baratheon Lannister Bolton Greyjoy Targaryen Viserion Mander Rhaegal Harrenhal Oldtown food sword sun wood raven 
 
 : direwolves
 Shaggydog Nymeria Ghost :: Arya Jon Ned Sansa Bran Viserion Rhaegal Drogon Balerion Stark Lannister Bolton Greyjoy Targaryen Harrenhal food sword sun wood read 
@@ -53,9 +50,7 @@ Mander Rhoyne Trident :: Westeros Bay Oldtown Harrenhal Gulltown Winterfell Cras
 
 " http://awoiaf.westeros.org/index.php/Category:Free_Cities 
 : free cities 
-Braavos Lys Myr Pentos :: Bay Westeros Mander Rhoyne Oldtown Winterfell Lannisport Harrenhal Gulltown Trident Baratheon Lannister Bolton Greyjoy Targaryen direwolve sword fight read raven
-Braavos Volantis Tyros Norvos :: Bay Westeros Mander Rhoyne Oldtown Winterfell Lannisport Harrenhal Gulltown Trident Baratheon Lannister Bolton Greyjoy Targaryen direwolve sword fight read raven
-Myr Lys Tyros Norvos :: Bay Westeros Mander Rhoyne Oldtown Winterfell Lannisport Harrenhal Gulltown Trident Baratheon Lannister Bolton Greyjoy Targaryen direwolve sword fight read raven
+Braavos Lys Myr Pentos Volantis Tyros Norvos :: Bay Westeros Mander Rhoyne Oldtown Winterfell Lannisport Harrenhal Gulltown Trident Baratheon Lannister Bolton Greyjoy Targaryen direwolve sword fight read raven
 
 : Westeros cities 
 Highgarden Oldtown Lannisport Gulltown :: Braavos Lys Myr Pentos Volantis Mander Rhoyne Bay Bolton Baratheon Viserion Rhaegal Drogon Balerion Ghost direwolve sword fight read raven 

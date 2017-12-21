@@ -1,4 +1,5 @@
-" File format: use 3 or 4 items of one type
+" File format: start with at least 3 "related" item
+" (if the number is higher than 3, the create_questions.py script will compute all combination)
 " then comes a "::" as separator
 " then comes a list of items that do not fit into the list
 
@@ -11,7 +12,27 @@ Lily Harry James :: Ron Hermione Albus Rubeus Luna Lucius Draco Dumbledore Narci
 Gryffindor Hufflepuff Ravenclaw Slytherin :: Hogwarts Hogsmeade Azkaban Durmstrang Quaffle Hermione Neville Dolores Cedric Ron Fluffy Norbert Aragog Buckbeak Fang wizard witch broomstick fire parchment
 
 : Gryffindor-members
-Harry Hermione Ron Neville :: Cedric Luna Nymphadora Cho Sirius Severus Bellatrix Draco Pansy Hufflepuff Barty Rita Ollivander Aragog Myrtle wand scales cloak broomstick witch
+Harry Hermione Ron Neville :: Cedric Luna Nymphadora Cho Sirius Severus Bellatrix Draco Pansy Lucius Barty Rita Ollivander Aragog Myrtle wand scales cloak broomstick witch
+Ginny Lavender Colin Neville :: Cedric Luna Nymphadora Cho Sirius Severus Bellatrix Draco Pansy Lucius Barty Rita Ollivander Aragog Myrtle wand scales cloak broomstick witch
+Seamus Angelina Lee Neville :: Cedric Luna Nymphadora Cho Sirius Severus Bellatrix Draco Pansy Lucius Barty Rita Ollivander Aragog Myrtle wand scales cloak broomstick witch
+Remus Cormac Parvati Demelza :: Cedric Luna Nymphadora Cho Sirius Severus Bellatrix Draco Pansy Lucius Barty Rita Ollivander Aragog Myrtle wand scales cloak broomstick witch
+Demelza Cormac Lee Alicia :: Cedric Luna Nymphadora Cho Sirius Severus Bellatrix Draco Pansy Lucius Barty Rita Ollivander Aragog Myrtle wand scales cloak broomstick witch
+Fred George Angelina Seamus :: Cedric Luna Nymphadora Cho Sirius Severus Bellatrix Draco Pansy Lucius Barty Rita Ollivander Aragog Myrtle wand scales cloak broomstick witch
+
+: Slytherin-members
+Draco Tom Gregory Millicent :: Hannah Susan Cedric Justin Terry Cho Harry Hermione Fred George Slytherin Hogwarts Durmstrang Azkaban Hogsmeade veela phoenix horse spider troll
+Phineas Tom Dolores Bellatrix :: Hannah Susan Cedric Justin Terry Cho Harry Hermione Fred George Slytherin Hogwarts Durmstrang Azkaban Hogsmeade veela phoenix horse spider troll
+Lucius Narcissa Severus Regulus :: Hannah Susan Cedric Justin Terry Cho Harry Hermione Fred George Slytherin Hogwarts Durmstrang Azkaban Hogsmeade veela phoenix horse spider troll
+Blaise Millicent Tom Marcus :: Hannah Susan Cedric Justin Terry Cho Harry Hermione Fred George Slytherin Hogwarts Durmstrang Azkaban Hogsmeade veela phoenix horse spider troll
+Gregory Draco Pansy Bellatrix :: Hannah Susan Cedric Justin Terry Cho Harry Hermione Fred George Slytherin Hogwarts Durmstrang Azkaban Hogsmeade veela phoenix horse spider troll
+
+: Hufflepuff-members
+Hannah Susan Cedric Justin :: Cho Penelope Luna Roger Marietta Severus Bellatrix Draco Pansy Lucius Fluffy Norbert Aragog Buckbeak Fang wizard witch broomstick fire parchment
+Ernie Zacharias Susan :: Cho Penelope Luna Roger Marietta Severus Bellatrix Draco Pansy Lucius Fluffy Norbert Aragog Buckbeak Fang wizard witch broomstick fire parchment
+
+: Ravenclaw-students
+Terry Cho Penelope Michael :: Hannah Susan Cedric Justin Zacharias Harry Ron Hermione Fred Ginny Hedwig Buckbeak Fang Fluffy Dobby veela dragon phoenix troll unicorn
+Roger Marietta Anthony Padma :: Hannah Susan Cedric Justin Zacharias Harry Ron Hermione Fred Ginny Hedwig Buckbeak Fang Fluffy Dobby veela dragon phoenix troll unicorn
 
 : half-blood wizards
 Hermione Harry Albus :: Neville Luna Ron Sirius Fred Horace Hufflepuff Draco Pansy Gregory Dobby Fluffy Quaffle Buckbeak Expelliarmus cloak water air stairs ink

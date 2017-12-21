@@ -12,36 +12,29 @@
 : seas
 Jade_Sea narrow_sea jade_Sea salt_sea :: Mander Rhoyne Trident Westeros Braavos Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
 
-
 " http://awoiaf.westeros.org/index.php/Category:Bays 
 : bays 
 Blackwater_Bay Shipbreaker_Bay Bite Slaver_Bay :: Mander Rhoyne Trident Westeros Braavos Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
 
-
 : gods
 Drowned_God R'hllor Many_Faced_God Storm_God :: Maester_Luwin Maester_Aemon Grand_Maester_Pycelle Oldtown High_Valyrian House_Lannister House_Stark House_Targaryen House_Tully House_Baratheon Loras Tyrion Theon Myrcella Roose food sword sun wood fight
 
-
 : cities-fortresses
 King_Landing Casterly_Rock White_Harbor Oldtown :: Westeros Trident Blackwater_Bay Shipbreaker_Bay Bite House_Stark House_Targaryen House_Tully House_Baratheon House_Tully Viserion Rhaegal Drogon Balerion Roose food walk sun wood dream 
-
+" in the north
+Moat_Cailin Deepwood_Motte Dreadfort Karhold :: Oldtown Lannisport Harrenhal Gulltown Stark Jon Ned House_Baratheon House_Tully Maester_Aemon Viserion Rhaegal Myrcella Mya Many_Faced_God food walk sun wood dream
 
 : languages
 Common_Tongue High_Valyrian Old_Tongue Summer_Tongue :: Westeros Storm_God Drowned_God R'hllor Many_Faced_God Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Myrcella Roose food sword sun wood fight
 
 
 : Maesters
-Maester_Luwin Maester_Aemon Grand_Maester_Pycelle Maester_Cressen :: Drowned_God R'hllor Many_Faced_God Storm_God Oldtown House_Lannister House_Stark House_Targaryen House_Tully House_Baratheon Viserion Rhaegal Drogon Balerion Roose food walk sun wood dream
-Maester_Luwin Maester_Aemon Maester_Colemon Maester_Pylos :: Drowned_God R'hllor Many_Faced_God Storm_God Oldtown House_Lannister House_Stark House_Targaryen House_Tully House_Baratheon Viserion Rhaegal Drogon Balerion Roose food walk sun wood dream
-Grand_Maester_Pycelle Maester_Cressen Maester_Colemon Maester_Pylos :: Drowned_God R'hllor Many_Faced_God Storm_God Oldtown House_Lannister House_Stark House_Targaryen House_Tully House_Baratheon Viserion Rhaegal Drogon Balerion Roose food walk sun wood dream
+Maester_Luwin Maester_Aemon Grand_Maester_Pycelle Maester_Cressen Maester_Colemon Maester_Pylos :: Drowned_God R'hllor Many_Faced_God Storm_God Oldtown House_Lannister House_Stark House_Targaryen House_Tully House_Baratheon Viserion Rhaegal Drogon Balerion Roose food walk sun wood dream
 
 
 : Houses
-House_Lannister House_Stark House_Targaryen House_Tully :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
-House_Lannister House_Stark House_Baratheon House_Arryn :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
-House_Lannister House_Stark House_Frey House_Florent :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
-House_Targaryen House_Tully House_Baratheon House_Arryn :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
-House_Targaryen House_Tully House_Frey House_Florent :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
-House_Baratheon House_Arryn House_Frey House_Florent :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
+House_Lannister House_Stark House_Targaryen House_Tully House_Baratheon House_Arryn House_Frey House_Florent :: Oldtown Winterfell Lannisport Harrenhal Gulltown Loras Tyrion Theon Samwell Roose Common_Tongue High_Valyrian Old_Tongue Summer_Tongue Trident food sword sun wood fight
+
+
 
 :end

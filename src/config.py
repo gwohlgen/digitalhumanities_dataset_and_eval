@@ -11,6 +11,7 @@
 import sys
 
 NGRAMS=False
+#NGRAMS=True
 
 ## use the input parameter to select the book series
 if len(sys.argv) < 2:
@@ -84,14 +85,14 @@ if BOOK_SERIES == "ASIOF":
         DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesnt_match_ngram.txt"
         ANALOGIES_SECTIONS = ['name-nickname', 'child-father', 'total']
         DOESNT_MATCH_SECTIONS = [': bays', ': gods', ': Maesters', ': Houses', 'TOTAL']
-
+        FREQ_FILE = "../datasets/freq_asoif_ngram.pickle"
 
     else:
         ANALOGIES_FILE = "../datasets/questions_soiaf_analogies.txt"
         DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesnt_match.txt"
         ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'geo-name-location', 'houses-seats', 'total']
         DOESNT_MATCH_SECTIONS = [': family-siblings',  ': names-of-houses', ': rivers', ': free cities', 'TOTAL']
-
+        FREQ_FILE = "../datasets/freq_asoif.pickle"
 
 
     ### which sections to show in the paper..
@@ -107,10 +108,12 @@ if BOOK_SERIES == "HP":
             ANALOGIES_SECTIONS = ['character-creature', 'character-where_they_work', 'total']
             #DOESNT_MATCH_SECTIONS = [': geographical-objects', ': closest-friends', ': unforgivable-curses', ': members-of-Order_of_the_Phoenix', ': ministers-for-magic', 'TOTAL'] 
             DOESNT_MATCH_SECTIONS = [': geographical-objects', ': ministry_of_magic-employees', 'TOTAL'] 
+            FREQ_FILE = "../datasets/freq_hp_ngram.pickle"
     else: 
             ANALOGIES_FILE = "../datasets/questions_hp_analogies.txt"
             DOESNT_MATCH_FILE = "../datasets/questions_hp_doesnt_match.txt"
             ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'wizard-faculty', 'total']
             DOESNT_MATCH_SECTIONS = [': family-members', ': Hogwarts-houses', ': magic-creatures', 'TOTAL'] 
+            FREQ_FILE = "../datasets/freq_hp.pickle"
 
 

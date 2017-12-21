@@ -16,7 +16,7 @@
     @author Gerhard Wohlgenannt, ITMO University, St. Petersburg, Russia
 """
 
-import random, math
+import random, math, itertools
 
 
 def create_and_write_last_block(blockentries, ofh, mode, filter_same_target=True):
@@ -51,20 +51,12 @@ def create_and_write_last_block(blockentries, ofh, mode, filter_same_target=True
             outsiders = entry[sep_i+1:]
 
             print(matches, '::::', outsiders)
-            assert len(matches) in (3,4)
-            assert len(outsiders) > 0
+            assert len(matches) >= 3
             assert len(outsiders) == 20
 
-            if len(matches) == 3:
-                create_doesnt_match_line(matches, outsiders, ofh)
+            for combination in list( itertools.combinations(matches, 3) ):
+                create_doesnt_match_line(list(combination), outsiders, ofh)
 
-            if len(matches) == 4:
-                for ind in range(4):
-                    ## remove one of the 4 elements from the list --> 4 versions of lists with len == 3
-                    matches3 = matches[:ind] + matches[ind+1:]
-                    create_doesnt_match_line(matches3, outsiders, ofh)
-
-#    ofh.write(":end")
                     
 
 def create_doesnt_match_line(matches3, outsiders, ofh):
@@ -141,3 +133,6 @@ if __name__ == "__main__":
     create_dataset(sourcefile="hp_analogies_ngram.txt",    outfile="questions_hp_analogies_ngram.txt",   mode="analogies")
     create_dataset(sourcefile="hp_doesnt_match_ngram.txt", outfile="questions_hp_doesnt_match_ngram.txt", mode="doesnt_match")
 
+    ## student datasets
+    #create_dataset(sourcefile="hp_analogies_topalov.txt",       outfile="questions_hp_analogies_topalov.txt", mode="analogies")
+    #create_dataset(sourcefile="hp_doesnt_match_topalov.txt",       outfile="questions_doesnt_match_topalov.txt", mode="doesnt_match")

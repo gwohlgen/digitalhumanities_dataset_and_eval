@@ -26,7 +26,7 @@ SEP_I = 4 ## position of the seperator symbol in the input data
 
 doesnt_match_data = open(DOESNT_MATCH_FILE).readlines()
 
-def evaluate_doesnt_match(method, emb_type):
+def evaluate_doesnt_match(method, emb_type, term_freq=None):
     """ create task_results which contains the judgements of all input questions (task units) """
 
     task_results = []
@@ -51,6 +51,7 @@ def evaluate_doesnt_match(method, emb_type):
         ### get information from the input line
         ### input line format is: task-terms :: outlier
         line_list = line.strip().split()
+
         assert(len(line_list)) == 6
 
         ## just split up and a assign the input data
@@ -70,7 +71,17 @@ def evaluate_doesnt_match(method, emb_type):
         if found_outlier == correct_outlier:
             correct=1.0 # True
 
-        task_results.append( (task_type, task_terms, found_outlier, correct_outlier, difficulty, correct) )
+        ## compute avg term frequency of the task_terms
+        avg_tf = sum(term_freq[t] for t in task_terms) / len(task_terms)
+        #print(list(term_freq[t] for t in task_terms))
+        #print (avg_tf)
+
+        task_results.append( (task_type, task_terms, found_outlier, correct_outlier, term_freq[found_outlier], term_freq[correct_outlier], avg_tf, difficulty, correct) )
+
+        # if not correct:
+        #     print('XXX: {:50} {:10} {:10} {:5} {:5} {:8} {:5} {:5}'.format(task_terms, found_outlier, correct_outlier, term_freq[found_outlier], term_freq[correct_outlier], avg_tf, difficulty, correct))
+
+        #pprint(task_results)
 
     return task_results
 
@@ -78,7 +89,7 @@ def evaluate_doesnt_match(method, emb_type):
 def analyze_with_pandas(method, task_results):
 
         df = pd.DataFrame(task_results)
-        df.columns = ['task_type', 'task_terms', 'found_outlier', 'correct_outlier', 'difficulty', 'correct']
+        df.columns = ['task_type', 'task_terms', 'found_outlier', 'correct_outlier', 'found_tf', 'correct_tf', 'avg_tf', 'difficulty', 'correct']
 
         ### 1.) collect the generate percentage of correct answers per section and in total
         results = OrderedDict()
@@ -101,6 +112,7 @@ def analyze_with_pandas(method, task_results):
         gb_diff = df.groupby('difficulty')
         print (gb_diff.mean())
 
+
         ## analyze data from the most difficult class // per section
         print("\nDeeper look into difficulty data, here only check out data for difficulty level: 1")
         tt = gb_diff.get_group('1').groupby('task_type')
@@ -118,19 +130,49 @@ def analyze_with_pandas(method, task_results):
 
         print('Number of categories',  len(gb_tt))
 
+
+        # ------------------------------------------- NEW ---------------------------------------------------------------------------#
+        ## bin frequency into brackets
+        bins = [0, 10, 25, 50, 100, 500, 1000, 1000000]
+        group_names = ['1', '2', '3', '4', '5', '6', '7']
+        df['found_tf_category'] = pd.cut(df['found_tf'], bins, labels=group_names)
+        df['avg_tf_category'] = pd.cut(df['avg_tf'], bins, labels=group_names)
+        #print(df.head())
+
+        ## correlations 
+        print("correlation between difficulty and correct result", df['difficulty'].astype(int).corr(df['correct']))
+        print("correlation between correct-term frequency and correctness", df['correct_tf'].corr(df['correct']))
+        print("correlation between   found-term frequency and correctness", df['found_tf'].corr(df['correct']))
+        print("correlation between average term frequency and correctness", df['avg_tf'].corr(df['correct']))
+        print("correlation between frequency bin and correctness", df['found_tf_category'].astype(int).corr(df['correct']))
+        print("correlation between avg_frequency bin and correctness", df['avg_tf_category'].astype(int).corr(df['correct']))
+
+        print("\n***************************************************Total values of accuracy per **tf_category** for: " + method)
+
+        gb_tf_c = df.groupby('found_tf_category')
+        print (gb_tf_c.mean())
+        print (gb_tf_c.size())
+
+        gb_avg_tf_c = df.groupby('avg_tf_category')
+        print (gb_avg_tf_c.mean())
+        print (gb_avg_tf_c.size())
+
         return results
 
     
 
 if __name__ == "__main__":
 
+    term_freq = pickle.load(open(FREQ_FILE))
+    print(term_freq)
+
     # evaluate each of the embedding methods defined in config.py
     for (method,emb_type) in METHODS:
-        task_results = evaluate_doesnt_match(method, emb_type)
+        task_results = evaluate_doesnt_match(method, emb_type, term_freq)
         results = analyze_with_pandas(method, task_results)
 
         pprint(dict(results))
-        print(results)
+        #print(results)
         print_latex_version(results, method, DOESNT_MATCH_SECTIONS)
 
         df =  pd.DataFrame(task_results)

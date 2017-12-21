@@ -1,4 +1,4 @@
-import sys
+import sys, glob, pickle
 from operator import itemgetter
 
 INFILE = sys.argv[1]
@@ -7,16 +7,18 @@ BOOK = sys.argv[2]
 MIN_NUM = 5
 
 all_words = [] 
-for line in open(INFILE):
 
-    if line.startswith(':') or line.startswith('"') or not line.strip():
-        continue
 
-    words = line.split(' ')
+for name in glob.glob(INFILE+'*'):
 
-    words = [word.strip() for word in words]
+    for line in open(name):
+        if line.startswith(':') or line.startswith('"') or not line.strip():
+            continue
 
-    all_words.extend(words)
+        words = line.split(' ')
+        words = [word.strip() for word in words]
+        all_words.extend(words)
+
 
 all_words = list(set(all_words)) # make unique
 
@@ -34,6 +36,9 @@ for word in all_words:
 words_sorted = sorted(word_counts,key=itemgetter(1))
 
 for w in words_sorted:
-    if w[1] <= MIN_NUM:
+    if w[1] <= MIN_NUM*3:
         print(w)
 
+dw = dict(words_sorted)
+
+pickle.dump(dw, open('freq_XX', 'wb'))
