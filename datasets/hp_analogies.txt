@@ -33,7 +33,7 @@ Cedric Diggory
 Fleur Delacour
 Ludo Bagman
 Gregory Goyle
-Vincent Crabbe
+"Vincent Crabbe
 Cho Chang
 Oliver Wood
 Seamus Finnigan
@@ -42,8 +42,8 @@ Parvati Patil
 Katie Bell
 Aberforth Dumbledore
 Minerva McGonagall
-Sybill Trelawney
-Filius Flitwick
+"Sybill Trelawney
+"Filius Flitwick
 Hannah Abbott
 Bathilda Bagshot
 Lavender Brown
@@ -113,25 +113,6 @@ Albus elder
 Bellatrix walnut
 Ginny yew
 
-: wizard-faculty
-Harry Gryffindor
-Ginny Gryffindor
-Hermione Gryffindor
-Ron Gryffindor
-Draco Slytherin
-Luna Ravenclaw
-Neville Gryffindor
-Lily Gryffindor
-Parvati Gryffindor
-Cedric Hufflepuff
-Nymphadora Hufflepuff
-Cho Ravenclaw
-Bellatrix Slytherin
-Vincent Slytherin
-Gregory Slytherin
-Rodolphus Slytherin
-Lucius Slytherin
-
 : faculty-element
 Gryffindor fire
 Ravenclaw air
@@ -174,6 +155,14 @@ Nymphadora wolf
 Ginny horse
 
 : name-house
+Ron Gryffindor
+Luna Ravenclaw
+Neville Gryffindor
+Lily Gryffindor
+Nymphadora Hufflepuff
+Bellatrix Slytherin
+Rodolphus Slytherin
+Lucius Slytherin
 Blaise Slytherin
 Harry Gryffindor
 Hermione Gryffindor
@@ -187,7 +176,7 @@ Millicent Slytherin
 Cho Ravenclaw
 Penelope Ravenclaw
 Michael Ravenclaw
-Vincent Slytherin 
+"Vincent Slytherin 
 Colin Gryffindor
 Dennis Gryffindor
 Roger Ravenclaw
@@ -215,7 +204,7 @@ Alicia Gryffindor
 : shortname-fullname
 Ron Ronald
 Pig Pigwidgeon
-Barty Bartemius
+"Barty Bartemius
 
 : name-species
 Hedwig owl
@@ -240,7 +229,6 @@ Magorian centaur
 Nagini snake
 Norbert dragon 
 Peeves poltergeist
-Pig owl
 Ronan centaur 
 Trevor toad
 Winky elf

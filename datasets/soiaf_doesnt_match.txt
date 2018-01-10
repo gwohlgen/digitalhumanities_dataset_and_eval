@@ -60,5 +60,4 @@ Highgarden Oldtown Lannisport Gulltown :: Braavos Lys Myr Pentos Volantis Mander
 " : places in Dorne 
 " Sunspear Yronwood Lemonwood :: Winterfell Lannisport Oldtown Harrenhal Gulltown Lys Myr Braavos Bay Trident Baratheon Lannister Bolton Greyjoy Targaryen direwolve sword fight read raven
 
-
 :end

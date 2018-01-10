@@ -108,9 +108,13 @@ def analyze_with_pandas(method, task_results):
 
         ### 1.) collect the generate percentage of correct answers per section and in total
         results = OrderedDict()
-        gb_tt = df.groupby('task_type')
+
+        ## in the analysis of percentages we don't want the frequency information to confuse the results, so we remove frequency data :) 
+        tmp_df = df[['task_type', 'task_terms', 'found_outlier', 'correct_outlier', 'difficulty', 'correct']].copy()
+        gb_tt = tmp_df.groupby('task_type')
         #print (gb.mean(), gb_tt.count())
         for name, group in gb_tt:
+            print ("YYYYY", group.mean())
             results[name] = {'counts': group['task_terms'].count(), 'perc': group.mean()[0]}
 
         results['TOTAL'] = {'counts': df['correct'].count(), 'perc': df['correct'].mean() }
@@ -148,8 +152,10 @@ def analyze_with_pandas(method, task_results):
         if DO_FREQ_EVAL:
             # ------------------------------------------- NEW ---------------------------------------------------------------------------#
             ## bin frequency into brackets
-            bins = [0, 10, 25, 50, 100, 500, 1000, 1000000]
-            group_names = ['1', '2', '3', '4', '5', '6', '7']
+            #bins = [0, 10, 25, 50, 100, 500, 1000, 1000000]
+            bins = [0, 20, 50, 125, 500, 1000000]
+            #group_names = ['1', '2', '3', '4', '5', '6', '7']
+            group_names = ['1', '2', '3', '4', '5']
             df['found_tf_category'] = pd.cut(df['found_tf'], bins, labels=group_names)
             df['avg_tf_category'] = pd.cut(df['avg_tf'], bins, labels=group_names)
             #print(df.head())
@@ -187,6 +193,7 @@ if __name__ == "__main__":
         results = analyze_with_pandas(method, task_results)
 
         pprint(dict(results))
+        #sys.exit()
         #print(results)
         print_latex_version(results, method, DOESNT_MATCH_SECTIONS)
 

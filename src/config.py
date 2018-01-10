@@ -13,7 +13,11 @@ import sys
 NGRAMS=False
 #NGRAMS=True
 
+## this sets if we do evaluation based on term frequency (new) in doesnt_match evaluation
+## for this you might need the book corpora to recompute the frequencies
+## that is why we made this freature optional
 DO_FREQ_EVAL=True
+#DO_FREQ_EVAL=False
 
 ## use the input parameter to select the book series
 if len(sys.argv) < 2:
@@ -86,14 +90,14 @@ if BOOK_SERIES == "ASIOF":
         ANALOGIES_FILE = "../datasets/questions_soiaf_analogies_ngram.txt"
         DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesnt_match_ngram.txt"
         ANALOGIES_SECTIONS = ['name-nickname', 'child-father', 'total']
-        DOESNT_MATCH_SECTIONS = [': bays', ': gods', ': Maesters', ': Houses', 'TOTAL']
+        DOESNT_MATCH_SECTIONS = [': bays', ': gods', ': cities-fortresses', ': Maesters', ': Houses', 'TOTAL']
         FREQ_FILE = "../datasets/freq_asoif_ngram.pickle"
 
     else:
         ANALOGIES_FILE = "../datasets/questions_soiaf_analogies.txt"
         DOESNT_MATCH_FILE = "../datasets/questions_soiaf_doesnt_match.txt"
-        ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'geo-name-location', 'houses-seats', 'total']
-        DOESNT_MATCH_SECTIONS = [': family-siblings',  ': names-of-houses', ': rivers', ': free cities', 'TOTAL']
+        ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'geo-name-location', 'houses-seats', 'total']
+        DOESNT_MATCH_SECTIONS = [': family-siblings',  ': names-of-houses', ': Stark clan', ': free cities', 'TOTAL']
         FREQ_FILE = "../datasets/freq_asoif.pickle"
 
 
@@ -109,13 +113,13 @@ if BOOK_SERIES == "HP":
             #ANALOGIES_SECTIONS = ['Gryffindor-Quidditch-team', 'Yule_ball-gentleman-lady', 'character-where_they_work', 'character-creature', 'total']
             ANALOGIES_SECTIONS = ['character-creature', 'character-where_they_work', 'total']
             #DOESNT_MATCH_SECTIONS = [': geographical-objects', ': closest-friends', ': unforgivable-curses', ': members-of-Order_of_the_Phoenix', ': ministers-for-magic', 'TOTAL'] 
-            DOESNT_MATCH_SECTIONS = [': geographical-objects', ': ministry_of_magic-employees', 'TOTAL'] 
+            DOESNT_MATCH_SECTIONS = [': geographical-objects', ': ministry_of_magic-employees', ': members-of-Order_of_the_Phoenix', 'TOTAL'] 
             FREQ_FILE = "../datasets/freq_hp_ngram.pickle"
     else: 
             ANALOGIES_FILE = "../datasets/questions_hp_analogies.txt"
             DOESNT_MATCH_FILE = "../datasets/questions_hp_doesnt_match.txt"
-            ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'wizard-faculty', 'total']
-            DOESNT_MATCH_SECTIONS = [': family-members', ': Hogwarts-houses', ': magic-creatures', 'TOTAL'] 
+            ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'name-species', 'total']
+            DOESNT_MATCH_SECTIONS = [': family-members', ': Gryffindor-members', ': magic-creatures', ': wizards-animagi', 'TOTAL'] 
             FREQ_FILE = "../datasets/freq_hp.pickle"
 
 
