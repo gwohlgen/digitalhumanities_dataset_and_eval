@@ -2,28 +2,24 @@ from __future__ import print_function
 from config import *
 import gensim.models
 
-def load_models(mode=None, emb_type=None):
+def load_models(mode=None, embedding_serialization=None):
 
-    if emb_type == "vec": binary = False
-    elif emb_type == "bin": binary = True
+    if embedding_serialization == "vec": binary = False
+    elif embedding_serialization == "bin": binary = True
     else: raise Exception()
 
-    print('\n\n**** Model:', mode, " binary:", binary)
+    print('\n\n**** Model:', mode, " binary?:", binary)
 
     if mode == "doc2vec":  
         word_model = gensim.models.doc2vec.Doc2Vec.load(MODEL_PATH + mode + ".model")
     else:
         word_model = gensim.models.KeyedVectors.load_word2vec_format(MODEL_PATH + mode + ".model", binary=binary)
-        #word_model = gensim.models.Word2Vec.load_word2vec_format(MODEL_PATH + mode + ".model", binary=binary)   
 
     word_model.init_sims(replace=True) # clean up RAM
 
-    # not used currently!
-    bigram_model = None
-
     print("**** Model:", mode, " LOADED\n\n")
    
-    return word_model, bigram_model 
+    return word_model
 
 def print_details(task_res, msg):
     print("\n" + msg)
@@ -47,6 +43,6 @@ def print_latex_version(results, method, FILTER_SECTIONS):
 
 
 if __name__ == "__main__":
-    model, crap = load_models(mode='asoif_w2v-default', emb_type='bin')
+    model = load_models(mode='asoif_w2v-default', embedding_serialization='bin')
     print('\n\nMODEL', model)
  

@@ -21,7 +21,7 @@ analogies_data = open(ANALOGIES_FILE).readlines()
 def evaluate_analogies(method, emb_type):
 
     # load model and init our data capture variables
-    model, _ = load_models(method, emb_type)
+    model = load_models(method, emb_type)
     acc_res = model.accuracy(ANALOGIES_FILE)
     results = OrderedDict()
 

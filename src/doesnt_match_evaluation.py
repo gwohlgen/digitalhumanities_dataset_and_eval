@@ -39,7 +39,7 @@ def evaluate_doesnt_match(method, emb_type, term_freq=None):
     
     else:
         # load model and init our data capture variables
-        model, _ = load_models(method, emb_type)
+        model = load_models(method, emb_type)
      
     for line in doesnt_match_data:
 
