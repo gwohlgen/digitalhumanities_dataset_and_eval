@@ -82,3 +82,6 @@ We tried to make the system **easily extendable** to evaluate new models.
 * Adding models: just put them into the [models](models) folder, and add them into the `METHODS` variable in `config.py`.
 * Adding new datasets and models: add the raw dataset into [datasets](datasets), generate the `questions` with `create_questions.py`. 
 Add a new section to `config.py` with the settings for the new dataset. 
+
+## NEWS (30th June 2018):
+* Moved code to Python3 (tested with python3.6)
