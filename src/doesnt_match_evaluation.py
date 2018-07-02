@@ -32,7 +32,6 @@ def evaluate_doesnt_match(method, emb_type, term_freq=None):
     task_results = []
    
     if method == 'ppmi':
-
         ## currently not included into the public version   
         ## just use standard ppmi, or ask github owner for sending the file        
         ppmi = create_matrix()
@@ -75,7 +74,7 @@ def evaluate_doesnt_match(method, emb_type, term_freq=None):
             ## compute avg term frequency of the task_terms
             try:
                 list(term_freq[t] for t in task_terms)
-            except KeyError, e:
+            except KeyError as e:
                 print("""
         Looks like you modified the evaluation questions.
         You either need to update freq_ files in datasets directory,
@@ -184,7 +183,7 @@ def analyze_with_pandas(method, task_results):
 
 if __name__ == "__main__":
 
-    term_freq = pickle.load(open(FREQ_FILE))
+    term_freq = pickle.load(open(FREQ_FILE, 'rb'))
     print(term_freq)
 
     # evaluate each of the embedding methods defined in config.py

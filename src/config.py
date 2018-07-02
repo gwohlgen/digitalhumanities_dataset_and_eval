@@ -15,7 +15,7 @@ NGRAMS=False
 
 ## this sets if we do evaluation based on term frequency (new) in doesnt_match evaluation
 ## for this you might need the book corpora to recompute the frequencies
-## that is why we made this freature optional
+## that is why we made this feature optional
 DO_FREQ_EVAL=True
 #DO_FREQ_EVAL=False
 
