@@ -113,7 +113,7 @@ def analyze_with_pandas(method, task_results):
         gb_tt = tmp_df.groupby('task_type')
         #print (gb.mean(), gb_tt.count())
         for name, group in gb_tt:
-            print ("YYYYY", group.mean())
+            #print ("YYYYY", group.mean())
             results[name] = {'counts': group['task_terms'].count(), 'perc': group.mean()[0]}
 
         results['TOTAL'] = {'counts': df['correct'].count(), 'perc': df['correct'].mean() }
