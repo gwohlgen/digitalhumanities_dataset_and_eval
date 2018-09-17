@@ -14,5 +14,5 @@ The **method and parameters used for training**:
 * \*`_w2v-w12-cbow:` same settings like w2v-ww12-300, but using CBOW instead of skip-gram method.
 * \*`_glove`: Using the defaults (window size 15). Only change: 200-dim vectors instead of 50-dim.
 * \*`_fasttext-12-e25`: We used the default settings, except: 25 epochs, window size of 12
-* \*`_lexvec`: We used the default settings, except: 25 epochs, window size of 12
+* \*`_lexvec`: We used the default settings, except: 25 epochs.
 
