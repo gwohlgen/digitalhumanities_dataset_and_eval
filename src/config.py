@@ -164,7 +164,7 @@ if BOOK_SERIES == "HP":
             ANALOGIES_FILE = "../datasets/questions_hp_analogies.txt"
             DOESNT_MATCH_FILE = "../datasets/questions_hp_doesnt_match.txt"
             ANALOGIES_SECTIONS = ['firstname-lastname', 'child-father', 'husband-wife', 'name-species', 'total']
-            DOESNT_MATCH_SECTIONS = [': family-members', ': Gryffindor-members', ': magic-creatures', ': wizards-animagi', 'TOTAL'] 
+            #DOESNT_MATCH_SECTIONS = [': family-members', ': Gryffindor-members', ': magic-creatures', ': wizards-animagi', 'TOTAL'] 
+            DOESNT_MATCH_SECTIONS = [': family-members', ': Gryffindor-members', ': magic-creatures', ': professors', 'TOTAL'] 
             FREQ_FILE = "../datasets/freq_hp.pickle"
-
 

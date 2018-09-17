@@ -1,5 +1,5 @@
 from __future__ import division, print_function
-import pickle
+import pickle, random
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import style
@@ -151,12 +151,12 @@ def analyze_with_pandas(method, task_results):
         if DO_FREQ_EVAL:
             # ------------------------------------------- NEW ---------------------------------------------------------------------------#
             ## bin frequency into brackets
-            #bins = [0, 10, 25, 50, 100, 500, 1000, 1000000]
-            bins = [0, 20, 50, 125, 500, 1000000]
-            #group_names = ['1', '2', '3', '4', '5', '6', '7']
-            group_names = ['1', '2', '3', '4', '5']
+            bins = [0, 20, 50, 100, 500, 1000, 1000000]
+            group_names = ['1', '2', '3', '4', '5', '6']
+
             df['found_tf_category'] = pd.cut(df['found_tf'], bins, labels=group_names)
             df['avg_tf_category'] = pd.cut(df['avg_tf'], bins, labels=group_names)
+            df['correct_tf_category'] = pd.cut(df['correct_tf'], bins, labels=group_names)
             #print(df.head())
 
             ## correlations 
@@ -169,13 +169,32 @@ def analyze_with_pandas(method, task_results):
 
             print("\n***************************************************Total values of accuracy per **tf_category** for: " + method)
 
+            print('\n------------ found_tf_category')
             gb_tf_c = df.groupby('found_tf_category')
             print (gb_tf_c.mean())
             print (gb_tf_c.size())
 
+            print('\n------------ avg_tf_category')
             gb_avg_tf_c = df.groupby('avg_tf_category')
             print (gb_avg_tf_c.mean())
             print (gb_avg_tf_c.size())
+
+            print('\n------------ correct_tf_category')
+            a = df.groupby('correct_tf_category')
+            print (a.mean())
+            print (a.size())
+
+            print("\nTotal values of accuracy per **found_tf_category** category for: " + method)        
+            gb_diff = df.groupby('found_tf_category')
+            print (gb_diff.mean())
+
+            print("\nTotal values of accuracy per **avg_tf_category** category for: " + method)        
+            gb_diff = df.groupby('avg_tf_category')
+            print (gb_diff.mean())
+
+            print("\nTotal values of accuracy per **correct_tf_category** category for: " + method)        
+            gb_diff = df.groupby('correct_tf_category')
+            print (gb_diff.mean())
 
         return results
 
