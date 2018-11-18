@@ -1,0 +1,21 @@
+" File format: use 3 or 4 items of one type
+" then comes a "::" as separator
+" then comes a list of items that do not fit into the list
+"   NEW: we have exactly 20 items that do not fit into the list
+"   NEW: we split the items into 4 categories: a) terms that are very close misses (eg same family), b) close misses but not as close as a) (eg sample type: as Persons), 
+"        c) quite far away, but for example still named entites, d) very far, totally different word context, word category etc
+
+: inspectors
+Barton Bradstreet Lestrade :: Holmes Watson Sutherland Adler Horner Stoner McCarthy Roylott Ormstein Burnwell Baker Irene King Waterloo Wellington man street house talk say 
+
+: criminals
+Adler Ross Clay :: Holmes Watson Sutherland Horner Stoner McCarthy Roylott Ormstein Burnwell Barton Bradstreet Kramm Waterloo Grimesby man street house talk say walk
+
+: streets
+Baker Regent Wellington :: Waterloo Saxe-Coburg London Serpentine Northumberland Edgeware Court Brixton Grosvenor river bridge police lake eye King Sir man talk say walk
+
+: roads
+Edgeware Court Brixton :: Baker Regent Wellington Waterloo Saxe-Coburg London Serpentine Northumberland Southampton Grosvenor river bridge police lake eye King Sir man talk say 
+Southampton Edgeware Court :: Baker Regent Wellington Waterloo Saxe-Coburg London Serpentine Northumberland Southampton Grosvenor river bridge Bohemia police lake eye King man talk say 
+
+:end

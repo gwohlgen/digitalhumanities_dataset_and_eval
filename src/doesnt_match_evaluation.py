@@ -202,7 +202,8 @@ def analyze_with_pandas(method, task_results):
 
 if __name__ == "__main__":
 
-    term_freq = pickle.load(open(FREQ_FILE, 'rb'))
+    if DO_FREQ_EVAL:
+        term_freq = pickle.load(open(FREQ_FILE, 'rb'))
     print(term_freq)
 
     # evaluate each of the embedding methods defined in config.py

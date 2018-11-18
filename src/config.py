@@ -25,9 +25,12 @@ if len(sys.argv) < 2:
 if sys.argv[1].lower() == 'asoif':
     BOOK_SERIES="ASOIF"
 elif sys.argv[1].lower() == 'hp':
-    BOOK_SERIES="HP" ## new
+    BOOK_SERIES="HP" 
+elif sys.argv[1].lower() == 'sh': 
+    BOOK_SERIES="SH" ## new: Sherlock Holmes book
+
 else:
-    raise Exception("the book series must be either *ASOIF* or *HP*")
+    raise Exception("the book series must be either *ASOIF* or *HP* or *SH*")
 
 MODEL_PATH="../models/"
 
@@ -122,7 +125,11 @@ if BOOK_SERIES == "HP":
         # ('hp_w2v-CBOW_ngrams', 'bin'),
     ]
 
-
+if BOOK_SERIES == "SH":
+    METHODS = [
+        ('sherlock_holmes','vec'),
+    ] 
+ 
 
 # -----------------------------------------------------
 # for "doesnt_match" evaluation script
@@ -167,4 +174,20 @@ if BOOK_SERIES == "HP":
             #DOESNT_MATCH_SECTIONS = [': family-members', ': Gryffindor-members', ': magic-creatures', ': wizards-animagi', 'TOTAL'] 
             DOESNT_MATCH_SECTIONS = [': family-members', ': Gryffindor-members', ': magic-creatures', ': professors', 'TOTAL'] 
             FREQ_FILE = "../datasets/freq_hp.pickle"
+
+if BOOK_SERIES == "SH":
+    PRINT_DETAILS = False ## verbose debugging of eval results
+    DO_FREQ_EVAL=False
+
+    ANALOGIES_FILE = "../datasets/questions_sherlock_holmes_analogies.txt"
+    DOESNT_MATCH_FILE = "../datasets/questions_sherlock_holmes_doesnt_match.txt"
+    ANALOGIES_SECTIONS = ["firstname-lastname", "title-lastname", "geo-name-location"]
+    DOESNT_MATCH_SECTIONS = [": inspectors", ": criminals", ": streets", ": roads", 'TOTAL']
+    #FREQ_FILE = "../datasets/freq_asoif_ngram.pickle"
+
+
+
+
+
+
 

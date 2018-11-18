@@ -66,7 +66,7 @@ def create_doesnt_match_line(matches3, outsiders, ofh):
     """
 
     for position, outsider in enumerate(outsiders):
-        print position
+        print(position)
         tmp = matches3[:] # slicing gives out a copy (!) of the list
         tmp.append(outsider)
 
@@ -132,6 +132,10 @@ if __name__ == "__main__":
     create_dataset(sourcefile="hp_doesnt_match.txt",       outfile="questions_hp_doesnt_match.txt", mode="doesnt_match")
     create_dataset(sourcefile="hp_analogies_ngram.txt",    outfile="questions_hp_analogies_ngram.txt",   mode="analogies")
     create_dataset(sourcefile="hp_doesnt_match_ngram.txt", outfile="questions_hp_doesnt_match_ngram.txt", mode="doesnt_match")
+
+    ## student datasets
+    create_dataset(sourcefile="sherlock_holmes_analogies.txt",    outfile="questions_sherlock_holmes_analogies.txt",   mode="analogies")
+    create_dataset(sourcefile="sherlock_holmes_doesnt_match.txt", outfile="questions_sherlock_holmes_doesnt_match.txt", mode="doesnt_match")
 
     ## student datasets
     #create_dataset(sourcefile="hp_analogies_topalov.txt",       outfile="questions_hp_analogies_topalov.txt", mode="analogies")

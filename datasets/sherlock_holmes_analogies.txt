@@ -1,0 +1,34 @@
+: firstname-lastname
+Sherlock Holmes
+John Watson
+Mary Sutherland
+Irene Adler
+John Horner
+Helen Stoner
+James McCarthy
+Grimesby Roylott
+
+: title-lastname
+Inspector Lestrade
+Inspector Bradstreet
+Inspector Barton
+Count Kramm
+King Ormstein
+Sir Burnwell
+
+: geo-name-location
+Waterloo Bridge
+London Bridge
+Baker Street
+Regent Street
+Wellington Street
+Saxe-Coburg Square
+Grosvenor Square
+Serpentine Avenue
+Northumberland Avenue
+Edgeware Road
+Court Road
+Brixton Road
+Southampton Road
+
+:end
