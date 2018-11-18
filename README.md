@@ -102,3 +102,7 @@ To cite our work, please use:
   url       = {http://aclweb.org/anthology/W16-4004}
 } 
 ```
+
+## News:
+*Nov. 2018:* added a student made dataset (thanks to Natalia Belyaeva) for the Sherlock Holmes book -- the dataset and model are experimental. It can be used
+with `sh` as argument to the evaluation scripts. 
