@@ -233,6 +233,26 @@ Ronan centaur
 Trevor toad
 Winky elf
 
+: house-ghost
+Gryffindor Nick
+Hufflepuff Friar
+Ravenclaw Helena
+Slytherin Baron
+
+: founder-relic
+Gryffindor sword
+Hufflepuff cup
+Ravenclaw diadem
+
+: wizard-pet
+Harry Hedwig
+Flitch Norris
+Draco Fang
+Hermione Crookshanks
+Ron Pigwidgeon
+Nagini Voldemort
+
+
 " uncommented this section, as frequencies too low
 " : professor-subject
 " Minerva transfiguration

@@ -64,6 +64,12 @@ Hermione Harry Draco Neville Luna :: Ron Parvati Colin Bellatrix Lily Scabbers A
 : wizards-animagi
 Minerva Sirius Peter James Rita :: Hermione Harry Draco Neville Luna Winky Dobby Kreacher Hokey Norbert ryffindor Hufflepuff Ravenclaw Slytherin Hogsmeade wand scales cloak broomstick witch
 
+: Marauders
+Remus Peter Sirius James :: Luna Rubeus Albus Neville Severus Minerva Bellatrix Nymphadora Slytherin Ron Slytherin Hogwarts Durmstrang Azkaban Hogsmeade wand scales cloak broomstick witch
+
+" : order-of-the-phoenix 
+" Albus Remus Nymphadora Arthur Molly Harry Ron Hermione Horace Neville :: Gregory Pansy Bellatrix Luna Dobby Draco Lucius Snape Narcissa Ginny Gryffindor Ravenclaw Hogsmeade Durmstrang Azkaban witch wand cunning cauldron cloak
+
 " removed, frequencies in books too low
 ": Hogwarts-subjects
 "astronomy charms transfiguration herbology :: Gryffindor Hufflepuff Ravenclaw Slytherin Durmstrang cauldron scales broomstick parchment wand witch wizard ink cloak cauldron Dumbledore McGonagall Snape Hagrid Crouch

@@ -204,7 +204,9 @@ if __name__ == "__main__":
 
     if DO_FREQ_EVAL:
         term_freq = pickle.load(open(FREQ_FILE, 'rb'))
-    print(term_freq)
+        print(term_freq)
+    else:
+        term_freq = None
 
     # evaluate each of the embedding methods defined in config.py
     for (method,emb_type) in METHODS:
