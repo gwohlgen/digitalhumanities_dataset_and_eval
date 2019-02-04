@@ -121,16 +121,7 @@ if BOOK_SERIES == "HP":
         #('ppmi', 'bin'), #ppmi
         #('hp_fasttext-12-e25-bash', 'vec'),
 
-        ## tmp testing 
-        ('hp5False', 'vec'), 
-        ('hp5True', 'vec'), 
-        ('hp15False', 'vec'), 
-        ('hp15True', 'vec'), 
-        ('hp30False', 'vec'), 
-        ('hp30True', 'vec'), 
-        ('hp45True', 'vec'), 
-        ('hp60True', 'vec'), 
-    ]
+   ]
 
     if NGRAMS:
         METHODS = [
