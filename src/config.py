@@ -55,31 +55,32 @@ MODEL_PATH="../models/"
 # pretrained fasttext wikipedia  https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md (english wikipedia)
 
 
-
-
 if BOOK_SERIES == "ASOIF":
+
     METHODS = [
-        #('ppmi_svd', 'bin'), #ppmi+svd with 300 dim
-        #('ppmi', 'bin'), #ppmi
+ 
+        ## main evaluation models (created in Gensim)
+        ('asoif_w2v-default','vec'),
+        ('asoif_w2v-ww12-i15-ns','vec'),
+        ('asoif_w2v-ww12-i15-hs','vec'),
+        ('asoif_w2v-CBOW','vec'),
 
-        ## word2vec bash constructed models
-        ('asoif_w2v-default-bash','bin'),
-        #('asoif_w2v-default-bash-disamb','bin'),
-        ('asoif_w2v-w12-i15-bash','bin'),
-        ('asoif_w2v-w12-i15-ns-bash','bin'),
-        ('asoif_w2v-w12-cbow-bash','bin'),
+        ('asoif_fastText-default','vec'),
+        ('asoif_fastText-ww12-i15-ns','vec'),
 
-        ## FastText bash constructed models 
-        ('asoif_fasttext-12-e25-bash', 'vec'),
-        #('asoif_fasttext-12-e25-bash-disamb', 'vec'),
-
-        ## GloVe bash constructed models 
+        # models created with GloVe and LexVec original code (in bash)
         ('asoif_glove_w12-bash', 'vec'),
-
         ## LexVec bash constructed models 
         ('asoif_lexvec-default-bash', 'vec'),
+
         #('asoif_lexvec-w05-bash', 'vec'),
         #('asoif_lexvec-w12-bash', 'vec'),
+        #('asoif_w2v-default-bash-disamb','bin'),
+        #('asoif_fasttext-12-e25-bash-disamb', 'vec'),
+
+        #('ppmi_svd', 'bin'), #ppmi+svd with 300 dim
+        #('ppmi', 'bin'), #ppmi
+ 
     ]
 
     if NGRAMS:
@@ -92,17 +93,20 @@ if BOOK_SERIES == "ASOIF":
         ]
 
 if BOOK_SERIES == "HP":
-    METHODS = [
-        #('ppmi', 'bin'), #ppmi
 
-        ## word2vec bash constructed models
-        ('hp_w2v-default-bash','bin'),
-        ('hp_w2v-w12-i15-bash','bin'),
-        ('hp_w2v-w12-i15-ns-bash', 'bin'),
-        ('hp_w2v-w12-cbow-bash','bin'),
+    METHODS = [
+
+        ## main evaluation models (created in Gensim)
+        ('hp_w2v-default','vec'),
+        ('hp_w2v-ww12-i15-ns','vec'),
+        ('hp_w2v-ww12-i15-hs','vec'),
+        ('hp_w2v-CBOW','vec'),
+
+        ('hp_fastText-default','vec'),
+        ('hp_fastText-ww12-i15-ns','vec'),
 
         ## FastText bash constructed models
-        ('hp_fasttext-12-e25-bash', 'vec'),
+
 
         ## GloVe bash constructed models 
         ('hp_glove_w12-bash', 'vec'),
@@ -111,6 +115,21 @@ if BOOK_SERIES == "HP":
         ('hp_lexvec-default-bash', 'vec'),
         #('hp_lexvec-w05-bash', 'vec'),
         #('hp_lexvec-w12-bash', 'vec'),
+
+
+        #('ppmi_svd', 'bin'), #ppmi+svd with 300 dim
+        #('ppmi', 'bin'), #ppmi
+        #('hp_fasttext-12-e25-bash', 'vec'),
+
+        ## tmp testing 
+        ('hp5False', 'vec'), 
+        ('hp5True', 'vec'), 
+        ('hp15False', 'vec'), 
+        ('hp15True', 'vec'), 
+        ('hp30False', 'vec'), 
+        ('hp30True', 'vec'), 
+        ('hp45True', 'vec'), 
+        ('hp60True', 'vec'), 
     ]
 
     if NGRAMS:
@@ -184,10 +203,5 @@ if BOOK_SERIES == "SH":
     ANALOGIES_SECTIONS = ["firstname-lastname", "title-lastname", "geo-name-location"]
     DOESNT_MATCH_SECTIONS = [": inspectors", ": criminals", ": streets", ": roads", 'TOTAL']
     #FREQ_FILE = "../datasets/freq_asoif_ngram.pickle"
-
-
-
-
-
 
 

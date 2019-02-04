@@ -56,4 +56,4 @@ for w in words_sorted:
 
 dw = dict(words_sorted)
 
-#pickle.dump(dw, open('freq_XX', 'wb'))
+pickle.dump(dw, open('freq_XX', 'wb'))

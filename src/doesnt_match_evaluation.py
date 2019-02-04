@@ -39,6 +39,7 @@ def evaluate_doesnt_match(method, emb_type, term_freq=None):
     else:
         # load model and init our data capture variables
         model = load_models(method, emb_type)
+
      
     for line in doesnt_match_data:
 
@@ -129,6 +130,15 @@ def analyze_with_pandas(method, task_results):
         print("\nTotal values of accuracy per **difficulty** category for: " + method)        
         gb_diff = df.groupby('difficulty')
         print (gb_diff.mean())
+
+        print (gb_diff.mean()['correct'])
+
+        # create latex output
+        diffs = [d for d in gb_diff.mean()['correct']]
+        diffs.append( sum(diffs)/len(diffs) )
+        diffs = ["{0:.2f}".format(d*100) for d in diffs] 
+        
+        print(method, "               & ", " & ".join(diffs) , " \\\\  % diffs latex")
 
 
         ## analyze data from the most difficult class // per section
